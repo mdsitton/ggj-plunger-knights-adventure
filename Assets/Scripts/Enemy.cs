@@ -20,10 +20,12 @@ public class Enemy : MonoBehaviour, IAttackable
 
     private Vector2 startingPostion;
 
+   
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
         startingPostion = body.position;
+        StartCoroutine(AttackStateMachine());
     }
 
     private void Update()
@@ -39,11 +41,11 @@ public class Enemy : MonoBehaviour, IAttackable
 
         // we can only have 1 attack target at a time
         // the first collision will set the target and trigger an attack after the timer has elapsed
-        if (CurrentTarget != null && attackTimer.HasTriggered())
-        {
-            CurrentTarget.TakeDamage(Damage);
-            CurrentTarget = null;
-        }
+        //if (CurrentTarget != null && attackTimer.HasTriggered())
+        //{
+        //    CurrentTarget.TakeDamage(Damage);
+        //    CurrentTarget = null;
+        //}
     }
 
     public IAttackable CurrentTarget { get; set; }
@@ -51,8 +53,10 @@ public class Enemy : MonoBehaviour, IAttackable
     private enum State
     {
         Idle,
+        Search,
         Attack,
         Dead
+
     }
 
     private bool FindPlayerInRadius(float radius)
@@ -78,20 +82,44 @@ public class Enemy : MonoBehaviour, IAttackable
             {
                 case State.Idle:
                     yield return new WaitForSeconds(1f);
+                    Debug.Log("Waiting...1 sec");
                     if (!FindPlayerInRadius(5))
                     {
                         currentAttackState = State.Idle;
+                        Debug.Log("In idle state");
                         break;
                     }
-                    currentAttackState = State.Attack;
+                    else
+                    {
+                        currentAttackState = State.Search;
+                        Debug.Log("Searching for player");
+                        break;
+                    }
+                    //currentAttackState = State.Attack;
+                    //Debug.Log("In attack state");
+                   // break;
+                case State.Search:
+                    yield return new WaitForSeconds(1);
+                    if (FindPlayerInRadius(5))
+                    {
+                        Debug.Log("Plqyer found");
+                        currentAttackState = State.Attack;
+                        break;
+                    }
+                    else
+                    {
+                        currentAttackState = State.Search;
+                    }
                     break;
                 case State.Attack:
                     if (CurrentTarget.TakeDamage(Damage))
                     {
                         currentAttackState = State.Idle;
+                        Debug.Log("In attack state");
                     }
                     yield return new WaitForSeconds(0.5f);
                     currentAttackState = State.Attack;
+                    Debug.Log("Attacking Target State");
                     break;
                 case State.Dead:
                     // Play death animation?
