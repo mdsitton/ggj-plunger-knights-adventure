@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5192047719326054498}
   - component: {fileID: 7202919862357493086}
   - component: {fileID: 1988545860844735893}
-  - component: {fileID: 8920386696270624802}
+  - component: {fileID: 6560350857560065015}
   m_Layer: 0
   m_Name: PinkDoor
   m_TagString: Untagged
@@ -159,7 +159,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8920386696270624802
+--- !u!114 &6560350857560065015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,9 +168,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4657356120164611705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
+  m_Script: {fileID: 11500000, guid: 51aa392f556f0164f87c2e7fd3ebdf9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  Damage: 0
-  Health: 2
+  KeyName: PinkKey

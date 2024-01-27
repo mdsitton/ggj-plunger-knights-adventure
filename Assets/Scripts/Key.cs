@@ -29,6 +29,17 @@ public class Key : BaseItem, IItem
         
     }
 
+    public override void OnPickUp(IEntity entityUsing)
+    {
+        // Non-players cannot use this item
+        if (entityUsing.EntityType != EntityType.Player)
+        {
+            entityUsing.DropItem(this);
+            return;
+        }
+        base.OnPickUp(entityUsing);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
