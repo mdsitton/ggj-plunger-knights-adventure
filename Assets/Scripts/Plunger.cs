@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Plunger : BaseItem<Plunger>, IWeapon
+public class Plunger : BaseItem, IWeapon
 {
     public string Name => "Plungy McPlunger";
     public ItemTypes ItemType => ItemTypes.Weapon;

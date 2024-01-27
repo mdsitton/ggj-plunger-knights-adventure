@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer), typeof(Rigidbody2D), typeof(CircleCollider2D))]
-public abstract class BaseItem<T> : MonoBehaviour where T : IItem
+public abstract class BaseItem : MonoBehaviour
 {
     public IEntity ParentEntity { get; set; }
 
