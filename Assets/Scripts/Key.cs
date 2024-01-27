@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Key : BaseItem, IItem
 {
+    [field: SerializeField]
     public string Name { get; set; }
 
     public ItemTypes ItemType => ItemTypes.Key;
