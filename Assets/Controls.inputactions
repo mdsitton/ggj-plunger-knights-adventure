@@ -1,5 +1,5 @@
 {
-    "name": "Movement",
+    "name": "Controls",
     "maps": [
         {
             "name": "gameplay",
@@ -18,6 +18,15 @@
                     "name": "attacking",
                     "type": "Button",
                     "id": "de7b94f2-ba61-4527-b3ea-f891210b09e0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "switch weapons",
+                    "type": "Button",
+                    "id": "49e3452e-acd2-47f7-8b46-b459b655588e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -154,6 +163,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "attacking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "34c45fed-8295-4872-92fd-0e4b508ccd88",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switch weapons",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e243e4d3-c824-40eb-b33a-592ff667e864",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switch weapons",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e631c5d8-d2d7-4528-9aa7-a7f05330cda9",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switch weapons",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
