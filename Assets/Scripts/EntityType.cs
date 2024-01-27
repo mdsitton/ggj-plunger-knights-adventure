@@ -11,4 +11,7 @@ public enum EntityType
     ToiletMechBoss,
     AlligatorBoss,
     WindexTrap,
+    Door,
+    LockedDoor,
+    MimickDoor
 }

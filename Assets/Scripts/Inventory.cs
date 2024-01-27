@@ -123,6 +123,18 @@ public class InventoryManager
         MakeActive(activeIndex);
     }
 
+    public IItem GetItemFromName(string itemName)
+    {
+        foreach (IItem existingItem in items)
+        {
+            if (existingItem.Name == itemName)
+            {
+                return existingItem;
+            }
+        }
+        return null;
+    }
+
     public bool HasItem(IItem item)
     {
         foreach (IItem existingItem in items)
