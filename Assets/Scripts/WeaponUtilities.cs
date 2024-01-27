@@ -9,7 +9,7 @@ public static class WeaponUtilities
         if (activeItem.ItemType == ItemTypes.Weapon && activeItem is IWeapon weapon)
         {
             // Perform raycast to find IAttackable objects
-            RaycastHit2D[] hits = Physics2D.RaycastAll(go.transform.position, go.transform.right, weapon.Range);
+            RaycastHit2D[] hits = Physics2D.RaycastAll(go.transform.position, go.transform.forward, weapon.Range);
             foreach (RaycastHit2D hit in hits)
             {
                 IAttackable attackable = hit.collider.GetComponent<IAttackable>();
