@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Key : BaseItem, IItem
 {
+    [field: SerializeField]
     public string Name { get; set; }
 
     public ItemTypes ItemType => ItemTypes.Key;
@@ -26,6 +27,17 @@ public class Key : BaseItem, IItem
     protected override void OnTertiary()
     {
         
+    }
+
+    public override void OnPickUp(IEntity entityUsing)
+    {
+        // Non-players cannot use this item
+        if (entityUsing.EntityType != EntityType.Player)
+        {
+            entityUsing.DropItem(this);
+            return;
+        }
+        base.OnPickUp(entityUsing);
     }
 
     // Start is called before the first frame update

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7171381192890192170}
   - component: {fileID: 3046495622726913707}
   - component: {fileID: 8595876975220835602}
-  - component: {fileID: 8662060347685668485}
+  - component: {fileID: -8703075680804191054}
   m_Layer: 0
   m_Name: YellowDoor
   m_TagString: Untagged
@@ -159,7 +159,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8662060347685668485
+--- !u!114 &-8703075680804191054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,9 +168,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6321311223611742827}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
+  m_Script: {fileID: 11500000, guid: 51aa392f556f0164f87c2e7fd3ebdf9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  Damage: 0
-  Health: 2
+  KeyName: YellowKey
