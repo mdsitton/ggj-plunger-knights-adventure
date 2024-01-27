@@ -23,6 +23,7 @@ public class LockedDoor : MonoBehaviour, IEntity
             CurrentTarget = player;
             Debug.Log("Collision player");
             var item = player.Inventory.GetItemFromName(KeyName);
+            Debug.Log(item);
             if (item != null && item is Key key)
             {
                 UnlockDoor();
