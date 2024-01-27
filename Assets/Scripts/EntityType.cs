@@ -10,5 +10,5 @@ public enum EntityType
     SlidingSoap,
     ToiletMechBoss,
     AlligatorBoss,
-    WindexTrap
+    WindexTrap,
 }

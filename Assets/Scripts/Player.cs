@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -7,63 +9,124 @@ public class Player : MonoBehaviour, IAttackable
 {
     private Rigidbody2D body;
 
-    private float speed = 5f;
-    private float radius = 2f;
-    private float angle = 0f;
+    public float speed = 5f;
 
-    public int Damage = 10;
     public int Health = 100;
+
+    private Controls controls;
+    private Controls.GameplayActions actions;
 
     private Repeater attackTimer = new Repeater(0.25f);
 
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        controls = new Controls();
+        controls.Enable();
+        actions = controls.@gameplay;
     }
 
     private void Update()
     {
-        // Move in a circle for testing
-        angle += speed * Time.deltaTime;
-        float x = Mathf.Cos(angle) * radius;
-        float y = Mathf.Sin(angle) * radius;
-        Vector2 newPosition = new Vector2(-x, y);
-        body.MovePosition(newPosition);
+        Vector2 moveDirection = actions.Move.ReadValue<Vector2>();
+
+        body.velocity = moveDirection * speed;
 
         attackTimer.Update();
 
-        // we can only have 1 attack target at a time
-        // the first collision will set the target and trigger an attack after the timer has elapsed
-        if (currentAttackTarget != null && attackTimer.HasTriggered())
+        // if (CurrentTarget != null && attackTimer.HasTriggered())
+        // {
+        //     CurrentTarget.TakeDamage(Damage);
+        //     CurrentTarget = null;
+        // }
+
+        var swap = actions.SwitchItems.ReadValue<float>();
+
+        if (swap > 0)
         {
-            currentAttackTarget.TakeDamage(Damage);
-            currentAttackTarget = null;
+            Inventory.SwapNextItem();
+        }
+        else if (swap < 0)
+        {
+            Inventory.SwapPrevItem();
+        }
+
+        var activeItem = Inventory.GetActiveItem();
+
+        if (activeItem != null)
+        {
+            if (actions.ItemMainAction.triggered)
+            {
+                WeaponUtilities.CheckWeaponInRange(activeItem);
+                activeItem.Use(this, ItemActions.Primary);
+            }
+
+            if (actions.ItemMinorAction1.triggered)
+            {
+                WeaponUtilities.CheckWeaponInRange(activeItem);
+                activeItem.Use(this, ItemActions.Secondary);
+            }
+
+            if (actions.ItemMinorAction2.triggered)
+            {
+                WeaponUtilities.CheckWeaponInRange(activeItem);
+                activeItem.Use(this, ItemActions.Tertiary);
+            }
+
+            if (actions.ItemMinorAction3.triggered)
+            {
+                WeaponUtilities.CheckWeaponInRange(activeItem);
+                activeItem.Use(this, ItemActions.Quaternary);
+            }
         }
     }
 
-    private IAttackable currentAttackTarget;
+    public IAttackable CurrentTarget { get; set; }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        // If we hit an enemy, attack it
-        IAttackable attackable = other.gameObject.GetComponent<IAttackable>();
-        if (attackable != null && currentAttackTarget == null)
+        IItem item = other.gameObject.GetComponent<IItem>();
+
+        // Item pickup
+        if (item != null)
         {
-            Debug.Log("Collision Player");
-            currentAttackTarget = attackable;
-            attackTimer.Reset();
+            item.OnPickUp(this);
+            Inventory.AddItem(item);
         }
     }
 
+    // void OnCollisionEnter2D(Collision2D other)
+    // {
+    //     var go = other.gameObject;
+    //     // If we hit an enemy, attack it
+    //     IAttackable attackable = go.GetComponent<IAttackable>();
+    //     if (attackable != null && CurrentTarget == null)
+    //     {
+    //         Debug.Log("Collision Player");
+    //         CurrentTarget = attackable;
+    //         attackTimer.Reset();
+    //     }
+
+    // }
 
     public EntityType EntityType => EntityType.Player;
 
-    public void TakeDamage(int amount)
+    public GameObject GameObject => gameObject;
+
+    public InventoryManager Inventory { get; } = new InventoryManager();
+
+    public bool TakeDamage(int amount)
     {
+        if (gameObject.IsUnityNull())
+        {
+            return true;
+        }
         Health -= amount;
         if (Health <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            return true;
         }
+        return false;
     }
 }

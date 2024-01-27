@@ -57,4 +57,14 @@ public class Repeater
         timeRemaining = timeInterval;
         hasLooped = false;
     }
+
+    /// <summary>
+    /// Resets the timer to a new state
+    /// </summary>
+    public void Reset(float newInterval)
+    {
+        timeInterval = newInterval;
+        timeRemaining = timeInterval;
+        hasLooped = false;
+    }
 }
