@@ -6,20 +6,13 @@ public class Plunger : BaseItem, IWeapon
     public string Name => "Plungy McPlunger";
     public ItemTypes ItemType => ItemTypes.Weapon;
 
+    public bool Equippable => true;
+
     public int Damage => 5;
     public float Range => 3f;
 
     protected override void OnPrimary()
     {
-        // // Calculate swipe rotation
-        // Quaternion swipeRotation = Quaternion.Euler(0f, 90f, 0f);
-
-        // // Set swipe rotation speed
-        // float swipeSpeed = 1.0f;
-
-        // Perform swipe motion
-        // StartCoroutine(PerformSwipeMotion(swipeRotation, swipeSpeed));
-
         if (ParentEntity.CurrentTarget != null)
         {
             Debug.Log("Performing primary plunger attack");
@@ -28,25 +21,12 @@ public class Plunger : BaseItem, IWeapon
 
     }
 
-    // private IEnumerator PerformSwipeMotion(Quaternion swipeRotation, float swipeSpeed)
-    // {
-    //     float currentRotation = 0.0f;
-
-    //     while (currentRotation < 90f)
-    //     {
-    //         // Rotate the plunger
-    //         transform.rotation *= Quaternion.Euler(0f, swipeSpeed * Time.deltaTime, 0f);
-
-    //         // Update the current rotation
-    //         currentRotation += swipeSpeed * Time.deltaTime;
-
-    //         yield return null;
-    //     }
-    // }
-
     protected override void OnSecondary()
     {
-        // TODO - Implement secondary plunger attack
+        if (ParentEntity.Inventory.HasUpgrade(UpgradeTypes.PlungerSuckThrow))
+        {
+            
+        }
     }
 
     protected override void OnTertiary()

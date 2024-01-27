@@ -4,4 +4,5 @@ public enum ItemTypes
     Key,
     Consumable,
     Resource,
+    Upgrade
 }

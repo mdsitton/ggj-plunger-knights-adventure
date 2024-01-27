@@ -12,6 +12,9 @@ public interface IItem
 
     ItemTypes ItemType { get; }
     float Cooldown { get; }
+
+    bool Equippable { get; }
+
     void Use(IEntity entityUsing, ItemActions itemAbility);
     void OnPickUp(IEntity entityUsing);
     void OnDrop(IEntity entityUsing);
