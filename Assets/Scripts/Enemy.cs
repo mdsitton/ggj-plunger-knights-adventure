@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -46,6 +47,58 @@ public class Enemy : MonoBehaviour, IAttackable
     }
 
     public IAttackable CurrentTarget { get; set; }
+
+    private enum State
+    {
+        Idle,
+        Attack,
+        Dead
+    }
+
+    private bool FindPlayerInRadius(float radius)
+    {
+        var colliders = Physics2D.OverlapCircleAll(body.position, radius);
+        foreach (var collider in colliders)
+        {
+            var attackable = collider.gameObject.GetComponent<IAttackable>();
+            if (attackable != null && attackable.EntityType == EntityType.Player)
+            {
+                CurrentTarget = collider.gameObject.GetComponent<IAttackable>();
+                return true;
+            }
+        }
+        return false;
+    }
+    private State currentAttackState = State.Idle;
+    IEnumerator AttackStateMachine()
+    {
+        while (true)
+        {
+            switch (currentAttackState)
+            {
+                case State.Idle:
+                    yield return new WaitForSeconds(1f);
+                    if (!FindPlayerInRadius(5))
+                    {
+                        currentAttackState = State.Idle;
+                        break;
+                    }
+                    currentAttackState = State.Attack;
+                    break;
+                case State.Attack:
+                    if (CurrentTarget.TakeDamage(Damage))
+                    {
+                        currentAttackState = State.Idle;
+                    }
+                    yield return new WaitForSeconds(0.5f);
+                    currentAttackState = State.Attack;
+                    break;
+                case State.Dead:
+                    // Play death animation?
+                    break;
+            }
+        }
+    }
 
     void OnCollisionEnter2D(Collision2D other)
     {
