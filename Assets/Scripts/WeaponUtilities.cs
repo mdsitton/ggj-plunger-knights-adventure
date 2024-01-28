@@ -16,7 +16,7 @@ public static class WeaponUtilities
                 if (attackable != null && attackable != activeItem.ParentEntity)
                 {
                     activeItem.ParentEntity.CurrentTarget = attackable;
-                    Debug.Log($"Found target: {attackable.GameObject.name}");
+                    Debug.Log($"Weapon found target: {attackable.GameObject.name}");
                     break;
                 }
             }

@@ -19,10 +19,13 @@ public class Enemy : MonoBehaviour, IAttackable
     private Vector2 startingPostion;
     public bool isInRange;
 
+    private int playerMask;
+
     //public 
 
     private void Start()
     {
+        playerMask = LayerMask.GetMask("Player");
         body = GetComponent<Rigidbody2D>();
         startingPostion = body.position;
         StartCoroutine(AttackStateMachine());
@@ -51,18 +54,20 @@ public class Enemy : MonoBehaviour, IAttackable
 
     private bool FindPlayerInRadius(float radius)
     {
-        var colliders = Physics2D.OverlapCircleAll(body.position, radius);
-        foreach (var collider in colliders)
+        var player = Physics2D.OverlapCircle(body.position, radius, playerMask);
+        if (player == null)
         {
-            var attackable = collider.gameObject.GetComponent<IAttackable>();
-            if (attackable != null && attackable.EntityType == EntityType.Player)
-            {
-                CurrentTarget = collider.gameObject.GetComponent<IAttackable>();
-                return true;
-            }
+            return false;
+        }
+        var attackable = player.gameObject.GetComponent<IAttackable>();
+        if (attackable != null && attackable.EntityType == EntityType.Player)
+        {
+            CurrentTarget = player.gameObject.GetComponent<IAttackable>();
+            return true;
         }
         return false;
     }
+
     private State currentAttackState = State.Idle;
     IEnumerator AttackStateMachine()
     {
@@ -89,7 +94,7 @@ public class Enemy : MonoBehaviour, IAttackable
                 // //Debug.Log("In attack state");
                 // break;
                 case State.Search:
-                    yield return new WaitForSeconds(1);
+                    yield return new WaitForSeconds(0.25f);
                     if (FindPlayerInRadius(5))
                     {
                         // Debug.Log("Player found");
@@ -105,9 +110,10 @@ public class Enemy : MonoBehaviour, IAttackable
                     if (CurrentTarget.TakeDamage(Damage))
                     {
                         currentAttackState = State.Idle;
+                        CurrentTarget = null;
                         // Debug.Log("In attack state");
                     }
-                    yield return new WaitForSeconds(0.5f);
+                    yield return new WaitForSeconds(0.25f);
                     currentAttackState = State.Attack;
                     // Debug.Log("Attacking Target State");
                     break;
@@ -122,7 +128,7 @@ public class Enemy : MonoBehaviour, IAttackable
     {
         // If we hit an enemy target it
         IAttackable attackable = other.gameObject.GetComponent<IAttackable>();
-        if (attackable != null && CurrentTarget == null)
+        if (attackable != null && CurrentTarget == null && attackable.EntityType == EntityType.Player)
         {
             CurrentTarget = attackable;
             Debug.Log(this.gameObject.name + " is Game is attacking " + other.gameObject.name);
