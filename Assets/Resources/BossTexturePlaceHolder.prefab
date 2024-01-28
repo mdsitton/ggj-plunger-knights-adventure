@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: -6075616762875963473}
   - component: {fileID: 6909472855938908976}
   - component: {fileID: 8413946187748291319}
-  - component: {fileID: 2416515582130561117}
   m_Layer: 0
   m_Name: BossTexturePlaceHolder
   m_TagString: Untagged
@@ -126,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.2
   radius: 0.95
+  angle: 0
   Damage: 2
   Health: 15
   AttackCooldown: 0.5
@@ -335,22 +335,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bac9a7b9880b584ab40227794595788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
---- !u!114 &2416515582130561117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209126648110879220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08bcb59795e3e524483531f096571997, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runAtState: 2
-  projectilePrefab: {fileID: 3872941412439047070, guid: 0d8fb51179bbea5409602525ee3a387b, type: 3}
-  Cooldown: 0.5
 --- !u!1 &3173542368605402451
 GameObject:
   m_ObjectHideFlags: 0
