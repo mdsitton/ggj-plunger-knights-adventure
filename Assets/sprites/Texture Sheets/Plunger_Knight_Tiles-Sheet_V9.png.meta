@@ -1,0 +1,3625 @@
+fileFormatVersion: 2
+guid: 248ddfde9f1964f4c81306757bdfc445
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4af1e11c1445d6469ddc34b166fb572
+      internalID: 1778939967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0a8b5ec7528b642a3cb63b65ca8036
+      internalID: -1980750583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7693f2df0ee8ee2448cee6a87a71b242
+      internalID: -1986305800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90ed53d1d618c7498ced7a4adb0202e
+      internalID: 191470732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05ca6d2476d46141a411c55f1669559
+      internalID: 600628221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9379d8b4f3e55444dadca470d92a8ee5
+      internalID: 120550446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fb7c3f9c9fed643bf39031c672489b
+      internalID: -961342309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177617176ffcae64180154f5ff8678a3
+      internalID: 864153353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d71f64533e8d40408ea1afeca46b27c
+      internalID: -839913939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec79f05eb150ea74bb1c5cd3611ce1fc
+      internalID: -160105444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_10
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9808221d406c74c9315eba8b071380
+      internalID: -890872458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37445bc54d389a47aba733666ddd136
+      internalID: 1938612451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_12
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb14e7263e2d9cc49a454cca0fce14e1
+      internalID: 1302105330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e989cf6dce1e134bb6de900f62fb94c
+      internalID: -739990049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46598f9606e5f9e4eb2e13c4cd9f504a
+      internalID: -119838898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 467
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac904cf6a26fff488b93d590583d055
+      internalID: 835792383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c81f5931cfd766419034d2fda8f9ec6
+      internalID: 1469597787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f307fa393c3e4124ea104e23eaed51e7
+      internalID: 1354527272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7ce60d9fc7b4d4b8bf96edb6c27ae1
+      internalID: 1277191514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ba6a10c40ba6c4ba368134e31e144a
+      internalID: 92225508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d748ca442e32a418f84d077e1f1fb8
+      internalID: 2145500828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_21
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa66545b520b045afeefa0199c6b1c
+      internalID: 535461594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c54a64e29beec42866c7172e48c159
+      internalID: 1038458984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589bc3cb9261a214f83b1c888b7c66df
+      internalID: -1504709085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017bfc990039e4841a311251bcc4baf9
+      internalID: -967085002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b2c539d12b2af42a803e8c0739fbda
+      internalID: 514222312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a9013b926e8df47b619647e8f4d977
+      internalID: -391827578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa7f28edb777414ba0092afc0194d9b
+      internalID: 1324770194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_28
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e920f19d830257b49b148a5ce4145a03
+      internalID: 1540772317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_29
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24d0a00e513d704087f8047f00b35e7
+      internalID: 674402890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_30
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 443
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170126b1133dd454b8663a779333f723
+      internalID: -1876649838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cd82b9be9091f4ca204ea50e30a614
+      internalID: 526267320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340426e5a258a6540b7129944ad6840a
+      internalID: 1443727265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c3104779c86f45b5bde8b82635678
+      internalID: -280440024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da4778ea6095ed4fa63c433417cb2a3
+      internalID: -1954565483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880b6cbd3fafab04faf70bb704cd5146
+      internalID: -1950756880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_36
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416920eb1381df74d85a6de597519d81
+      internalID: 1460917493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f91deb014a994282a7f4c2ab3f607
+      internalID: 1954449547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_38
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef5548f0b76d7a4bb53932128fdac49
+      internalID: 1824304408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_39
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e61aa76f1e1e4e9e7e170fd5295ce
+      internalID: -1612803217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_40
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce3509d1a6a21b4fa35c9210cd6a865
+      internalID: 1564499331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a944020c14150bc4c9722bb58f1c27fa
+      internalID: -2082693353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_42
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a041f4c4026fe4e878d2e53ce37570
+      internalID: 633614681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_43
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e36b7345585df4c8b787fd6ea0a7b8
+      internalID: 1327105483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f43190d55423c4a8bda9ece26176c3
+      internalID: -19098574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_45
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319d8439af4eca64390f50bbb5d4be4d
+      internalID: -923050839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_46
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3568a5485de836f4fb55afffc0f949ba
+      internalID: 1123555853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_47
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1958edd9f33f6324c8d6d48e2ca14096
+      internalID: 989922492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_48
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3407ce17791437742b2030fd182c2517
+      internalID: 120011419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_49
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251462c8e82e1f14faa07cfd1ba967bd
+      internalID: -1150660210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_50
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa73b8121e6b935489e682addba915c1
+      internalID: 641902759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_51
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a532dc6fbac548aba0b0f93b95e7c
+      internalID: -518628594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_52
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12b707f1168fbb48bfd30788e1b67c5
+      internalID: 1763731131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_53
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 395
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c829e85eb56bbcd41a7a4a31c44a675c
+      internalID: 1902976062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cdc99cb07ad6d48af2736787b66859
+      internalID: 1901065381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_55
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1689d8d9135b6c409eeb9f876576158
+      internalID: -1064977728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_56
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f259530f07c530f46ad15a540f5506a5
+      internalID: 2098804589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_57
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0377fa874b61f14e8b4acb143333815
+      internalID: -613999325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_58
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8d7e4cf1fd99144b58edae14b01327
+      internalID: 178821340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_59
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c042f7a4095d946819b6e3af5773c6
+      internalID: 1245335510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_60
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969d57a15e557a243835e40d982e62c6
+      internalID: -2097319586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_61
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22399461d838d114eb6b6de043a23779
+      internalID: 80625861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_62
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317a5e021a9d0e946b7f080c61098a47
+      internalID: -26979234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_63
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e8a600fd8b01c459bfb70f8da8797a
+      internalID: 178998036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_64
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c92fd8b4801af4ab9d64f7f4f7de7b
+      internalID: -90986067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_65
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afab6964fbc7267439d99bbc95078981
+      internalID: -195275733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_66
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f433bcf32f05e342a5871115f8a8ac1
+      internalID: 581442468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_67
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929faccbfb95f70438017c70a0faa9e4
+      internalID: -1248422745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_68
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc1ceb598c3efd42acb74c56d7ac914
+      internalID: -1706695423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_69
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c43fba60dc0584d863436fe8180e59
+      internalID: 1995158208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_70
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8810b787ebce59e45b105088ce3f7086
+      internalID: 1116116611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_71
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 371
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a937dcbcf942ebd4bac9a62a0da28ed3
+      internalID: -129667574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0121c64eafd3b6848b43c7a04babd39e
+      internalID: -1784474522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_73
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58f51d00ee42e8438c2a1a6302a0b08
+      internalID: -69242829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_74
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9d6574f1302a547838396900f71a1d
+      internalID: -186923045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_75
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ae80cab9e8f864d8c38c5991fec7c8
+      internalID: -1033098382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df5ad92d5f1d184c8ab847d3afb75b5
+      internalID: 1284312824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_77
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9fe8aa86daf6c468f4cdc7f6937a1a
+      internalID: -1313746885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_78
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641a7adf3d995c24f89c42f6276c9c18
+      internalID: 1157716300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_79
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd210447629253a4aa31ca8ea7416e8c
+      internalID: -510901217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_80
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681d15e1e1278d49a78e33258a193cf
+      internalID: 1272425704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_81
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac4cfd86ca1aa24abe36b401ed6a710
+      internalID: 533220094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_82
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebd6eb646029d14fac35b53896d493f
+      internalID: 508614901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_83
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd724d990c93b64d8a96df656b4e493
+      internalID: -1425052742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_84
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac67b2b7335c544eb1a2c18ed4e6398
+      internalID: 1822675690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_85
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358f1900cb8bfaf49ade28681fb2d144
+      internalID: -4454753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_86
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc5b19981f7d5e4a980076dd1b39b06
+      internalID: -330948876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_87
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d54b9c1fc68d146be3cb7b50d87c5a
+      internalID: -834998051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_88
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95714be8c9511ba4ab64ba353114b2b1
+      internalID: 623057760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_89
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 347
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292641d83041c2648863a42ea0ff83e0
+      internalID: 1161536307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634c2ef05b5467846a0137f102a30d03
+      internalID: -1478967499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_91
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226b7c6a86492d84ebe88cd9273a4f2d
+      internalID: -1015194762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_92
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a6370dd7d3cd43a7ee47d8c082a65
+      internalID: 285146892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_93
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7988f62ae488a6046ac4093b425cfd9c
+      internalID: 1455407615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_94
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c452b032fb7cb8419a5ff3d101d5077
+      internalID: 1205172536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_95
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956dca04c22fec3499d2a45716b4ac8b
+      internalID: 2078430717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_96
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9efeb1ff77070444ba6d7cfe7194c6b
+      internalID: 2086097443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_97
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c163e3faaae07a4bab6a145913f065b
+      internalID: -822038556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_98
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e90b55f97722044a57c0b740562a7d
+      internalID: -741621922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_99
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c84cf3348b43224a83f90d70c8bedf4
+      internalID: -366323684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_100
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e96876ae576614488db1d1fa71a902
+      internalID: 782314071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_101
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2697f858373bdcd4dac827f71df5949c
+      internalID: 1924428329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_102
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecbd920bda58334ca1e033e4317a14e
+      internalID: -792799522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_103
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd2190bc3215c34586ec01c840abe35
+      internalID: 1904624352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_104
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fd0f91d29f8344c882566e8b03a8fc
+      internalID: 369771176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_105
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 299
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071207d52f9c52041b3d7fb32ac84803
+      internalID: 398962381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1867951b81a81f044b8a01c8e4236389
+      internalID: 1573801775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_107
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 275
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ab38e86d58ac845abdf58343cf9194
+      internalID: -846242163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7015eb2b0bf9aa4a8825205d1b1ff89
+      internalID: 1519733562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_109
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdcfc742250b824585b6ffdff106cc9
+      internalID: 600611804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_110
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d26faaae6383c543b03f2ac7ff1cf51
+      internalID: 5013542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_111
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a709ae98b5a1a4c97ae60a16592a93
+      internalID: 987160495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_112
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee335fd69cdc31545ba8b353a1abd1bf
+      internalID: 1955697716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_113
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65a00358233f7f41a8f021050faed4a
+      internalID: 1279147987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_114
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2047959de63b23544bd093ea5833e195
+      internalID: -1115480683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_115
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144c7a073de1bc4479e605c75314220c
+      internalID: 1041466728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_116
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061bb89fbb48c1c4994ca4b031501729
+      internalID: 173434077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_117
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07d72d431aacfb479a9e39a1da54f66
+      internalID: -838595053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_118
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fb291f672bcd842aacc299a0acfe5d
+      internalID: 1605349251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_119
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b48bade141a8aa4ea4f0b138eb8c3a4
+      internalID: -1459402412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_120
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a9c2be2b6265478b293d3bdffaa4a
+      internalID: 927905574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_121
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94ab836aef0e1246a22effae4a73b1c
+      internalID: 636110376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_122
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c4f2e74480b454f81ac93a6fb001de
+      internalID: -1336393294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_123
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb57339992b26845ad47f6712f6f7df
+      internalID: -566334987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_124
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b30f78e7d6dd3443abf346c63a412e2
+      internalID: -981275946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_125
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb87dd9533f67145a2acbdbcfd3b7ef
+      internalID: -841880256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_126
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3491a9faf66a19d4280febde6009ea2c
+      internalID: 1039591524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_127
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e46c8bd8ae996943bdd2ed62c4fac2f
+      internalID: 1615835805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_128
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74e05218c8e43247a1bbd8f55f9de1d
+      internalID: -116088915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_129
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86218095c0d4384d82fa6cfe6ff95ac
+      internalID: -1931568272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_130
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9258d78651de2341ad26e3e65f9e736
+      internalID: -77104597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_131
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d46c565129ec349b628c3cd1089096
+      internalID: -495564678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_132
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7e84c44512d974eacf2b74f9f25d6d
+      internalID: 1940720296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_133
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df419bdaba65d2e48bf2545eaf28ad51
+      internalID: 1112696752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_134
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1f24ae62c31de4691801bc9bc6022e
+      internalID: 294446304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_135
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e7bfb7ee9242a4cbe4d99d023c477e
+      internalID: -1116517162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_136
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c293be1c7c04b44789b148c24146462
+      internalID: 2071262152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_137
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad26e5bcb27c66a46b6a27723b257eab
+      internalID: -423934332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_138
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83747a038b36d854fbd088dc8141e399
+      internalID: -1732968885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_139
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e64af1fb7e30474a8636c4d6a127dfd
+      internalID: -1789407070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_140
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7104f75cd2105694394395a7f76a4754
+      internalID: 41045830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_141
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104b63cf7074f91458c81010abf47fa4
+      internalID: 811152097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_142
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1744913a1948834a83802953d6ad3e9
+      internalID: 807426153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_143
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f338f96526caab4ca4e670bb27e8462
+      internalID: -1818751389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_144
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab76944f99471fe4e86f3f52ca121c64
+      internalID: 1757798465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_145
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f18ddc37df75d42ae3cb9f33345bd3
+      internalID: 1725669843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_146
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c6723e5d6da75438efbea779b481e6
+      internalID: -1679288529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_147
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966da8167d5c79941a2abe1aae2a72a2
+      internalID: 147205397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_148
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb5b42c13f37c84e9eea3d7718ba315
+      internalID: -693121821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_149
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625213698d438b946a0e72679421e88d
+      internalID: -1695444623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_150
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a37393249da6f44bba633842f52d976
+      internalID: 253530521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_151
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f5cab3a54e4ec44a7a7be7085e30d0
+      internalID: 859150970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_152
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16133be29462a5941a8c220b1a05a147
+      internalID: 1528759760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_153
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133e653721bd5f54a8dabe25adc60820
+      internalID: 922119503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_154
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d3683358366044b8cf92d1e0f7655b
+      internalID: -2016172753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_155
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e5a94c47febca43bf76c4c578bc24c
+      internalID: -1016261608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_156
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 131
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a89a70b34dafdb48941ac0966bae866
+      internalID: 916040540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_157
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd68ea2aa507e4fb2ffdef6309e51b
+      internalID: 1190439498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Tiles-Sheet_V9_158
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 107
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fdb268a35f40240bd0584e299bcf3e
+      internalID: 620784951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plunger_Knight_Tiles-Sheet_V9_0: 1778939967
+      Plunger_Knight_Tiles-Sheet_V9_1: -1980750583
+      Plunger_Knight_Tiles-Sheet_V9_10: -890872458
+      Plunger_Knight_Tiles-Sheet_V9_100: 782314071
+      Plunger_Knight_Tiles-Sheet_V9_101: 1924428329
+      Plunger_Knight_Tiles-Sheet_V9_102: -792799522
+      Plunger_Knight_Tiles-Sheet_V9_103: 1904624352
+      Plunger_Knight_Tiles-Sheet_V9_104: 369771176
+      Plunger_Knight_Tiles-Sheet_V9_105: 398962381
+      Plunger_Knight_Tiles-Sheet_V9_106: 1573801775
+      Plunger_Knight_Tiles-Sheet_V9_107: -846242163
+      Plunger_Knight_Tiles-Sheet_V9_108: 1519733562
+      Plunger_Knight_Tiles-Sheet_V9_109: 600611804
+      Plunger_Knight_Tiles-Sheet_V9_11: 1938612451
+      Plunger_Knight_Tiles-Sheet_V9_110: 5013542
+      Plunger_Knight_Tiles-Sheet_V9_111: 987160495
+      Plunger_Knight_Tiles-Sheet_V9_112: 1955697716
+      Plunger_Knight_Tiles-Sheet_V9_113: 1279147987
+      Plunger_Knight_Tiles-Sheet_V9_114: -1115480683
+      Plunger_Knight_Tiles-Sheet_V9_115: 1041466728
+      Plunger_Knight_Tiles-Sheet_V9_116: 173434077
+      Plunger_Knight_Tiles-Sheet_V9_117: -838595053
+      Plunger_Knight_Tiles-Sheet_V9_118: 1605349251
+      Plunger_Knight_Tiles-Sheet_V9_119: -1459402412
+      Plunger_Knight_Tiles-Sheet_V9_12: 1302105330
+      Plunger_Knight_Tiles-Sheet_V9_120: 927905574
+      Plunger_Knight_Tiles-Sheet_V9_121: 636110376
+      Plunger_Knight_Tiles-Sheet_V9_122: -1336393294
+      Plunger_Knight_Tiles-Sheet_V9_123: -566334987
+      Plunger_Knight_Tiles-Sheet_V9_124: -981275946
+      Plunger_Knight_Tiles-Sheet_V9_125: -841880256
+      Plunger_Knight_Tiles-Sheet_V9_126: 1039591524
+      Plunger_Knight_Tiles-Sheet_V9_127: 1615835805
+      Plunger_Knight_Tiles-Sheet_V9_128: -116088915
+      Plunger_Knight_Tiles-Sheet_V9_129: -1931568272
+      Plunger_Knight_Tiles-Sheet_V9_13: -739990049
+      Plunger_Knight_Tiles-Sheet_V9_130: -77104597
+      Plunger_Knight_Tiles-Sheet_V9_131: -495564678
+      Plunger_Knight_Tiles-Sheet_V9_132: 1940720296
+      Plunger_Knight_Tiles-Sheet_V9_133: 1112696752
+      Plunger_Knight_Tiles-Sheet_V9_134: 294446304
+      Plunger_Knight_Tiles-Sheet_V9_135: -1116517162
+      Plunger_Knight_Tiles-Sheet_V9_136: 2071262152
+      Plunger_Knight_Tiles-Sheet_V9_137: -423934332
+      Plunger_Knight_Tiles-Sheet_V9_138: -1732968885
+      Plunger_Knight_Tiles-Sheet_V9_139: -1789407070
+      Plunger_Knight_Tiles-Sheet_V9_14: -119838898
+      Plunger_Knight_Tiles-Sheet_V9_140: 41045830
+      Plunger_Knight_Tiles-Sheet_V9_141: 811152097
+      Plunger_Knight_Tiles-Sheet_V9_142: 807426153
+      Plunger_Knight_Tiles-Sheet_V9_143: -1818751389
+      Plunger_Knight_Tiles-Sheet_V9_144: 1757798465
+      Plunger_Knight_Tiles-Sheet_V9_145: 1725669843
+      Plunger_Knight_Tiles-Sheet_V9_146: -1679288529
+      Plunger_Knight_Tiles-Sheet_V9_147: 147205397
+      Plunger_Knight_Tiles-Sheet_V9_148: -693121821
+      Plunger_Knight_Tiles-Sheet_V9_149: -1695444623
+      Plunger_Knight_Tiles-Sheet_V9_15: 835792383
+      Plunger_Knight_Tiles-Sheet_V9_150: 253530521
+      Plunger_Knight_Tiles-Sheet_V9_151: 859150970
+      Plunger_Knight_Tiles-Sheet_V9_152: 1528759760
+      Plunger_Knight_Tiles-Sheet_V9_153: 922119503
+      Plunger_Knight_Tiles-Sheet_V9_154: -2016172753
+      Plunger_Knight_Tiles-Sheet_V9_155: -1016261608
+      Plunger_Knight_Tiles-Sheet_V9_156: 916040540
+      Plunger_Knight_Tiles-Sheet_V9_157: 1190439498
+      Plunger_Knight_Tiles-Sheet_V9_158: 620784951
+      Plunger_Knight_Tiles-Sheet_V9_16: 1469597787
+      Plunger_Knight_Tiles-Sheet_V9_17: 1354527272
+      Plunger_Knight_Tiles-Sheet_V9_18: 1277191514
+      Plunger_Knight_Tiles-Sheet_V9_19: 92225508
+      Plunger_Knight_Tiles-Sheet_V9_2: -1986305800
+      Plunger_Knight_Tiles-Sheet_V9_20: 2145500828
+      Plunger_Knight_Tiles-Sheet_V9_21: 535461594
+      Plunger_Knight_Tiles-Sheet_V9_22: 1038458984
+      Plunger_Knight_Tiles-Sheet_V9_23: -1504709085
+      Plunger_Knight_Tiles-Sheet_V9_24: -967085002
+      Plunger_Knight_Tiles-Sheet_V9_25: 514222312
+      Plunger_Knight_Tiles-Sheet_V9_26: -391827578
+      Plunger_Knight_Tiles-Sheet_V9_27: 1324770194
+      Plunger_Knight_Tiles-Sheet_V9_28: 1540772317
+      Plunger_Knight_Tiles-Sheet_V9_29: 674402890
+      Plunger_Knight_Tiles-Sheet_V9_3: 191470732
+      Plunger_Knight_Tiles-Sheet_V9_30: -1876649838
+      Plunger_Knight_Tiles-Sheet_V9_31: 526267320
+      Plunger_Knight_Tiles-Sheet_V9_32: 1443727265
+      Plunger_Knight_Tiles-Sheet_V9_33: -280440024
+      Plunger_Knight_Tiles-Sheet_V9_34: -1954565483
+      Plunger_Knight_Tiles-Sheet_V9_35: -1950756880
+      Plunger_Knight_Tiles-Sheet_V9_36: 1460917493
+      Plunger_Knight_Tiles-Sheet_V9_37: 1954449547
+      Plunger_Knight_Tiles-Sheet_V9_38: 1824304408
+      Plunger_Knight_Tiles-Sheet_V9_39: -1612803217
+      Plunger_Knight_Tiles-Sheet_V9_4: 600628221
+      Plunger_Knight_Tiles-Sheet_V9_40: 1564499331
+      Plunger_Knight_Tiles-Sheet_V9_41: -2082693353
+      Plunger_Knight_Tiles-Sheet_V9_42: 633614681
+      Plunger_Knight_Tiles-Sheet_V9_43: 1327105483
+      Plunger_Knight_Tiles-Sheet_V9_44: -19098574
+      Plunger_Knight_Tiles-Sheet_V9_45: -923050839
+      Plunger_Knight_Tiles-Sheet_V9_46: 1123555853
+      Plunger_Knight_Tiles-Sheet_V9_47: 989922492
+      Plunger_Knight_Tiles-Sheet_V9_48: 120011419
+      Plunger_Knight_Tiles-Sheet_V9_49: -1150660210
+      Plunger_Knight_Tiles-Sheet_V9_5: 120550446
+      Plunger_Knight_Tiles-Sheet_V9_50: 641902759
+      Plunger_Knight_Tiles-Sheet_V9_51: -518628594
+      Plunger_Knight_Tiles-Sheet_V9_52: 1763731131
+      Plunger_Knight_Tiles-Sheet_V9_53: 1902976062
+      Plunger_Knight_Tiles-Sheet_V9_54: 1901065381
+      Plunger_Knight_Tiles-Sheet_V9_55: -1064977728
+      Plunger_Knight_Tiles-Sheet_V9_56: 2098804589
+      Plunger_Knight_Tiles-Sheet_V9_57: -613999325
+      Plunger_Knight_Tiles-Sheet_V9_58: 178821340
+      Plunger_Knight_Tiles-Sheet_V9_59: 1245335510
+      Plunger_Knight_Tiles-Sheet_V9_6: -961342309
+      Plunger_Knight_Tiles-Sheet_V9_60: -2097319586
+      Plunger_Knight_Tiles-Sheet_V9_61: 80625861
+      Plunger_Knight_Tiles-Sheet_V9_62: -26979234
+      Plunger_Knight_Tiles-Sheet_V9_63: 178998036
+      Plunger_Knight_Tiles-Sheet_V9_64: -90986067
+      Plunger_Knight_Tiles-Sheet_V9_65: -195275733
+      Plunger_Knight_Tiles-Sheet_V9_66: 581442468
+      Plunger_Knight_Tiles-Sheet_V9_67: -1248422745
+      Plunger_Knight_Tiles-Sheet_V9_68: -1706695423
+      Plunger_Knight_Tiles-Sheet_V9_69: 1995158208
+      Plunger_Knight_Tiles-Sheet_V9_7: 864153353
+      Plunger_Knight_Tiles-Sheet_V9_70: 1116116611
+      Plunger_Knight_Tiles-Sheet_V9_71: -129667574
+      Plunger_Knight_Tiles-Sheet_V9_72: -1784474522
+      Plunger_Knight_Tiles-Sheet_V9_73: -69242829
+      Plunger_Knight_Tiles-Sheet_V9_74: -186923045
+      Plunger_Knight_Tiles-Sheet_V9_75: -1033098382
+      Plunger_Knight_Tiles-Sheet_V9_76: 1284312824
+      Plunger_Knight_Tiles-Sheet_V9_77: -1313746885
+      Plunger_Knight_Tiles-Sheet_V9_78: 1157716300
+      Plunger_Knight_Tiles-Sheet_V9_79: -510901217
+      Plunger_Knight_Tiles-Sheet_V9_8: -839913939
+      Plunger_Knight_Tiles-Sheet_V9_80: 1272425704
+      Plunger_Knight_Tiles-Sheet_V9_81: 533220094
+      Plunger_Knight_Tiles-Sheet_V9_82: 508614901
+      Plunger_Knight_Tiles-Sheet_V9_83: -1425052742
+      Plunger_Knight_Tiles-Sheet_V9_84: 1822675690
+      Plunger_Knight_Tiles-Sheet_V9_85: -4454753
+      Plunger_Knight_Tiles-Sheet_V9_86: -330948876
+      Plunger_Knight_Tiles-Sheet_V9_87: -834998051
+      Plunger_Knight_Tiles-Sheet_V9_88: 623057760
+      Plunger_Knight_Tiles-Sheet_V9_89: 1161536307
+      Plunger_Knight_Tiles-Sheet_V9_9: -160105444
+      Plunger_Knight_Tiles-Sheet_V9_90: -1478967499
+      Plunger_Knight_Tiles-Sheet_V9_91: -1015194762
+      Plunger_Knight_Tiles-Sheet_V9_92: 285146892
+      Plunger_Knight_Tiles-Sheet_V9_93: 1455407615
+      Plunger_Knight_Tiles-Sheet_V9_94: 1205172536
+      Plunger_Knight_Tiles-Sheet_V9_95: 2078430717
+      Plunger_Knight_Tiles-Sheet_V9_96: 2086097443
+      Plunger_Knight_Tiles-Sheet_V9_97: -822038556
+      Plunger_Knight_Tiles-Sheet_V9_98: -741621922
+      Plunger_Knight_Tiles-Sheet_V9_99: -366323684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

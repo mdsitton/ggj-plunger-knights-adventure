@@ -102,7 +102,7 @@ public class Enemy : MonoBehaviour, IAttackable
                     yield return new WaitForSeconds(1);
                     if (FindPlayerInRadius(5))
                     {
-                        Debug.Log("Plqyer found");
+                        Debug.Log("Player found");
                         currentAttackState = State.Attack;
                         break;
                     }
