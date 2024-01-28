@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D), typeof(StateManager))]
 public class Enemy : MonoBehaviour, IAttackable, IStateSystem
 {
-    public SpriteRenderer spriteRenderer;
+    private SpriteRenderer spriteRenderer;
 
     private Rigidbody2D body;
 
@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         playerMask = LayerMask.GetMask("Player");
         body = GetComponent<Rigidbody2D>();
         stateManager = GetComponent<StateManager>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         startingPostion = body.position;
     }
 
