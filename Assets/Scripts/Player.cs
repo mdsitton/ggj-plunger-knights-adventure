@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour, IAttackable
 {
     private Rigidbody2D body;
+    private SpriteRenderer spriteRenderer;
 
     public float speed = 5f;
 
@@ -24,10 +25,11 @@ public class Player : MonoBehaviour, IAttackable
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         controls = new Controls();
         controls.Enable();
         actions = controls.@gameplay;
-        knightAnim = GetComponent<Animator>();  
+        knightAnim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -57,8 +59,20 @@ public class Player : MonoBehaviour, IAttackable
 
         var activeItem = Inventory.GetActiveItem();
 
+
         if (activeItem != null)
         {
+            activeItem.GameObject.transform.rotation = Quaternion.LookRotation(Vector3.forward, -moveDirection);
+            activeItem.GameObject.transform.position = (transform.position + (Vector3)moveDirection * 0.3f) + Vector3.up * 0.3f;
+            if (moveDirection.y > 0)
+            {
+                spriteRenderer.sortingOrder = 20;
+            }
+            else
+            {
+                spriteRenderer.sortingOrder = 1;
+            }
+            // spriteRenderer.sortingOrder = 5;
             if (actions.ItemMainAction.triggered)
             {
                 WeaponUtilities.CheckWeaponInRange(activeItem);
