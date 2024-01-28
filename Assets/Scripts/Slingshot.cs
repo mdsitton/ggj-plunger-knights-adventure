@@ -13,8 +13,10 @@ public class SlingShot : BaseItem, IWeapon
     public override float Cooldown { get; set; }
 
     public bool Equippable => true;
-    public int Damage => 5;
-    public float Range => 2.5f;
+
+    // slingshot doesn't do damage, but the projectile does
+    public int Damage => 1;
+    public float Range => 1;
 
     private float timeSinceLastShot = 0f;
 
