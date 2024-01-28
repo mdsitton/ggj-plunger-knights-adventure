@@ -150,12 +150,13 @@ public class Player : MonoBehaviour, IAttackable
 
     public InventoryManager Inventory { get; } = new InventoryManager();
 
-    public bool TakeDamage(int amount)
+    public bool TakeDamage(IEntity source, int amount)
     {
         if (gameObject.IsUnityNull())
         {
             return true;
         }
+        Debug.Log($"Player taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
         if (Health <= 0)
         {

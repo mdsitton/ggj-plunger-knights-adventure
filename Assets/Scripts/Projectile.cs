@@ -30,7 +30,7 @@ public class Projectile : MonoBehaviour
         // only attack if the object is attackable
         if (attackable != null)
         {
-            attackable.TakeDamage(Damage);
+            attackable.TakeDamage(ParentEntity, Damage);
         }
         // Always destory when colliding with something
         Destroy(gameObject);

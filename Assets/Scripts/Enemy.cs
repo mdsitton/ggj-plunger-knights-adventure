@@ -19,10 +19,13 @@ public class Enemy : MonoBehaviour, IAttackable
     private Vector2 startingPostion;
     public bool isInRange;
 
+    private int playerMask;
+
     //public 
 
     private void Start()
     {
+        playerMask = LayerMask.GetMask("Player");
         body = GetComponent<Rigidbody2D>();
         startingPostion = body.position;
         StartCoroutine(AttackStateMachine());
@@ -36,6 +39,11 @@ public class Enemy : MonoBehaviour, IAttackable
         float y = Mathf.Sin(angle) * radius;
         Vector2 newPosition = startingPostion + new Vector2(x, y);
         body.MovePosition(newPosition);
+
+        if (CurrentTarget != null && Vector2.Distance(body.position, CurrentTarget.GameObject.transform.position) > radius)
+        {
+            CurrentTarget = null;
+        }
     }
 
     public IAttackable CurrentTarget { get; set; }
@@ -49,20 +57,33 @@ public class Enemy : MonoBehaviour, IAttackable
 
     }
 
-    private bool FindPlayerInRadius(float radius)
+    private IAttackable FindPlayerInRadius(float radius)
     {
-        var colliders = Physics2D.OverlapCircleAll(body.position, radius);
-        foreach (var collider in colliders)
+        var player = Physics2D.OverlapCircle(body.position, radius, playerMask);
+        if (player == null)
         {
-            var attackable = collider.gameObject.GetComponent<IAttackable>();
-            if (attackable != null && attackable.EntityType == EntityType.Player)
-            {
-                CurrentTarget = collider.gameObject.GetComponent<IAttackable>();
-                return true;
-            }
+            return null;
         }
-        return false;
+        var attackable = player.gameObject.GetComponent<IAttackable>();
+        if (attackable != null && attackable.EntityType == EntityType.Player)
+        {
+            Debug.Log("Found player in radius, attacking", gameObject);
+            return attackable;
+        }
+        return null;
     }
+    private void OnDrawGizmos()
+    {
+        OnDrawGizmosSelected();
+    }
+    void OnDrawGizmosSelected()
+    {
+        // Display the explosion radius when selected
+        Gizmos.color = Color.white;
+        //Vector3 offSetPosition = new Vector3(transform.position.x, transform.position.y -1, transform.position.z);
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
+
     private State currentAttackState = State.Idle;
     IEnumerator AttackStateMachine()
     {
@@ -72,42 +93,38 @@ public class Enemy : MonoBehaviour, IAttackable
             {
                 case State.Idle:
                     yield return new WaitForSeconds(1f);
-                    // Debug.Log("Waiting...1 sec");
-                    if (!FindPlayerInRadius(5))
-                    {
-                        currentAttackState = State.Idle;
-                        // Debug.Log("In idle state");
-                        break;
-                    }
-                    else
-                    {
-                        currentAttackState = State.Search;
-                        // Debug.Log("Searching for player");
-                        break;
-                    }
+                    currentAttackState = State.Search;
+                    break;
+
                 //currentAttackState = State.Attack;
                 // //Debug.Log("In attack state");
                 // break;
                 case State.Search:
-                    yield return new WaitForSeconds(1);
-                    if (FindPlayerInRadius(5))
-                    {
-                        // Debug.Log("Player found");
-                        currentAttackState = State.Attack;
-                        break;
-                    }
-                    else
+                    yield return new WaitForSeconds(0.25f);
+                    var player = FindPlayerInRadius(radius);
+                    if (player == null)
                     {
                         currentAttackState = State.Search;
                     }
+                    else
+                    {
+                        currentAttackState = State.Attack;
+                        CurrentTarget = player;
+                    }
                     break;
                 case State.Attack:
-                    if (CurrentTarget.TakeDamage(Damage))
+                    if (CurrentTarget == null)
                     {
                         currentAttackState = State.Idle;
+                        break;
+                    }
+                    if (CurrentTarget.TakeDamage(this, Damage))
+                    {
+                        currentAttackState = State.Idle;
+                        CurrentTarget = null;
                         // Debug.Log("In attack state");
                     }
-                    yield return new WaitForSeconds(0.5f);
+                    yield return new WaitForSeconds(0.25f);
                     currentAttackState = State.Attack;
                     // Debug.Log("Attacking Target State");
                     break;
@@ -122,7 +139,7 @@ public class Enemy : MonoBehaviour, IAttackable
     {
         // If we hit an enemy target it
         IAttackable attackable = other.gameObject.GetComponent<IAttackable>();
-        if (attackable != null && CurrentTarget == null)
+        if (attackable != null && CurrentTarget == null && attackable.EntityType == EntityType.Player)
         {
             CurrentTarget = attackable;
             Debug.Log(this.gameObject.name + " is Game is attacking " + other.gameObject.name);
@@ -135,12 +152,13 @@ public class Enemy : MonoBehaviour, IAttackable
 
     public InventoryManager Inventory { get; } = new();
 
-    public bool TakeDamage(int amount)
+    public bool TakeDamage(IEntity source, int amount)
     {
         if (this.IsUnityNull())
         {
             return true;
         }
+        Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
         if (Health <= 0)
         {

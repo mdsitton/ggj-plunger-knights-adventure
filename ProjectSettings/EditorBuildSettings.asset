@@ -5,14 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/gameplay.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: 567e0b9096cd0ea43872789381ffdf01
   - enabled: 1
     path: Assets/Scenes/Level Layout No Doors.unity
     guid: 2c16db295a5dc69419254212e18cde45
+  - enabled: 1
+    path: Assets/Scenes/Victory Screen.unity
+    guid: 23dd6a6fe4817fd4aa46823d4c70a46b
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: f03e7c8a885d3974a9e61b4e34f1193f
+  - enabled: 0
+    path: Assets/Scenes/Level Layout With Enemys.unity
+    guid: 5fab1428ad0f98c42afb0df52a292402
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 4d8af81fe5f1bbe4fa2fbfdf0be8e930, type: 2}

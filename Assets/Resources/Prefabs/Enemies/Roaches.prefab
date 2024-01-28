@@ -117,9 +117,6 @@ GameObject:
   - component: {fileID: 3470532077185127221}
   - component: {fileID: 2052047740609501722}
   - component: {fileID: 4580100555594337167}
-  - component: {fileID: 1568933057826184229}
-  - component: {fileID: 8439541050912383360}
-  - component: {fileID: 4343781780336356571}
   m_Layer: 0
   m_Name: Roaches
   m_TagString: Untagged
@@ -232,48 +229,7 @@ MonoBehaviour:
   radius: 0.95
   Damage: 2
   Health: 15
---- !u!114 &1568933057826184229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3648558197839417158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84fd1ae3ce426364aa2dfc55cfcfd17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionList:
-  - {fileID: 8439541050912383360}
-  - {fileID: 4343781780336356571}
---- !u!114 &8439541050912383360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3648558197839417158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef50733ab340204a9dfe6dd7b851bda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentTarget: 0
-  attackRadius: 0.95
---- !u!114 &4343781780336356571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3648558197839417158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a26ae12beb12da4194ddfe5be0c8f93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
+  isInRange: 0
 --- !u!1 &4719131814746122607
 GameObject:
   m_ObjectHideFlags: 0
