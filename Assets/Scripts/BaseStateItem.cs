@@ -29,7 +29,7 @@ public abstract class BaseStateItem : MonoBehaviour
         spriteRenderer.sprite = Icon;
     }
 
-    public virtual void Use(IEntity entityUsing, ItemActions itemAbility)
+    public virtual void Use(IEntity entityUsing, ItemActions itemAbility, bool active)
     {
     }
 

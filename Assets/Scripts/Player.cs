@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class Player : MonoBehaviour, IAttackable
+public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
 {
     private Rigidbody2D body;
     private SpriteRenderer spriteRenderer;
@@ -17,8 +17,6 @@ public class Player : MonoBehaviour, IAttackable
 
     private Controls controls;
     private Controls.GameplayActions actions;
-
-    private Repeater attackTimer = new Repeater(0.25f);
 
     private Animator knightAnim;
 
@@ -35,30 +33,9 @@ public class Player : MonoBehaviour, IAttackable
     private void Update()
     {
         Vector2 moveDirection = actions.Move.ReadValue<Vector2>();
-
         body.velocity = moveDirection * speed;
 
-        attackTimer.Update();
-
-        // if (CurrentTarget != null && attackTimer.HasTriggered())
-        // {
-        //     CurrentTarget.TakeDamage(Damage);
-        //     CurrentTarget = null;
-        // }
-
-        var swap = actions.SwitchItems.ReadValue<float>();
-
-        if (swap > 0)
-        {
-            Inventory.SwapNextItem();
-        }
-        else if (swap < 0)
-        {
-            Inventory.SwapPrevItem();
-        }
-
         var activeItem = Inventory.GetActiveItem();
-
 
         if (activeItem != null)
         {
@@ -72,36 +49,69 @@ public class Player : MonoBehaviour, IAttackable
             {
                 spriteRenderer.sortingOrder = 1;
             }
-            // spriteRenderer.sortingOrder = 5;
-            if (actions.ItemMainAction.triggered)
-            {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Primary);
-            }
-
-            if (actions.ItemMinorAction1.triggered)
-            {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Secondary);
-            }
-
-            if (actions.ItemMinorAction2.triggered)
-            {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Tertiary);
-            }
-
-            if (actions.ItemMinorAction3.triggered)
-            {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Quaternary);
-            }
         }
 
         float v = moveDirection.y;
         knightAnim.SetFloat("VerticalSpeed", v);
         float h = moveDirection.x;
         knightAnim.SetFloat("HorizontalSpeed", h);
+    }
+
+
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+    }
+
+    private void DoItemAction(InputAction.CallbackContext context, ItemActions itemAction)
+    {
+        var activeItem = Inventory.GetActiveItem();
+        if (activeItem != null)
+        {
+            if (context.performed)
+            {
+                WeaponUtilities.CheckWeaponInRange(activeItem);
+                activeItem.Use(this, itemAction, true);
+            }
+            else if (context.canceled)
+            {
+                activeItem.Use(this, itemAction, false);
+            }
+        }
+    }
+
+    public void OnItemMainAction(InputAction.CallbackContext context)
+    {
+        DoItemAction(context, ItemActions.Primary);
+    }
+
+    public void OnItemMinorAction1(InputAction.CallbackContext context)
+    {
+        DoItemAction(context, ItemActions.Secondary);
+    }
+
+    public void OnItemMinorAction2(InputAction.CallbackContext context)
+    {
+        DoItemAction(context, ItemActions.Tertiary);
+    }
+
+    public void OnItemMinorAction3(InputAction.CallbackContext context)
+    {
+        DoItemAction(context, ItemActions.Quaternary);
+    }
+
+    public void OnSwitchItems(InputAction.CallbackContext context)
+    {
+        var swap = context.ReadValue<float>();
+
+        if (swap > 0)
+        {
+            Inventory.SwapNextItem();
+        }
+        else if (swap < 0)
+        {
+            Inventory.SwapPrevItem();
+        }
     }
 
     public IAttackable CurrentTarget { get; set; }
@@ -117,20 +127,6 @@ public class Player : MonoBehaviour, IAttackable
             Inventory.AddItem(item);
         }
     }
-
-    // void OnCollisionEnter2D(Collision2D other)
-    // {
-    //     var go = other.gameObject;
-    //     // If we hit an enemy, attack it
-    //     IAttackable attackable = go.GetComponent<IAttackable>();
-    //     if (attackable != null && CurrentTarget == null)
-    //     {
-    //         Debug.Log("Collision Player");
-    //         CurrentTarget = attackable;
-    //         attackTimer.Reset();
-    //     }
-
-    // }
 
     public EntityType EntityType => EntityType.Player;
 
