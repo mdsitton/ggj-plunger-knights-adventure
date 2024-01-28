@@ -13222,9 +13222,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2837234388546593201, guid: cf202972cb6458f4da2af9027a6ce8ef, type: 3}
+      propertyPath: m_SortingOrder
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 4562040669820989181, guid: cf202972cb6458f4da2af9027a6ce8ef, type: 3}
       propertyPath: m_Name
       value: Background Cave
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562040669820989181, guid: cf202972cb6458f4da2af9027a6ce8ef, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5776867890663334591, guid: cf202972cb6458f4da2af9027a6ce8ef, type: 3}
       propertyPath: m_LocalPosition.x
