@@ -9,6 +9,12 @@ public class AIManagerStates : MonoBehaviour
     void Awake()
     {
         Debug.Log("This is a action test" + actionList[0]);
+        actionList[0].RunCurrentState();
+        actionList[1].RunCurrentState();
     }
+
+
+
+
 
 }

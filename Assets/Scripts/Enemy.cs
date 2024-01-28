@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour, IAttackable
     private Rigidbody2D body;
 
     public float speed = 5f;
-    private float radius = 2f;
+    public float radius = 2f;
     private float angle = 0f;
 
     public int Damage = 10;
