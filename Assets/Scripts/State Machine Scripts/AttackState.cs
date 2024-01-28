@@ -7,6 +7,7 @@ public class AttackState : States
 {
     public int CurrentTarget;
     public float attackRadius = 0.5f;
+
     public override States RunCurrentState()
     {
         if (true)

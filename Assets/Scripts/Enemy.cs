@@ -17,6 +17,9 @@ public class Enemy : MonoBehaviour, IAttackable
     public int Health = 40;
 
     private Vector2 startingPostion;
+    public bool isInRange;
+
+    //public 
 
     private void Start()
     {
@@ -122,6 +125,7 @@ public class Enemy : MonoBehaviour, IAttackable
         if (attackable != null && CurrentTarget == null)
         {
             CurrentTarget = attackable;
+            Debug.Log(this.gameObject.name + " is Game is attacking " + other.gameObject.name);
         }
     }
 
@@ -140,7 +144,8 @@ public class Enemy : MonoBehaviour, IAttackable
         Health -= amount;
         if (Health <= 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            this.gameObject.SetActive(false);
             return true;
         }
         return false;
