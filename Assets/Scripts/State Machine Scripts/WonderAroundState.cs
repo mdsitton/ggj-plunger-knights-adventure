@@ -10,6 +10,13 @@ public class WonderAroundState : StateOneShot
     private float radius = 2f;
     private Rigidbody2D body;
 
+    private void Awake()
+    {
+        var enemy = GetComponent<Enemy>();
+        speed = enemy.speed;
+        radius = enemy.radius;
+    }
+
     public override void OnStateTrigger(CurrentStateData stateData)
     {
         body = stateData.entity.GameObject.GetComponent<Rigidbody2D>();

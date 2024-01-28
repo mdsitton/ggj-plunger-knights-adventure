@@ -64,7 +64,6 @@ public class CurrentStateData
 [RequireComponent(typeof(IStateSystem))]
 public class StateManager : MonoBehaviour
 {
-    public AiState currentState;
     private delegate void OnStateDelegate(CurrentStateData stateData);
 
     IStateSystem stateSystem;
@@ -81,6 +80,7 @@ public class StateManager : MonoBehaviour
 
         var components = GetComponents<StateOneShot>();
         stateSystem = GetComponent<IStateSystem>();
+        currentStateData.entity = GetComponent<IEntity>();
 
         // ensure slots for all states exists
         foreach (var @enum in Enum.GetValues(typeof(AiState)))
@@ -107,8 +107,7 @@ public class StateManager : MonoBehaviour
 
     private void RunStateMachine()
     {
-        currentStateData.previousState = currentState;
-        currentStateData.newState = currentState;
+        currentStateData.previousState = currentStateData.newState;
         // use the idle state if a state doesn't exist
 
         switch (currentStateData.newState)
@@ -126,6 +125,7 @@ public class StateManager : MonoBehaviour
                 (currentStateData.newState, currentStateData.idleDelay) = stateSystem.OnDeadState(currentStateData.previousState);
                 break;
         }
+        Debug.Log($"{currentStateData.previousState} -> {currentStateData.newState}");
 
         foreach (var state in stateCallbacks[(int)currentStateData.newState])
         {
@@ -135,9 +135,7 @@ public class StateManager : MonoBehaviour
 
     public void ChangeState(AiState newState)
     {
-        currentState = newState;
+        currentStateData.newState = newState;
     }
-
-
 
 }

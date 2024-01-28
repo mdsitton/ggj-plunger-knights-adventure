@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
 
     public float speed = 5f;
     public float radius = 2f;
-    private float angle = 0f;
+    public float angle = 0f;
 
     public int Damage = 10;
     public int Health = 40;
@@ -84,15 +84,16 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
 
     public (AiState nextState, float delayTime) OnIdleState(AiState previousState)
     {
-        return (AiState.Search, 0.25f);
+        return (AiState.Search, 0.5f);
     }
 
     public (AiState nextState, float delayTime) OnSearchState(AiState previousState)
     {
         var player = FindPlayerInRadius(radius);
+        Debug.Log($"player in radius {player}", gameObject);
         if (player == null)
         {
-            return (AiState.Search, 0.25f);
+            return (AiState.Idle, 0.25f);
         }
         CurrentTarget = player;
 
