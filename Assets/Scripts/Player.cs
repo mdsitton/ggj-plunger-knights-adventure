@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
@@ -157,6 +158,7 @@ public class Player : MonoBehaviour, IAttackable
             return true;
         }
         Debug.Log($"Player taking {amount} damage from {source.GameObject.name}", source.GameObject);
+        StartCoroutine(TurnRed());
         Health -= amount;
         if (Health <= 0)
         {
@@ -164,5 +166,14 @@ public class Player : MonoBehaviour, IAttackable
             return true;
         }
         return false;
+    }
+
+   
+
+    public IEnumerator TurnRed()
+    {
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = Color.white;
     }
 }
