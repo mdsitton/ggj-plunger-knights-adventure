@@ -8695,11 +8695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84fd1ae3ce426364aa2dfc55cfcfd17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionList:
-  - {fileID: 267066642}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &267066642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8886,8 +8881,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &354517712
 GameObject:
   m_ObjectHideFlags: 0
@@ -9060,8 +9058,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &514772000
 GameObject:
   m_ObjectHideFlags: 0
@@ -13098,8 +13099,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &781485840
 GameObject:
   m_ObjectHideFlags: 0
@@ -13272,8 +13276,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &790652895
 GameObject:
   m_ObjectHideFlags: 0
@@ -13747,8 +13754,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &888550651
 GameObject:
   m_ObjectHideFlags: 0
@@ -13921,8 +13931,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &990813264
 GameObject:
   m_ObjectHideFlags: 0
@@ -14196,8 +14209,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &1208461475
 GameObject:
   m_ObjectHideFlags: 0
@@ -14370,8 +14386,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &1325417962
 GameObject:
   m_ObjectHideFlags: 0
@@ -14544,8 +14563,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &1369851189
 GameObject:
   m_ObjectHideFlags: 0
@@ -19914,8 +19936,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &1715501987
 GameObject:
   m_ObjectHideFlags: 0
@@ -20284,8 +20309,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &1789969762
 GameObject:
   m_ObjectHideFlags: 0
@@ -20458,8 +20486,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
+  isInRange: 0
 --- !u!1 &2143024452
 GameObject:
   m_ObjectHideFlags: 0
