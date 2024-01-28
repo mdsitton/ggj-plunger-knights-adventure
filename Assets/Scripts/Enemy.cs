@@ -15,13 +15,12 @@ public class Enemy : MonoBehaviour, IAttackable
 
     public int Damage = 10;
     public int Health = 40;
+    public float AttackCooldown = 0.5f;
 
     private Vector2 startingPostion;
     public bool isInRange;
 
     private int playerMask;
-
-    //public 
 
     private void Start()
     {
@@ -124,7 +123,7 @@ public class Enemy : MonoBehaviour, IAttackable
                         CurrentTarget = null;
                         // Debug.Log("In attack state");
                     }
-                    yield return new WaitForSeconds(0.25f);
+                    yield return new WaitForSeconds(AttackCooldown);
                     currentAttackState = State.Attack;
                     // Debug.Log("Attacking Target State");
                     break;
