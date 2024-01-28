@@ -162,6 +162,7 @@ public class Player : MonoBehaviour, IAttackable
         Health -= amount;
         if (Health <= 0)
         {
+            knightAnim.SetBool("Dead", true);
             SceneManager.LoadScene(3);
             return true;
         }
