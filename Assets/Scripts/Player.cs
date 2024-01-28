@@ -39,8 +39,13 @@ public class Player : MonoBehaviour, IAttackable
 
         if (activeItem != null)
         {
-            // Rotate the item to face the movement direction
-            activeItem.GameObject.transform.rotation = Quaternion.LookRotation(Vector3.forward, -moveDirection);
+            // Rotate the item to face the last movement direction
+            if (moveDirection.x != 0 || moveDirection.y != 0)
+            {
+                knightAnim.SetFloat("VerticalSpeed", moveDirection.y);
+                knightAnim.SetFloat("HorizontalSpeed", moveDirection.x);
+                activeItem.GameObject.transform.rotation = Quaternion.LookRotation(Vector3.forward, -moveDirection);
+            }
             activeItem.GameObject.transform.position = (transform.position + (Vector3)moveDirection * 0.3f) + Vector3.up * 0.3f;
             if (moveDirection.y > 0)
             {
@@ -114,10 +119,6 @@ public class Player : MonoBehaviour, IAttackable
             }
         }
 
-        float v = moveDirection.y;
-        knightAnim.SetFloat("VerticalSpeed", v);
-        float h = moveDirection.x;
-        knightAnim.SetFloat("HorizontalSpeed", h);
     }
 
     private void DoItemAction(IItem item, ItemActions itemAction, bool pressed)
