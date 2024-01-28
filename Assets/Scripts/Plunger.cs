@@ -8,8 +8,11 @@ public class Plunger : BaseItem, IWeapon
 
     public bool Equippable => true;
 
-    public int Damage => 5;
-    public float Range => 2.5f;
+    [field: SerializeField]
+    public int Damage { get; set; } = 5;
+
+    [field: SerializeField]
+    public float Range { get; set; } = 2.0f;
 
     protected override void OnPrimary(bool active)
     {
