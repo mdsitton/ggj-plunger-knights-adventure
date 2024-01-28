@@ -9687,7 +9687,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354517712}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
@@ -9696,6 +9696,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1001 &387893027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13578,7 +13579,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603902022}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
@@ -13587,6 +13588,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1001 &615283673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14099,7 +14101,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781485840}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
@@ -14108,6 +14110,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1001 &789126582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15956,7 +15959,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208461475}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
@@ -15965,6 +15968,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!4 &1224393539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
@@ -22353,7 +22357,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620468327}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
@@ -22362,6 +22366,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1001 &1626455142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23225,7 +23230,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
-  m_UseDelaunayMesh: 0
+  m_UseDelaunayMesh: 1
 --- !u!483693784 &1932216376
 TilemapRenderer:
   m_ObjectHideFlags: 0
