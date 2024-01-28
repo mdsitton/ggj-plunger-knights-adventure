@@ -107,7 +107,7 @@ public class Enemy : MonoBehaviour, IAttackable
                     }
                     break;
                 case State.Attack:
-                    if (CurrentTarget.TakeDamage(Damage))
+                    if (CurrentTarget.TakeDamage(this, Damage))
                     {
                         currentAttackState = State.Idle;
                         CurrentTarget = null;
@@ -141,12 +141,13 @@ public class Enemy : MonoBehaviour, IAttackable
 
     public InventoryManager Inventory { get; } = new();
 
-    public bool TakeDamage(int amount)
+    public bool TakeDamage(IEntity source, int amount)
     {
         if (this.IsUnityNull())
         {
             return true;
         }
+        Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
         if (Health <= 0)
         {
