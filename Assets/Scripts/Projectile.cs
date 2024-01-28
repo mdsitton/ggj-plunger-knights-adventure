@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float Speed = 10f;
+    public float Speed = 15f;
     public int Damage = 10;
     public float Range = 10f;
 
@@ -11,7 +11,7 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
-        startPosition = transform.position;
+        startPosition = transform.position + Vector3.up;
         GetComponent<Rigidbody2D>().velocity = -transform.up * Speed;
     }
 
@@ -26,6 +26,7 @@ public class Projectile : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         var attackable = other.collider.GetComponent<IAttackable>();
+
         // only attack if the object is attackable
         if (attackable != null)
         {
