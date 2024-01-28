@@ -157,7 +157,7 @@ public class Player : MonoBehaviour, IAttackable
         {
             return true;
         }
-        Debug.Log($"Player taking {amount} damage from {source.GameObject.name}", source.GameObject);
+        // Debug.Log($"Player taking {amount} damage from {source.GameObject.name}", source.GameObject);
         StartCoroutine(TurnRed());
         Health -= amount;
         if (Health <= 0)
@@ -169,7 +169,7 @@ public class Player : MonoBehaviour, IAttackable
         return false;
     }
 
-   
+
 
     public IEnumerator TurnRed()
     {

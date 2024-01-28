@@ -18,7 +18,7 @@ public class Plunger : BaseItem, IWeapon
     {
         if (active && ParentEntity.CurrentTarget != null)
         {
-            Debug.Log("Performing primary plunger attack");
+            // Debug.Log("Performing primary plunger attack");
             ParentEntity.CurrentTarget.TakeDamage(ParentEntity, Damage);
         }
     }

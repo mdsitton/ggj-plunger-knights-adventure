@@ -62,7 +62,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         var attackable = player.gameObject.GetComponent<IAttackable>();
         if (attackable != null && attackable.EntityType == EntityType.Player)
         {
-            Debug.Log("Found player in radius, attacking", gameObject);
+            // Debug.Log("Found player in radius, attacking", gameObject);
             return attackable;
         }
         return null;
@@ -84,13 +84,13 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
 
     public (AiState nextState, float delayTime) OnIdleState(AiState previousState)
     {
-        return (AiState.Search, 0.5f);
+        return (AiState.Search, 0.25f);
     }
 
     public (AiState nextState, float delayTime) OnSearchState(AiState previousState)
     {
         var player = FindPlayerInRadius(radius);
-        Debug.Log($"player in radius {player}", gameObject);
+        // Debug.Log($"player in radius {player}", gameObject);
         if (player == null)
         {
             return (AiState.Idle, 0.25f);
@@ -149,7 +149,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         {
             return true;
         }
-        Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
+        // Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
         if (isActiveAndEnabled)
         {

@@ -125,7 +125,7 @@ public class StateManager : MonoBehaviour
                 (currentStateData.newState, currentStateData.idleDelay) = stateSystem.OnDeadState(currentStateData.previousState);
                 break;
         }
-        Debug.Log($"{currentStateData.previousState} -> {currentStateData.newState}");
+        // Debug.Log($"{currentStateData.previousState} -> {currentStateData.newState}");
 
         foreach (var state in stateCallbacks[(int)currentStateData.newState])
         {
