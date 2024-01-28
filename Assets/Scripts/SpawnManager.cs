@@ -34,7 +34,7 @@ public class SpawnManager : MonoBehaviour
         if (!enemiesAlive[0])
         {
             Debug.Log("Game Over");
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
 }
