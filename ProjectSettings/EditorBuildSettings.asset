@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level Layout No Doors.unity
     guid: 2c16db295a5dc69419254212e18cde45
   - enabled: 1
+    path: Assets/Scenes/Victory Screen.unity
+    guid: 23dd6a6fe4817fd4aa46823d4c70a46b
+  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: f03e7c8a885d3974a9e61b4e34f1193f
   - enabled: 0
