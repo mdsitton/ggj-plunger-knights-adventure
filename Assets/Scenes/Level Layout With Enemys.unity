@@ -9336,6 +9336,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1001 &387893027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13012,6 +13013,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1001 &615283673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13310,6 +13312,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1 &790652895
 GameObject:
   m_ObjectHideFlags: 0
@@ -13950,6 +13953,7 @@ GameObject:
   - component: {fileID: 990813267}
   - component: {fileID: 990813268}
   - component: {fileID: 990813269}
+  - component: {fileID: 990813270}
   m_Layer: 0
   m_Name: GAME LOGIC
   m_TagString: Untagged
@@ -14038,6 +14042,21 @@ MonoBehaviour:
   - {fileID: 781485840}
   - {fileID: 1208461475}
   countLimit: 2
+--- !u!114 &990813270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990813264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae6f9bf67b9f4541a663a8181eaa390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keepTrackOfEnemiesList:
+  - {fileID: 0}
+  enemiesAlive: 
 --- !u!1001 &1022052599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14673,6 +14692,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!4 &1224393539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
@@ -20860,6 +20880,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  isInRange: 0
 --- !u!1001 &1626455142
 PrefabInstance:
   m_ObjectHideFlags: 0
