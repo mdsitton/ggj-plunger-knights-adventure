@@ -26,8 +26,9 @@ public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
         spriteRenderer = GetComponent<SpriteRenderer>();
         controls = new Controls();
         controls.Enable();
-        actions = controls.@gameplay;
+        actions = controls.gameplay;
         knightAnim = GetComponent<Animator>();
+        controls.gameplay.SetCallbacks(this);
     }
 
     private void Update()
@@ -82,6 +83,7 @@ public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
 
     public void OnItemMainAction(InputAction.CallbackContext context)
     {
+        Debug.Log($"OnItemMainAction {context.performed} {context.canceled}");
         DoItemAction(context, ItemActions.Primary);
     }
 

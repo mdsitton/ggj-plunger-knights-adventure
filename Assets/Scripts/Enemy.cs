@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour, IAttackable
 
     private Vector2 startingPostion;
 
-   
+
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -82,27 +82,27 @@ public class Enemy : MonoBehaviour, IAttackable
             {
                 case State.Idle:
                     yield return new WaitForSeconds(1f);
-                    Debug.Log("Waiting...1 sec");
+                    // Debug.Log("Waiting...1 sec");
                     if (!FindPlayerInRadius(5))
                     {
                         currentAttackState = State.Idle;
-                        Debug.Log("In idle state");
+                        // Debug.Log("In idle state");
                         break;
                     }
                     else
                     {
                         currentAttackState = State.Search;
-                        Debug.Log("Searching for player");
+                        // Debug.Log("Searching for player");
                         break;
                     }
-                    //currentAttackState = State.Attack;
-                    //Debug.Log("In attack state");
-                   // break;
+                //currentAttackState = State.Attack;
+                // //Debug.Log("In attack state");
+                // break;
                 case State.Search:
                     yield return new WaitForSeconds(1);
                     if (FindPlayerInRadius(5))
                     {
-                        Debug.Log("Player found");
+                        // Debug.Log("Player found");
                         currentAttackState = State.Attack;
                         break;
                     }
@@ -115,11 +115,11 @@ public class Enemy : MonoBehaviour, IAttackable
                     if (CurrentTarget.TakeDamage(Damage))
                     {
                         currentAttackState = State.Idle;
-                        Debug.Log("In attack state");
+                        // Debug.Log("In attack state");
                     }
                     yield return new WaitForSeconds(0.5f);
                     currentAttackState = State.Attack;
-                    Debug.Log("Attacking Target State");
+                    // Debug.Log("Attacking Target State");
                     break;
                 case State.Dead:
                     // Play death animation?
@@ -134,7 +134,7 @@ public class Enemy : MonoBehaviour, IAttackable
         IAttackable attackable = other.gameObject.GetComponent<IAttackable>();
         if (attackable != null && CurrentTarget == null)
         {
-            Debug.Log("Collision Enemy");
+            // Debug.Log("Collision Enemy");
             CurrentTarget = attackable;
             attackTimer.Reset();
         }

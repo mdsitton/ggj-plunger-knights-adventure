@@ -12,7 +12,7 @@ public class Projectile : MonoBehaviour
     private void Start()
     {
         startPosition = transform.position;
-        GetComponent<Rigidbody2D>().velocity = transform.up * Speed;
+        GetComponent<Rigidbody2D>().velocity = -transform.up * Speed;
     }
 
     private void Update()

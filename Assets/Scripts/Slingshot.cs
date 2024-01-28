@@ -21,6 +21,7 @@ public class SlingShot : BaseItem, IWeapon
     protected override void Awake()
     {
         repeater = new Repeater(Cooldown);
+        repeater.Pause();
         base.Awake();
     }
 
@@ -69,6 +70,7 @@ public class SlingShot : BaseItem, IWeapon
 
     public override void Use(IEntity entityUsing, ItemActions itemAbility, bool active)
     {
+        Debug.Log($"{entityUsing} {itemAbility} {active}");
         // Non-players cannot use this item
         if (entityUsing.EntityType != EntityType.Player)
         {

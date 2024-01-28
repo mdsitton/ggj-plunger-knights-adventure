@@ -56,6 +56,7 @@ public class Repeater
     {
         timeRemaining = timeInterval;
         hasLooped = false;
+        paused = false;
     }
 
     /// <summary>
@@ -66,5 +67,6 @@ public class Repeater
         timeInterval = newInterval;
         timeRemaining = timeInterval;
         hasLooped = false;
+        paused = false;
     }
 }
