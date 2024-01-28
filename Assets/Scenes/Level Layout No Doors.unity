@@ -8652,6 +8652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinkDoor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4657356120164611705, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6461739013357737956, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12430,6 +12434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12659,6 +12667,10 @@ PrefabInstance:
     - target: {fileID: 4657356120164611705, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
       propertyPath: m_Name
       value: PinkDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4657356120164611705, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6461739013357737956, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12891,6 +12903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowDoor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13064,6 +13080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowKey
       objectReference: {fileID: 0}
+    - target: {fileID: 9143517288142637214, guid: 55d38ad8bbd8fc945bf909cb2ae9a8cb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13085,6 +13105,10 @@ PrefabInstance:
     - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_Name
       value: BlueDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3810706095963859092, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13187,6 +13211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowDoor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13206,6 +13234,10 @@ PrefabInstance:
     - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_Name
       value: BlueDoor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3810706095963859092, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13332,6 +13364,10 @@ PrefabInstance:
     - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_Name
       value: YellowDoor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18597,6 +18633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueKey
       objectReference: {fileID: 0}
+    - target: {fileID: 9143517288142637214, guid: 9e6eb9820d75ad7458564402ab291783, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18666,6 +18706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinkKey
       objectReference: {fileID: 0}
+    - target: {fileID: 9143517288142637214, guid: 472e42d8c94b16844a0179caad996dd1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18682,6 +18726,10 @@ PrefabInstance:
     - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_Name
       value: BlueDoor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3810706095963859092, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18938,6 +18986,10 @@ PrefabInstance:
     - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_Name
       value: BlueDoor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3810706095963859092, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21187,46 +21239,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -10, y: -27, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 28
-      m_TileSpriteIndex: 28
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -9, y: -27, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 21
-      m_TileSpriteIndex: 21
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: -27, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 28
-      m_TileSpriteIndex: 28
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: -27, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 21
-      m_TileSpriteIndex: 21
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 6, y: -27, z: 0}
     second:
       serializedVersion: 2
@@ -21238,46 +21250,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -17, y: -26, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 20
-      m_TileSpriteIndex: 20
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -10, y: -26, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 27
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -9, y: -26, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 20
-      m_TileSpriteIndex: 20
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: -26, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 27
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: -26, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 20
@@ -22439,9 +22411,9 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 9a0879106de370d4090687bf0ec8f199, type: 2}
   - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: 8bde1b90d26655f4c93f19eecea897c0, type: 2}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 62eab0327a4958a4aaeefe5178e7f468, type: 2}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 1d8b02ecc679b914bb38af93d848600e, type: 2}
   - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: e574f509a53048c49abe9dc7204f5874, type: 2}
@@ -22453,9 +22425,9 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 3ba65b35d4ad64f49939d440c2582f01, type: 2}
   - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: f8173b4fba7e0dc4eb647c4637d203a5, type: 2}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 4ce131787cf4e484487de1cc2f3cf4e7, type: 2}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 65ed25be244e6614fbead7634dd9ca53, type: 2}
   - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: 32384509c06cdf94991bc3cd18279287, type: 2}
@@ -22544,9 +22516,9 @@ Tilemap:
     m_Data: {fileID: -1313746885, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
   - m_RefCount: 17
     m_Data: {fileID: 1469597787, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 526267320, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: -19098574, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
   - m_RefCount: 17
     m_Data: {fileID: 1901065381, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
@@ -22558,9 +22530,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 17
     m_Data: {fileID: -1504709085, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: 1824304408, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
-  - m_RefCount: 9
+  - m_RefCount: 7
     m_Data: {fileID: -518628594, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
   - m_RefCount: 17
     m_Data: {fileID: 80625861, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
@@ -22609,7 +22581,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -741621922, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 328
+  - m_RefCount: 320
     m_Data:
       e00: 1
       e01: 0
@@ -22628,7 +22600,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 328
+  - m_RefCount: 320
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -22710,6 +22682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowDoor (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22773,6 +22749,10 @@ PrefabInstance:
     - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_Name
       value: YellowDoor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
