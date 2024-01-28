@@ -15,7 +15,15 @@ public abstract class BaseItem : MonoBehaviour
     [SerializeField]
     protected float[] actionCooldowns = new float[4];
 
-    public float Cooldown => lastAction == null ? 0.1f : actionCooldowns[(int)lastAction.Value];
+    public virtual float Cooldown
+    {
+        get
+        {
+            return lastAction == null ? 0.1f : actionCooldowns[(int)lastAction.Value];
+        }
+        set
+        { } // do nothing
+    }
 
     protected ItemActions? lastAction = null;
 
@@ -23,7 +31,7 @@ public abstract class BaseItem : MonoBehaviour
     protected Rigidbody2D body;
     protected CircleCollider2D circleCollider;
 
-    public void Awake()
+    protected virtual void Awake()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         body = gameObject.GetComponent<Rigidbody2D>();
@@ -34,28 +42,28 @@ public abstract class BaseItem : MonoBehaviour
         spriteRenderer.sprite = Icon;
     }
 
-    protected abstract void OnPrimary();
-    protected abstract void OnSecondary();
-    protected abstract void OnTertiary();
-    protected abstract void OnQuaternary();
+    protected abstract void OnPrimary(bool active);
+    protected abstract void OnSecondary(bool active);
+    protected abstract void OnTertiary(bool active);
+    protected abstract void OnQuaternary(bool active);
 
-    public virtual void Use(IEntity entityUsing, ItemActions itemAbility)
+    public virtual void Use(IEntity entityUsing, ItemActions itemAbility, bool active)
     {
         lastAction = itemAbility;
 
         switch (itemAbility)
         {
             case ItemActions.Primary:
-                OnPrimary();
+                OnPrimary(active);
                 break;
             case ItemActions.Secondary:
-                OnSecondary();
+                OnSecondary(active);
                 break;
             case ItemActions.Tertiary:
-                OnTertiary();
+                OnTertiary(active);
                 break;
             case ItemActions.Quaternary:
-                OnQuaternary();
+                OnQuaternary(active);
                 break;
         }
     }

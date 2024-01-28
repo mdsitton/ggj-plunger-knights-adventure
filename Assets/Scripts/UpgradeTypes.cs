@@ -2,5 +2,6 @@ public enum UpgradeTypes
 {
     Health,
     Speed,
-    PlungerSuckThrow
+    PlungerSuckThrow,
+    SlingShotFlaming
 }

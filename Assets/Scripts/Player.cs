@@ -18,8 +18,6 @@ public class Player : MonoBehaviour, IAttackable
     private Controls controls;
     private Controls.GameplayActions actions;
 
-    private Repeater attackTimer = new Repeater(0.25f);
-
     private Animator knightAnim;
 
     private void Start()
@@ -28,41 +26,26 @@ public class Player : MonoBehaviour, IAttackable
         spriteRenderer = GetComponent<SpriteRenderer>();
         controls = new Controls();
         controls.Enable();
-        actions = controls.@gameplay;
+        actions = controls.gameplay;
         knightAnim = GetComponent<Animator>();
     }
 
     private void Update()
     {
         Vector2 moveDirection = actions.Move.ReadValue<Vector2>();
-
         body.velocity = moveDirection * speed;
-
-        attackTimer.Update();
-
-        // if (CurrentTarget != null && attackTimer.HasTriggered())
-        // {
-        //     CurrentTarget.TakeDamage(Damage);
-        //     CurrentTarget = null;
-        // }
-
-        var swap = actions.SwitchItems.ReadValue<float>();
-
-        if (swap > 0)
-        {
-            Inventory.SwapNextItem();
-        }
-        else if (swap < 0)
-        {
-            Inventory.SwapPrevItem();
-        }
 
         var activeItem = Inventory.GetActiveItem();
 
-
         if (activeItem != null)
         {
-            activeItem.GameObject.transform.rotation = Quaternion.LookRotation(Vector3.forward, -moveDirection);
+            // Rotate the item to face the last movement direction
+            if (moveDirection.x != 0 || moveDirection.y != 0)
+            {
+                knightAnim.SetFloat("VerticalSpeed", moveDirection.y);
+                knightAnim.SetFloat("HorizontalSpeed", moveDirection.x);
+                activeItem.GameObject.transform.rotation = Quaternion.LookRotation(Vector3.forward, -moveDirection);
+            }
             activeItem.GameObject.transform.position = (transform.position + (Vector3)moveDirection * 0.3f) + Vector3.up * 0.3f;
             if (moveDirection.y > 0)
             {
@@ -72,36 +55,79 @@ public class Player : MonoBehaviour, IAttackable
             {
                 spriteRenderer.sortingOrder = 1;
             }
-            // spriteRenderer.sortingOrder = 5;
-            if (actions.ItemMainAction.triggered)
+
+            var primaryPressed = actions.ItemMainAction.WasPerformedThisFrame();
+            var primaryReleased = actions.ItemMainAction.WasReleasedThisFrame();
+
+            var secondaryPressed = actions.ItemMinorAction1.WasPressedThisFrame();
+            var secondaryReleased = actions.ItemMinorAction1.WasReleasedThisFrame();
+
+            var tertiaryPressed = actions.ItemMinorAction2.WasPressedThisFrame();
+            var tertiaryReleased = actions.ItemMinorAction2.WasReleasedThisFrame();
+
+            var quaternaryPressed = actions.ItemMinorAction3.WasPressedThisFrame();
+            var quaternaryReleased = actions.ItemMinorAction3.WasReleasedThisFrame();
+
+            if (primaryPressed)
             {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Primary);
+                DoItemAction(activeItem, ItemActions.Primary, true);
+            }
+            if (primaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Primary, false);
             }
 
-            if (actions.ItemMinorAction1.triggered)
+            if (secondaryPressed)
             {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Secondary);
+                DoItemAction(activeItem, ItemActions.Secondary, true);
+            }
+            if (secondaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Secondary, false);
             }
 
-            if (actions.ItemMinorAction2.triggered)
+            if (tertiaryPressed)
             {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Tertiary);
+                DoItemAction(activeItem, ItemActions.Tertiary, true);
+            }
+            if (tertiaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Tertiary, false);
             }
 
-            if (actions.ItemMinorAction3.triggered)
+            if (quaternaryPressed)
             {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, ItemActions.Quaternary);
+                DoItemAction(activeItem, ItemActions.Quaternary, true);
+            }
+            if (quaternaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Quaternary, false);
+            }
+
+            if (actions.SwitchItems.WasPressedThisFrame())
+            {
+                var swap = actions.SwitchItems.ReadValue<float>();
+
+                if (swap > 0)
+                {
+                    Inventory.SwapNextItem();
+                }
+                else if (swap < 0)
+                {
+                    Inventory.SwapPrevItem();
+                }
             }
         }
 
-        float v = moveDirection.y;
-        knightAnim.SetFloat("VerticalSpeed", v);
-        float h = moveDirection.x;
-        knightAnim.SetFloat("HorizontalSpeed", h);
+    }
+
+    private void DoItemAction(IItem item, ItemActions itemAction, bool pressed)
+    {
+        if (pressed)
+        {
+            WeaponUtilities.CheckWeaponInRange(item);
+        }
+        item.Use(this, itemAction, pressed);
     }
 
     public IAttackable CurrentTarget { get; set; }
@@ -118,36 +144,23 @@ public class Player : MonoBehaviour, IAttackable
         }
     }
 
-    // void OnCollisionEnter2D(Collision2D other)
-    // {
-    //     var go = other.gameObject;
-    //     // If we hit an enemy, attack it
-    //     IAttackable attackable = go.GetComponent<IAttackable>();
-    //     if (attackable != null && CurrentTarget == null)
-    //     {
-    //         Debug.Log("Collision Player");
-    //         CurrentTarget = attackable;
-    //         attackTimer.Reset();
-    //     }
-
-    // }
-
     public EntityType EntityType => EntityType.Player;
 
     public GameObject GameObject => gameObject;
 
     public InventoryManager Inventory { get; } = new InventoryManager();
 
-    public bool TakeDamage(int amount)
+    public bool TakeDamage(IEntity source, int amount)
     {
         if (gameObject.IsUnityNull())
         {
             return true;
         }
+        Debug.Log($"Player taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
         if (Health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(3);
             return true;
         }
         return false;

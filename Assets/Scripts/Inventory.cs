@@ -15,18 +15,17 @@ public class InventoryManager
         activeIndex = 0;
     }
 
-    private void ClampIndex()
+    private void WrapIndex()
     {
         if (activeIndex < 0)
         {
-            activeIndex = 0;
+            activeIndex += items.Count;
         }
         if (activeIndex >= items.Count)
         {
-            activeIndex = items.Count - 1;
+            activeIndex -= items.Count;
         }
     }
-
 
     public void AddItemsImpl(List<IItem> itemList, IItem item)
     {
@@ -129,7 +128,7 @@ public class InventoryManager
         else
         {
             var rtnItem = RemoveItemsImpl(items, item, quantityToRemove);
-            ClampIndex();
+            WrapIndex();
             return rtnItem;
         }
     }
@@ -142,7 +141,7 @@ public class InventoryManager
         }
         items[activeIndex].GameObject.SetActive(false);
         activeIndex = index;
-        ClampIndex();
+        WrapIndex();
         items[activeIndex].OnSwitch(items[activeIndex].ParentEntity);
         items[activeIndex].GameObject.SetActive(true);
         return true;

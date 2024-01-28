@@ -13,5 +13,11 @@ public class ReloadDebugButton : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             Debug.Log("Screen Was Reset");
         }
+
+        if (GUI.Button(new Rect(Screen.width-85, 20, 75, 75), "Exit"))
+        {
+            Application.Quit();
+            Debug.Log("Quite App make my my own scrit later");
+        }
     }
 }

@@ -15,7 +15,7 @@ public interface IItem
 
     bool Equippable { get; }
 
-    void Use(IEntity entityUsing, ItemActions itemAbility);
+    void Use(IEntity entityUsing, ItemActions itemAbility, bool active);
     void OnPickUp(IEntity entityUsing);
     void OnDrop(IEntity entityUsing);
     void OnSwitch(IEntity entityUsing);

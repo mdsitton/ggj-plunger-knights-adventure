@@ -8,45 +8,47 @@ public class Plunger : BaseItem, IWeapon
 
     public bool Equippable => true;
 
-    public int Damage => 5;
-    public float Range => 3f;
+    [field: SerializeField]
+    public int Damage { get; set; } = 5;
 
-    protected override void OnPrimary()
+    [field: SerializeField]
+    public float Range { get; set; } = 2.0f;
+
+    protected override void OnPrimary(bool active)
     {
-        if (ParentEntity.CurrentTarget != null)
+        if (active && ParentEntity.CurrentTarget != null)
         {
             Debug.Log("Performing primary plunger attack");
-            ParentEntity.CurrentTarget.TakeDamage(Damage);
+            ParentEntity.CurrentTarget.TakeDamage(ParentEntity, Damage);
         }
-
     }
 
-    protected override void OnSecondary()
+    protected override void OnSecondary(bool active)
     {
         if (ParentEntity.Inventory.HasUpgrade(UpgradeTypes.PlungerSuckThrow))
         {
-            
+
         }
     }
 
-    protected override void OnTertiary()
+    protected override void OnTertiary(bool active)
     {
         // TODO - Implement tertiary plunger attack
     }
 
-    protected override void OnQuaternary()
+    protected override void OnQuaternary(bool active)
     {
         // TODO - Implement quaternary plunger attack
     }
 
-    public override void Use(IEntity entityUsing, ItemActions itemAbility)
+    public override void Use(IEntity entityUsing, ItemActions itemAbility, bool active)
     {
         // Non-players cannot use this item
         if (entityUsing.EntityType != EntityType.Player)
         {
             return;
         }
-        base.Use(entityUsing, itemAbility);
+        base.Use(entityUsing, itemAbility, active);
     }
 
     // Can be used to trigger any animations or sounds

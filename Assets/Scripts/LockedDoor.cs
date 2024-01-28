@@ -17,8 +17,7 @@ public class LockedDoor : MonoBehaviour, IEntity
     void OnCollisionEnter2D(Collision2D other)
     {
         // If we hit an enemy, attack it
-        Player player = other.gameObject.GetComponent<Player>();
-        if (player != null)
+        if (other.gameObject.TryGetComponent<Player>(out var player))
         {
             var item = player.Inventory.GetItemFromName(KeyName);
             if (item != null && item is Key key)
