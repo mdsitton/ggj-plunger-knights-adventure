@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Enemy : MonoBehaviour, IAttackable
 {
+    public SpriteRenderer spriteRenderer;
+
     private Rigidbody2D body;
 
     public float speed = 5f;
@@ -161,6 +163,7 @@ public class Enemy : MonoBehaviour, IAttackable
         }
         Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
+        StartCoroutine(TurnRed());
         if (Health <= 0)
         {
             //Destroy(gameObject);
@@ -168,5 +171,13 @@ public class Enemy : MonoBehaviour, IAttackable
             return true;
         }
         return false;
+    }
+
+    public IEnumerator TurnRed()
+    {
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = Color.white;
+
     }
 }
