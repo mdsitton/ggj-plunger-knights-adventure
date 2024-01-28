@@ -25,10 +25,8 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        var attackable = other.collider.GetComponent<IAttackable>();
-
         // only attack if the object is attackable
-        if (attackable != null)
+        if (other.gameObject.TryGetComponent<IAttackable>(out var attackable))
         {
             attackable.TakeDamage(ParentEntity, Damage);
         }

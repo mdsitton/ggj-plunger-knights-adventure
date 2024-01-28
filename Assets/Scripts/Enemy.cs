@@ -137,11 +137,13 @@ public class Enemy : MonoBehaviour, IAttackable
     void OnCollisionEnter2D(Collision2D other)
     {
         // If we hit an enemy target it
-        IAttackable attackable = other.gameObject.GetComponent<IAttackable>();
-        if (attackable != null && CurrentTarget == null && attackable.EntityType == EntityType.Player)
+        if (other.gameObject.TryGetComponent<IAttackable>(out var attackable))
         {
-            CurrentTarget = attackable;
-            Debug.Log(this.gameObject.name + " is Game is attacking " + other.gameObject.name);
+            if (CurrentTarget == null && attackable.EntityType == EntityType.Player)
+            {
+                CurrentTarget = attackable;
+                // Debug.Log(this.gameObject.name + " is Game is attacking " + other.gameObject.name);
+            }
         }
     }
 
