@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3212305053589086473}
   - component: {fileID: 3984706825515740116}
   - component: {fileID: 8923913627061628082}
+  - component: {fileID: 6690344825384070666}
+  - component: {fileID: 4598267621146506471}
   m_Layer: 0
   m_Name: MoldSlime
   m_TagString: Untagged
@@ -120,12 +122,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 0}
   speed: 1.2
   radius: 0.95
   Damage: 2
   Health: 15
   AttackCooldown: 0.5
+  stateManager: {fileID: 0}
   isInRange: 0
+--- !u!114 &6690344825384070666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574487320910389743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bac9a7b9880b584ab40227794595788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &4598267621146506471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574487320910389743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a26ae12beb12da4194ddfe5be0c8f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 0
+  speed: 5
 --- !u!1 &2708814743274636059
 GameObject:
   m_ObjectHideFlags: 0

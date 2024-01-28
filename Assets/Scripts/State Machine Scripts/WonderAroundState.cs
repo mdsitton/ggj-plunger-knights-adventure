@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WonderAroundState : States
+public class WonderAroundState : StateOneShot
 {
     public float speed = 5f;
     private float angle = 0f;
@@ -10,23 +10,19 @@ public class WonderAroundState : States
     private float radius = 2f;
     private Rigidbody2D body;
 
-
-    public override States RunCurrentState()
+    public override void OnStateTrigger(CurrentStateData stateData)
     {
-        if (true)
-        {
-            transform.position = new Vector3(0,0,0);
-        }
-        return this;
+        body = stateData.entity.GameObject.GetComponent<Rigidbody2D>();
+        startingPostion = body.position;
     }
 
-    private void Update()
+    public override void OnStateUpdate(CurrentStateData stateData)
     {
         // Move in a circle for testing
         angle += speed * Time.deltaTime;
         float x = Mathf.Cos(angle) * radius;
         float y = Mathf.Sin(angle) * radius;
         Vector2 newPosition = startingPostion + new Vector2(x, y);
-       // body.MovePosition(newPosition);
+        body.MovePosition(newPosition);
     }
 }

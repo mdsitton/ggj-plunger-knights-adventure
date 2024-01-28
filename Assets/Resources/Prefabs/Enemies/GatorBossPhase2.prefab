@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 4963208313626472060}
   - component: {fileID: 6317019770488673517}
   - component: {fileID: 6405697486425586559}
+  - component: {fileID: 8201915501058265632}
+  - component: {fileID: 8612970172674113537}
   m_Layer: 0
   m_Name: GatorBossPhase2
   m_TagString: Untagged
@@ -122,11 +124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 0}
   speed: 1.2
   radius: 0.95
   Damage: 2
   Health: 15
   AttackCooldown: 0.5
+  stateManager: {fileID: 0}
   isInRange: 0
 --- !u!82 &6317019770488673517
 AudioSource:
@@ -320,6 +324,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8201915501058265632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3471525277240996343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bac9a7b9880b584ab40227794595788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &8612970172674113537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3471525277240996343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a26ae12beb12da4194ddfe5be0c8f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 0
+  speed: 5
 --- !u!1 &5439625327920802723
 GameObject:
   m_ObjectHideFlags: 0

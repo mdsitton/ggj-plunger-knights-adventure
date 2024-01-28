@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1195124346660056334}
   - component: {fileID: 1679652799728767191}
   - component: {fileID: 1238382018078746466}
+  - component: {fileID: 3934159400277846709}
+  - component: {fileID: 4335525825636183805}
   m_Layer: 0
   m_Name: OnceAGreatMasterMind
   m_TagString: Untagged
@@ -121,11 +123,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 0}
   speed: 1.2
   radius: 0.95
   Damage: 2
   Health: 15
   AttackCooldown: 0.5
+  stateManager: {fileID: 0}
   isInRange: 0
 --- !u!82 &1238382018078746466
 AudioSource:
@@ -223,6 +227,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3934159400277846709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819532405004647278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bac9a7b9880b584ab40227794595788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &4335525825636183805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819532405004647278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a26ae12beb12da4194ddfe5be0c8f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 0
+  speed: 5
 --- !u!1 &7347174110747054697
 GameObject:
   m_ObjectHideFlags: 0

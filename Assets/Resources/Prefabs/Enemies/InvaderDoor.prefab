@@ -98,6 +98,8 @@ GameObject:
   - component: {fileID: 259844215634462405}
   - component: {fileID: 190040741557732078}
   - component: {fileID: 3722941122715817851}
+  - component: {fileID: 4900423505410718960}
+  - component: {fileID: 3210087534170268245}
   m_Layer: 0
   m_Name: InvaderDoor
   m_TagString: Untagged
@@ -258,11 +260,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 0}
   speed: 5
   radius: 2
   Damage: 10
   Health: 40
   AttackCooldown: 0.5
+  stateManager: {fileID: 0}
   isInRange: 0
 --- !u!82 &3722941122715817851
 AudioSource:
@@ -360,6 +364,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4900423505410718960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6705075851731502175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bac9a7b9880b584ab40227794595788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &3210087534170268245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6705075851731502175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a26ae12beb12da4194ddfe5be0c8f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 0
+  speed: 5
 --- !u!1 &6955652244812706086
 GameObject:
   m_ObjectHideFlags: 0

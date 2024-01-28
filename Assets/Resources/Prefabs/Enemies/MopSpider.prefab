@@ -97,6 +97,8 @@ GameObject:
   - component: {fileID: 3437324472410146326}
   - component: {fileID: 5361101961615629918}
   - component: {fileID: 4002056645325438334}
+  - component: {fileID: 7688707530764910540}
+  - component: {fileID: 7910104330514520413}
   m_Layer: 0
   m_Name: MopSpider
   m_TagString: Untagged
@@ -205,11 +207,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e695f29dbe9e0b418a8d048fb83747a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 0}
   speed: 1.2
   radius: 0.95
   Damage: 2
   Health: 15
   AttackCooldown: 0.5
+  stateManager: {fileID: 0}
   isInRange: 0
 --- !u!82 &4002056645325438334
 AudioSource:
@@ -307,6 +311,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7688707530764910540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4980153448863349578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bac9a7b9880b584ab40227794595788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &7910104330514520413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4980153448863349578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a26ae12beb12da4194ddfe5be0c8f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 0
+  speed: 5
 --- !u!1 &8571366967348484571
 GameObject:
   m_ObjectHideFlags: 0

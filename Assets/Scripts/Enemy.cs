@@ -4,8 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class Enemy : MonoBehaviour, IAttackable
+[RequireComponent(typeof(Rigidbody2D), typeof(StateManager))]
+public class Enemy : MonoBehaviour, IAttackable, IStateSystem
 {
     public SpriteRenderer spriteRenderer;
 
@@ -19,6 +19,8 @@ public class Enemy : MonoBehaviour, IAttackable
     public int Health = 40;
     public float AttackCooldown = 0.5f;
 
+    public StateManager stateManager;
+
     private Vector2 startingPostion;
     public bool isInRange;
 
@@ -28,8 +30,8 @@ public class Enemy : MonoBehaviour, IAttackable
     {
         playerMask = LayerMask.GetMask("Player");
         body = GetComponent<Rigidbody2D>();
+        stateManager = GetComponent<StateManager>();
         startingPostion = body.position;
-        StartCoroutine(AttackStateMachine());
     }
 
     private void Update()
@@ -49,15 +51,6 @@ public class Enemy : MonoBehaviour, IAttackable
 
     public IAttackable CurrentTarget { get; set; }
 
-    private enum State
-    {
-        Idle,
-        Search,
-        Attack,
-        Dead
-
-    }
-
     private IAttackable FindPlayerInRadius(float radius)
     {
         var player = Physics2D.OverlapCircle(body.position, radius, playerMask);
@@ -73,10 +66,12 @@ public class Enemy : MonoBehaviour, IAttackable
         }
         return null;
     }
+
     private void OnDrawGizmos()
     {
         OnDrawGizmosSelected();
     }
+
     void OnDrawGizmosSelected()
     {
         // Display the explosion radius when selected
@@ -85,55 +80,46 @@ public class Enemy : MonoBehaviour, IAttackable
         Gizmos.DrawWireSphere(transform.position, radius);
     }
 
-    private State currentAttackState = State.Idle;
-    IEnumerator AttackStateMachine()
-    {
-        while (true)
-        {
-            switch (currentAttackState)
-            {
-                case State.Idle:
-                    yield return new WaitForSeconds(1f);
-                    currentAttackState = State.Search;
-                    break;
 
-                //currentAttackState = State.Attack;
-                // //Debug.Log("In attack state");
-                // break;
-                case State.Search:
-                    yield return new WaitForSeconds(0.25f);
-                    var player = FindPlayerInRadius(radius);
-                    if (player == null)
-                    {
-                        currentAttackState = State.Search;
-                    }
-                    else
-                    {
-                        currentAttackState = State.Attack;
-                        CurrentTarget = player;
-                    }
-                    break;
-                case State.Attack:
-                    if (CurrentTarget == null)
-                    {
-                        currentAttackState = State.Idle;
-                        break;
-                    }
-                    if (CurrentTarget.TakeDamage(this, Damage))
-                    {
-                        currentAttackState = State.Idle;
-                        CurrentTarget = null;
-                        // Debug.Log("In attack state");
-                    }
-                    yield return new WaitForSeconds(AttackCooldown);
-                    currentAttackState = State.Attack;
-                    // Debug.Log("Attacking Target State");
-                    break;
-                case State.Dead:
-                    // Play death animation?
-                    break;
-            }
+    public (AiState nextState, float delayTime) OnIdleState(AiState previousState)
+    {
+        return (AiState.Search, 0.25f);
+    }
+
+    public (AiState nextState, float delayTime) OnSearchState(AiState previousState)
+    {
+        var player = FindPlayerInRadius(radius);
+        if (player == null)
+        {
+            return (AiState.Search, 0.25f);
         }
+        CurrentTarget = player;
+
+        return (AiState.Attack, 0.25f);
+    }
+
+    public (AiState nextState, float delayTime) OnAttackState(AiState previousState)
+    {
+        if (CurrentTarget == null)
+        {
+            return (AiState.Idle, 0.25f);
+        }
+        var state = AiState.Attack;
+        if (CurrentTarget.TakeDamage(this, Damage))
+        {
+            state = AiState.Idle;
+            CurrentTarget = null;
+        }
+        state = AiState.Attack;
+        return (state, AttackCooldown);
+    }
+
+    public (AiState nextState, float delayTime) OnDeadState(AiState previousState)
+    {
+        // Play death animation?
+        //Destroy(gameObject);
+        gameObject.SetActive(false);
+        return (AiState.Dead, 0f);
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -166,8 +152,7 @@ public class Enemy : MonoBehaviour, IAttackable
         StartCoroutine(TurnRed());
         if (Health <= 0)
         {
-            //Destroy(gameObject);
-            this.gameObject.SetActive(false);
+            stateManager.ChangeState(AiState.Dead);
             return true;
         }
         return false;
