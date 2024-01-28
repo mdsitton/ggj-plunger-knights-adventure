@@ -201,9 +201,6 @@ GameObject:
   - component: {fileID: 4252569053681662057}
   - component: {fileID: 818008067706459246}
   - component: {fileID: 8203944487919352489}
-  - component: {fileID: 4991296124378707651}
-  - component: {fileID: 7870490155748988836}
-  - component: {fileID: 3832369616252105172}
   - component: {fileID: 2033699466176128260}
   - component: {fileID: 1948773755528256336}
   m_Layer: 0
@@ -320,45 +317,6 @@ MonoBehaviour:
   Health: 15
   AttackCooldown: 0.5
   isInRange: 0
---- !u!114 &4991296124378707651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6929337358995513669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84fd1ae3ce426364aa2dfc55cfcfd17e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7870490155748988836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6929337358995513669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef50733ab340204a9dfe6dd7b851bda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentTarget: 0
-  attackRadius: 0.95
---- !u!114 &3832369616252105172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6929337358995513669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a26ae12beb12da4194ddfe5be0c8f93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!82 &2033699466176128260
 AudioSource:
   m_ObjectHideFlags: 0

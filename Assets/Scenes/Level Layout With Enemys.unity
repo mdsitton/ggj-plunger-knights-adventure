@@ -9336,6 +9336,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
   isInRange: 0
 --- !u!1001 &387893027
 PrefabInstance:
@@ -9398,6 +9399,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
+--- !u!1 &419287606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419287607}
+  m_Layer: 0
+  m_Name: Wave 2 Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419287607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419287606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &511278338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
@@ -13013,6 +13045,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
   isInRange: 0
 --- !u!1001 &615283673
 PrefabInstance:
@@ -13312,6 +13345,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
   isInRange: 0
 --- !u!1 &790652895
 GameObject:
@@ -14692,6 +14726,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
   isInRange: 0
 --- !u!4 &1224393539 stripped
 Transform:
@@ -20880,6 +20915,7 @@ MonoBehaviour:
   radius: 2
   Damage: 0
   Health: 2
+  AttackCooldown: 0.5
   isInRange: 0
 --- !u!1001 &1626455142
 PrefabInstance:
@@ -25583,3 +25619,4 @@ SceneRoots:
   - {fileID: 4564682233104427667}
   - {fileID: 1398213802}
   - {fileID: 1144695045}
+  - {fileID: 419287607}
