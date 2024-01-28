@@ -160,7 +160,7 @@ public class Player : MonoBehaviour, IAttackable
         Health -= amount;
         if (Health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(3);
             return true;
         }
         return false;
