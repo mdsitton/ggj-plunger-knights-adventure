@@ -150,7 +150,10 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         }
         Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
-        StartCoroutine(TurnRed());
+        if (isActiveAndEnabled)
+        {
+            StartCoroutine(TurnRed());
+        }
         if (Health <= 0)
         {
             stateManager.ChangeState(AiState.Dead);
@@ -164,6 +167,5 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.1f);
         spriteRenderer.color = Color.white;
-
     }
 }
