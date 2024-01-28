@@ -5,7 +5,7 @@ public static class WeaponUtilities
 {
     public static void CheckWeaponInRange(IItem activeItem)
     {
-        var go = activeItem.ParentEntity.GameObject;
+        var go = activeItem.GameObject;
         if (activeItem.ItemType == ItemTypes.Weapon && activeItem is IWeapon weapon)
         {
             // Perform raycast to find IAttackable objects
