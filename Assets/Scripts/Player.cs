@@ -104,15 +104,18 @@ public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
 
     public void OnSwitchItems(InputAction.CallbackContext context)
     {
-        var swap = context.ReadValue<float>();
+        if (context.performed)
+        {
+            var swap = context.ReadValue<float>();
 
-        if (swap > 0)
-        {
-            Inventory.SwapNextItem();
-        }
-        else if (swap < 0)
-        {
-            Inventory.SwapPrevItem();
+            if (swap > 0)
+            {
+                Inventory.SwapNextItem();
+            }
+            else if (swap < 0)
+            {
+                Inventory.SwapPrevItem();
+            }
         }
     }
 
