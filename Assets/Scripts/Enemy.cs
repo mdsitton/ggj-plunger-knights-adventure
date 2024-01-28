@@ -39,6 +39,11 @@ public class Enemy : MonoBehaviour, IAttackable
         float y = Mathf.Sin(angle) * radius;
         Vector2 newPosition = startingPostion + new Vector2(x, y);
         body.MovePosition(newPosition);
+
+        if (CurrentTarget != null && Vector2.Distance(body.position, CurrentTarget.GameObject.transform.position) > radius)
+        {
+            CurrentTarget = null;
+        }
     }
 
     public IAttackable CurrentTarget { get; set; }
@@ -108,6 +113,11 @@ public class Enemy : MonoBehaviour, IAttackable
                     }
                     break;
                 case State.Attack:
+                    if (CurrentTarget == null)
+                    {
+                        currentAttackState = State.Idle;
+                        break;
+                    }
                     if (CurrentTarget.TakeDamage(this, Damage))
                     {
                         currentAttackState = State.Idle;
