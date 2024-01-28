@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -18,12 +19,15 @@ public class Player : MonoBehaviour, IAttackable
 
     private Repeater attackTimer = new Repeater(0.25f);
 
+    private Animator knightAnim;
+
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
         controls = new Controls();
         controls.Enable();
         actions = controls.@gameplay;
+        knightAnim = GetComponent<Animator>();  
     }
 
     private void Update()
@@ -79,6 +83,11 @@ public class Player : MonoBehaviour, IAttackable
                 activeItem.Use(this, ItemActions.Quaternary);
             }
         }
+
+        float v = moveDirection.y;
+        knightAnim.SetFloat("VerticalSpeed", v);
+        float h = moveDirection.x;
+        knightAnim.SetFloat("HorizontalSpeed", h);
     }
 
     public IAttackable CurrentTarget { get; set; }
