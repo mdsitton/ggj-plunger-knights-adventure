@@ -1,28 +1,57 @@
 using System.Collections;
 using UnityEngine;
 
-public class Plunger : BaseItem, IWeapon
+public class SlingShot : BaseItem, IWeapon
 {
-    public string Name => "Plungy McPlunger";
+    public string Name => "Slingroo";
     public ItemTypes ItemType => ItemTypes.Weapon;
 
-    public bool Equippable => true;
+    [SerializeField]
+    private GameObject projectilePrefab;
 
+    [field: SerializeField]
+    public override float Cooldown { get; set; }
+
+    public bool Equippable => true;
     public int Damage => 5;
     public float Range => 2.5f;
 
+    private Repeater repeater;
+
+    protected override void Awake()
+    {
+        repeater = new Repeater(Cooldown);
+        base.Awake();
+    }
+
+    private void Update()
+    {
+        repeater.Update();
+
+        if (repeater.HasTriggered())
+        {
+            var instance = Instantiate(projectilePrefab, transform.position, transform.rotation);
+            var projectile = instance.GetComponent<Projectile>();
+            projectile.ParentEntity = ParentEntity;
+        }
+    }
+
     protected override void OnPrimary(bool active)
     {
-        if (active && ParentEntity.CurrentTarget != null)
+        if (active)
         {
-            Debug.Log("Performing primary plunger attack");
-            ParentEntity.CurrentTarget.TakeDamage(Damage);
+            repeater.Reset();
         }
+        else
+        {
+            repeater.Pause();
+        }
+
     }
 
     protected override void OnSecondary(bool active)
     {
-        if (ParentEntity.Inventory.HasUpgrade(UpgradeTypes.PlungerSuckThrow))
+        if (ParentEntity.Inventory.HasUpgrade(UpgradeTypes.SlingShotFlaming))
         {
 
         }

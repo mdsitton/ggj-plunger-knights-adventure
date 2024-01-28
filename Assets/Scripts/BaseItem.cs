@@ -31,7 +31,7 @@ public abstract class BaseItem : MonoBehaviour
     protected Rigidbody2D body;
     protected CircleCollider2D circleCollider;
 
-    public void Awake()
+    protected virtual void Awake()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         body = gameObject.GetComponent<Rigidbody2D>();
