@@ -52,20 +52,31 @@ public class Enemy : MonoBehaviour, IAttackable
 
     }
 
-    private bool FindPlayerInRadius(float radius)
+    private IAttackable FindPlayerInRadius(float radius)
     {
         var player = Physics2D.OverlapCircle(body.position, radius, playerMask);
         if (player == null)
         {
-            return false;
+            return null;
         }
         var attackable = player.gameObject.GetComponent<IAttackable>();
         if (attackable != null && attackable.EntityType == EntityType.Player)
         {
-            CurrentTarget = player.gameObject.GetComponent<IAttackable>();
-            return true;
+            Debug.Log("Found player in radius, attacking", gameObject);
+            return attackable;
         }
-        return false;
+        return null;
+    }
+    private void OnDrawGizmos()
+    {
+        OnDrawGizmosSelected();
+    }
+    void OnDrawGizmosSelected()
+    {
+        // Display the explosion radius when selected
+        Gizmos.color = Color.white;
+        //Vector3 offSetPosition = new Vector3(transform.position.x, transform.position.y -1, transform.position.z);
+        Gizmos.DrawWireSphere(transform.position, radius);
     }
 
     private State currentAttackState = State.Idle;
@@ -77,33 +88,23 @@ public class Enemy : MonoBehaviour, IAttackable
             {
                 case State.Idle:
                     yield return new WaitForSeconds(1f);
-                    // Debug.Log("Waiting...1 sec");
-                    if (!FindPlayerInRadius(5))
-                    {
-                        currentAttackState = State.Idle;
-                        // Debug.Log("In idle state");
-                        break;
-                    }
-                    else
-                    {
-                        currentAttackState = State.Search;
-                        // Debug.Log("Searching for player");
-                        break;
-                    }
+                    currentAttackState = State.Search;
+                    break;
+
                 //currentAttackState = State.Attack;
                 // //Debug.Log("In attack state");
                 // break;
                 case State.Search:
                     yield return new WaitForSeconds(0.25f);
-                    if (FindPlayerInRadius(5))
+                    var player = FindPlayerInRadius(radius);
+                    if (player == null)
                     {
-                        // Debug.Log("Player found");
-                        currentAttackState = State.Attack;
-                        break;
+                        currentAttackState = State.Search;
                     }
                     else
                     {
-                        currentAttackState = State.Search;
+                        currentAttackState = State.Attack;
+                        CurrentTarget = player;
                     }
                     break;
                 case State.Attack:
