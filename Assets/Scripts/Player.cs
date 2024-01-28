@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
+public class Player : MonoBehaviour, IAttackable
 {
     private Rigidbody2D body;
     private SpriteRenderer spriteRenderer;
@@ -28,7 +28,6 @@ public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
         controls.Enable();
         actions = controls.gameplay;
         knightAnim = GetComponent<Animator>();
-        controls.gameplay.SetCallbacks(this);
     }
 
     private void Update()
@@ -40,6 +39,7 @@ public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
 
         if (activeItem != null)
         {
+            // Rotate the item to face the movement direction
             activeItem.GameObject.transform.rotation = Quaternion.LookRotation(Vector3.forward, -moveDirection);
             activeItem.GameObject.transform.position = (transform.position + (Vector3)moveDirection * 0.3f) + Vector3.up * 0.3f;
             if (moveDirection.y > 0)
@@ -50,6 +50,68 @@ public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
             {
                 spriteRenderer.sortingOrder = 1;
             }
+
+            var primaryPressed = actions.ItemMainAction.WasPerformedThisFrame();
+            var primaryReleased = actions.ItemMainAction.WasReleasedThisFrame();
+
+            var secondaryPressed = actions.ItemMinorAction1.WasPressedThisFrame();
+            var secondaryReleased = actions.ItemMinorAction1.WasReleasedThisFrame();
+
+            var tertiaryPressed = actions.ItemMinorAction2.WasPressedThisFrame();
+            var tertiaryReleased = actions.ItemMinorAction2.WasReleasedThisFrame();
+
+            var quaternaryPressed = actions.ItemMinorAction3.WasPressedThisFrame();
+            var quaternaryReleased = actions.ItemMinorAction3.WasReleasedThisFrame();
+
+            if (primaryPressed)
+            {
+                DoItemAction(activeItem, ItemActions.Primary, true);
+            }
+            if (primaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Primary, false);
+            }
+
+            if (secondaryPressed)
+            {
+                DoItemAction(activeItem, ItemActions.Secondary, true);
+            }
+            if (secondaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Secondary, false);
+            }
+
+            if (tertiaryPressed)
+            {
+                DoItemAction(activeItem, ItemActions.Tertiary, true);
+            }
+            if (tertiaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Tertiary, false);
+            }
+
+            if (quaternaryPressed)
+            {
+                DoItemAction(activeItem, ItemActions.Quaternary, true);
+            }
+            if (quaternaryReleased)
+            {
+                DoItemAction(activeItem, ItemActions.Quaternary, false);
+            }
+
+            if (actions.SwitchItems.WasPressedThisFrame())
+            {
+                var swap = actions.SwitchItems.ReadValue<float>();
+
+                if (swap > 0)
+                {
+                    Inventory.SwapNextItem();
+                }
+                else if (swap < 0)
+                {
+                    Inventory.SwapPrevItem();
+                }
+            }
         }
 
         float v = moveDirection.y;
@@ -58,65 +120,13 @@ public class Player : MonoBehaviour, IAttackable, Controls.IGameplayActions
         knightAnim.SetFloat("HorizontalSpeed", h);
     }
 
-
-
-    public void OnMove(InputAction.CallbackContext context)
+    private void DoItemAction(IItem item, ItemActions itemAction, bool pressed)
     {
-    }
-
-    private void DoItemAction(InputAction.CallbackContext context, ItemActions itemAction)
-    {
-        var activeItem = Inventory.GetActiveItem();
-        if (activeItem != null)
+        if (pressed)
         {
-            if (context.performed)
-            {
-                WeaponUtilities.CheckWeaponInRange(activeItem);
-                activeItem.Use(this, itemAction, true);
-            }
-            else if (context.canceled)
-            {
-                activeItem.Use(this, itemAction, false);
-            }
+            WeaponUtilities.CheckWeaponInRange(item);
         }
-    }
-
-    public void OnItemMainAction(InputAction.CallbackContext context)
-    {
-        Debug.Log($"OnItemMainAction {context.performed} {context.canceled}");
-        DoItemAction(context, ItemActions.Primary);
-    }
-
-    public void OnItemMinorAction1(InputAction.CallbackContext context)
-    {
-        DoItemAction(context, ItemActions.Secondary);
-    }
-
-    public void OnItemMinorAction2(InputAction.CallbackContext context)
-    {
-        DoItemAction(context, ItemActions.Tertiary);
-    }
-
-    public void OnItemMinorAction3(InputAction.CallbackContext context)
-    {
-        DoItemAction(context, ItemActions.Quaternary);
-    }
-
-    public void OnSwitchItems(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            var swap = context.ReadValue<float>();
-
-            if (swap > 0)
-            {
-                Inventory.SwapNextItem();
-            }
-            else if (swap < 0)
-            {
-                Inventory.SwapPrevItem();
-            }
-        }
+        item.Use(this, itemAction, pressed);
     }
 
     public IAttackable CurrentTarget { get; set; }

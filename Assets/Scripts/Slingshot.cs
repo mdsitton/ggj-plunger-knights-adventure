@@ -16,38 +16,43 @@ public class SlingShot : BaseItem, IWeapon
     public int Damage => 5;
     public float Range => 2.5f;
 
-    private Repeater repeater;
+    private float timeSinceLastShot = 0f;
+
+    bool buttonPressed = false;
 
     protected override void Awake()
     {
-        repeater = new Repeater(Cooldown);
-        repeater.Pause();
         base.Awake();
+    }
+
+    private void Shoot()
+    {
+        if (timeSinceLastShot < Cooldown)
+        {
+            return;
+        }
+        var instance = Instantiate(projectilePrefab, transform.position, transform.rotation);
+        var projectile = instance.GetComponent<Projectile>();
+        projectile.ParentEntity = ParentEntity;
+        timeSinceLastShot = 0;
     }
 
     private void Update()
     {
-        repeater.Update();
-
-        if (repeater.HasTriggered())
+        timeSinceLastShot += Time.deltaTime;
+        if (buttonPressed)
         {
-            var instance = Instantiate(projectilePrefab, transform.position, transform.rotation);
-            var projectile = instance.GetComponent<Projectile>();
-            projectile.ParentEntity = ParentEntity;
+            Shoot();
         }
     }
 
     protected override void OnPrimary(bool active)
     {
+        buttonPressed = active;
         if (active)
         {
-            repeater.Reset();
+            Shoot();
         }
-        else
-        {
-            repeater.Pause();
-        }
-
     }
 
     protected override void OnSecondary(bool active)
@@ -70,7 +75,6 @@ public class SlingShot : BaseItem, IWeapon
 
     public override void Use(IEntity entityUsing, ItemActions itemAbility, bool active)
     {
-        Debug.Log($"{entityUsing} {itemAbility} {active}");
         // Non-players cannot use this item
         if (entityUsing.EntityType != EntityType.Player)
         {

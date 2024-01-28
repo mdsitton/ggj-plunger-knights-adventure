@@ -27,7 +27,6 @@ public class InventoryManager
         }
     }
 
-
     public void AddItemsImpl(List<IItem> itemList, IItem item)
     {
         if (itemList.Count == 0)
