@@ -4,59 +4,9 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-
-public enum AiState
-{
-    Idle,
-    Search,
-    Attack,
-    Dead
-}
-
-public interface IStateSystem
-{
-    (AiState nextState, float delayTime) OnIdleState(AiState previousState);
-    (AiState nextState, float delayTime) OnSearchState(AiState previousState);
-    (AiState nextState, float delayTime) OnAttackState(AiState previousState);
-    (AiState nextState, float delayTime) OnDeadState(AiState previousState);
-}
-
-public abstract class StateOneShot : MonoBehaviour
-{
-    public AiState runAtState;
-    private CurrentStateData stateData;
-
-    private bool isRunning = false;
-
-    public void OnStateDelegate(CurrentStateData stateData)
-    {
-        OnStateTrigger(stateData);
-        if (stateData.newState == runAtState)
-        {
-            isRunning = true;
-        }
-        else
-        {
-            isRunning = false;
-        }
-    }
-
-    public abstract void OnStateTrigger(CurrentStateData stateData);
-    public abstract void OnStateUpdate(CurrentStateData stateData);
-
-
-    private void Update()
-    {
-        if (isRunning)
-        {
-            OnStateUpdate(stateData);
-        }
-    }
-}
 
 public class CurrentStateData
 {
@@ -65,6 +15,7 @@ public class CurrentStateData
     public IEntity entity;
     public float idleDelay;
 }
+
 [RequireComponent(typeof(IStateSystem))]
 public class StateManager : MonoBehaviour
 {
