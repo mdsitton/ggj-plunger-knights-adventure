@@ -135,14 +135,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (28)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.309999
@@ -181,14 +173,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8700,14 +8684,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.08
@@ -8748,14 +8724,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8777,14 +8745,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8826,14 +8786,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8847,25 +8799,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8907,10 +8843,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8927,14 +8859,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8976,14 +8900,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9005,14 +8921,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9054,14 +8962,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9080,16 +8980,8 @@ PrefabInstance:
       value: BossTexturePlaceHolder (36)
       objectReference: {fileID: 0}
     - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: Health
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalScale.x
@@ -9147,14 +9039,6 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9171,14 +9055,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9220,14 +9096,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9241,18 +9109,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2086383757623935463, guid: 1628656377dc1c443a057fa58c5d43f7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086383757623935463, guid: 1628656377dc1c443a057fa58c5d43f7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086383757623935463, guid: 1628656377dc1c443a057fa58c5d43f7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.02
-      objectReference: {fileID: 0}
     - target: {fileID: 5236499935315868881, guid: 1628656377dc1c443a057fa58c5d43f7, type: 3}
       propertyPath: m_Name
       value: GreatMightyPrincess
@@ -9305,10 +9161,6 @@ PrefabInstance:
       propertyPath: Health
       value: 80
       objectReference: {fileID: 0}
-    - target: {fileID: 7593091306391589643, guid: 1628656377dc1c443a057fa58c5d43f7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9330,14 +9182,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9379,14 +9223,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9403,10 +9239,6 @@ PrefabInstance:
     - target: {fileID: 3648558197839417158, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_Name
       value: Roaches (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9465,14 +9297,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.75
@@ -9513,14 +9337,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9547,14 +9363,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9596,14 +9404,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9622,10 +9422,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (2)
@@ -9789,10 +9585,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (1)
@@ -9854,22 +9646,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roaches (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.480851
@@ -9909,10 +9685,6 @@ PrefabInstance:
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13669,14 +13441,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (26)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.73
@@ -13717,14 +13481,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13748,25 +13504,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13808,10 +13548,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13828,10 +13564,6 @@ PrefabInstance:
     - target: {fileID: 3648558197839417158, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_Name
       value: Roaches
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13890,14 +13622,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.14
@@ -13938,14 +13662,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13967,14 +13683,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14014,14 +13722,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14098,10 +13798,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roaches (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.73732
@@ -14170,10 +13866,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic
@@ -14391,14 +14083,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3872065712815004072, guid: 6e315289b2d403246a0b30e4a40e11fb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3872065712815004072, guid: 6e315289b2d403246a0b30e4a40e11fb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3872065712815004072, guid: 6e315289b2d403246a0b30e4a40e11fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.77
       objectReference: {fileID: 0}
@@ -14442,119 +14126,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plunger
       objectReference: {fileID: 0}
-    - target: {fileID: 6999162316309613178, guid: 6e315289b2d403246a0b30e4a40e11fb, type: 3}
-      propertyPath: m_SortingOrder
-      value: 12
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3872941412439047070, guid: 6e315289b2d403246a0b30e4a40e11fb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 826162344}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e315289b2d403246a0b30e4a40e11fb, type: 3}
---- !u!1 &826162343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3872941412439047070, guid: 6e315289b2d403246a0b30e4a40e11fb, type: 3}
-  m_PrefabInstance: {fileID: 826162342}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &826162344
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826162343}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e0e6b7664d1b344ebc12f5744e5a770, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &857916208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14570,6 +14146,10 @@ PrefabInstance:
     - target: {fileID: 4657356120164611705, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5192047719326054498, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
+      propertyPath: m_FlipY
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6461739013357737956, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14846,14 +14426,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.75
@@ -14894,14 +14466,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14918,14 +14482,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14965,14 +14521,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15175,14 +14723,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (33)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.240002
@@ -15221,14 +14761,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15325,22 +14857,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roaches (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.007635
@@ -15381,14 +14897,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8439541050912383360, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: attackRadius
-      value: 0.95
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15405,14 +14913,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15454,14 +14954,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15478,14 +14970,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15525,14 +15009,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15630,22 +15106,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roaches (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.041927
@@ -15685,10 +15145,6 @@ PrefabInstance:
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15835,25 +15291,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15894,10 +15334,6 @@ PrefabInstance:
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16043,16 +15479,8 @@ PrefabInstance:
       value: BossTexturePlaceHolder (35)
       objectReference: {fileID: 0}
     - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: Health
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalScale.x
@@ -16110,14 +15538,6 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16131,25 +15551,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16191,10 +15595,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16208,25 +15608,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16267,10 +15651,6 @@ PrefabInstance:
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16423,14 +15803,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.38
@@ -16471,14 +15843,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16495,14 +15859,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16542,14 +15898,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -21942,10 +21290,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -2285439338750546149, guid: 344b2970a8420d94292822c44ad11495, type: 3}
-      propertyPath: <Icon>k__BackingField
-      value: 
-      objectReference: {fileID: 1573801775, guid: 248ddfde9f1964f4c81306757bdfc445, type: 3}
     - target: {fileID: 3872065712815004072, guid: 344b2970a8420d94292822c44ad11495, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8291738
@@ -21993,112 +21337,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3872941412439047070, guid: 344b2970a8420d94292822c44ad11495, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1398213804}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 344b2970a8420d94292822c44ad11495, type: 3}
---- !u!1 &1398213803 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3872941412439047070, guid: 344b2970a8420d94292822c44ad11495, type: 3}
-  m_PrefabInstance: {fileID: 1398213802}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1398213804
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398213803}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e0e6b7664d1b344ebc12f5744e5a770, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1414906317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22185,14 +21425,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.88
@@ -22233,14 +21465,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22257,14 +21481,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22306,14 +21522,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22340,14 +21548,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22389,14 +21589,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22418,14 +21610,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22467,14 +21651,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22491,14 +21667,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22538,14 +21706,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22738,25 +21898,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22797,10 +21941,6 @@ PrefabInstance:
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22943,25 +22083,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067339152130744047, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2058128175732582371, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_Name
       value: HairBallistic (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23002,10 +22126,6 @@ PrefabInstance:
     - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6470375889905788146, guid: 978791f6eb3862749af10c0f9d74019c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23168,14 +22288,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (32)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.91
@@ -23216,14 +22328,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23240,14 +22344,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23287,14 +22383,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23392,14 +22480,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.58
@@ -23440,14 +22520,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23464,22 +22536,6 @@ PrefabInstance:
     - target: {fileID: 3648558197839417158, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_Name
       value: Roaches (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23520,10 +22576,6 @@ PrefabInstance:
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23613,14 +22665,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8299999
@@ -23659,14 +22703,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23758,14 +22794,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (30)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.81
@@ -23806,14 +22834,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23845,14 +22865,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23892,14 +22904,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23959,14 +22963,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23988,10 +22984,6 @@ PrefabInstance:
     - target: {fileID: 3648558197839417158, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_Name
       value: Roaches (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27635,14 +26627,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.84
@@ -27683,14 +26667,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27707,22 +26683,6 @@ PrefabInstance:
     - target: {fileID: 3648558197839417158, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_Name
       value: Roaches (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343781780336356571, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27764,10 +26724,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4945046373602536541, guid: 14b99a7f66713bf4d901373015c68c83, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27784,14 +26740,6 @@ PrefabInstance:
     - target: {fileID: 209126648110879220, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_Name
       value: BossTexturePlaceHolder (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27831,14 +26779,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -27980,14 +26920,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossTexturePlaceHolder (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: Damage
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310178205223385135, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: radius
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.75
@@ -28026,14 +26958,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3524363866262885337, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437796732021995545, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: actionList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9009682347755283028, guid: 6f373fdf3cdeea240b2662691c423066, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -28264,222 +27188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: THIS IS PLAYER
       objectReference: {fileID: 0}
-    - target: {fileID: 8014594428313449130, guid: 0024ba273429f21469cd156e22a161ef, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8014594428313449130, guid: 0024ba273429f21469cd156e22a161ef, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4368868533878078140, guid: 0024ba273429f21469cd156e22a161ef, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6012761934934805776}
-    - targetCorrespondingSourceObject: {fileID: 4368868533878078140, guid: 0024ba273429f21469cd156e22a161ef, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6012761934934805775}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0024ba273429f21469cd156e22a161ef, type: 3}
---- !u!1 &6012761934934805774 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4368868533878078140, guid: 0024ba273429f21469cd156e22a161ef, type: 3}
-  m_PrefabInstance: {fileID: 6012761934934805773}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &6012761934934805775
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6012761934934805774}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dff3bb6d93a730a4dbc136771347ca0d, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &6012761934934805776
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6012761934934805774}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 95a2ba5c007be5746a564659e2a98d7d, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &9074194209867735496
 GameObject:
   m_ObjectHideFlags: 0
