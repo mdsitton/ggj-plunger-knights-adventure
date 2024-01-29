@@ -1,9 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public enum AiState
 {
@@ -94,6 +98,22 @@ public class StateManager : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        if (currentStateData == null)
+        {
+            return;
+        }
+        GUIStyle style = new GUIStyle();
+        style.normal.textColor = Color.green;
+        style.fontSize = 40;
+        style.fontStyle = FontStyle.Bold;
+        style.alignment = TextAnchor.MiddleCenter;
+        Handles.Label(transform.position + (-transform.up * 0.3f), $"{currentStateData.newState} {idleTimer:0.00}", style);
+    }
+#endif
+
     private void Update()
     {
         idleTimer += Time.deltaTime;
@@ -125,7 +145,6 @@ public class StateManager : MonoBehaviour
                 (currentStateData.newState, currentStateData.idleDelay) = stateSystem.OnDeadState(currentStateData.previousState);
                 break;
         }
-        // Debug.Log($"{currentStateData.previousState} -> {currentStateData.newState}");
 
         foreach (var state in stateCallbacks[(int)currentStateData.newState])
         {
