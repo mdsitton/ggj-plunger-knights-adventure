@@ -9488,10 +9488,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinkDoor (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4657356120164611705, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6461739013357737956, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -14143,14 +14139,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinkDoor
       objectReference: {fileID: 0}
-    - target: {fileID: 4657356120164611705, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5192047719326054498, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6461739013357737956, guid: 73fb32c18d0e6574987c4978b2dd9e6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -14334,18 +14322,6 @@ PrefabInstance:
       value: OnceAGreatMasterMind
       objectReference: {fileID: 0}
     - target: {fileID: 4101459807954668477, guid: fe243185b2ea23f40acee84acfd10397, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101459807954668477, guid: fe243185b2ea23f40acee84acfd10397, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101459807954668477, guid: fe243185b2ea23f40acee84acfd10397, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101459807954668477, guid: fe243185b2ea23f40acee84acfd10397, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.75
       objectReference: {fileID: 0}
@@ -14384,10 +14360,6 @@ PrefabInstance:
     - target: {fileID: 4101459807954668477, guid: fe243185b2ea23f40acee84acfd10397, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101459807954668477, guid: fe243185b2ea23f40acee84acfd10397, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14536,10 +14508,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3046495622726913707, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4346575509117557799, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -14583,10 +14551,6 @@ PrefabInstance:
     - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_Name
       value: YellowDoor (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15025,18 +14989,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 419287607}
     m_Modifications:
     - target: {fileID: 428030469235611836, guid: 585686d9b82249a43bc9c3972fa4459c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 428030469235611836, guid: 585686d9b82249a43bc9c3972fa4459c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 428030469235611836, guid: 585686d9b82249a43bc9c3972fa4459c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 428030469235611836, guid: 585686d9b82249a43bc9c3972fa4459c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.75
       objectReference: {fileID: 0}
@@ -15075,10 +15027,6 @@ PrefabInstance:
     - target: {fileID: 428030469235611836, guid: 585686d9b82249a43bc9c3972fa4459c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428030469235611836, guid: 585686d9b82249a43bc9c3972fa4459c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3471525277240996343, guid: 585686d9b82249a43bc9c3972fa4459c, type: 3}
       propertyPath: m_Name
@@ -15226,10 +15174,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3046495622726913707, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4346575509117557799, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8
@@ -15273,10 +15217,6 @@ PrefabInstance:
     - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_Name
       value: YellowDoor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15351,10 +15291,6 @@ PrefabInstance:
     - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_Name
       value: BlueDoor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3810706095963859092, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15943,10 +15879,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3046495622726913707, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4346575509117557799, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8
@@ -15990,10 +15922,6 @@ PrefabInstance:
     - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_Name
       value: YellowDoor (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21204,29 +21132,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 419287607}
     m_Modifications:
-    - target: {fileID: 2415899556872448320, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2489865239159238344, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6705075851731502175, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_Name
       value: InvaderDoor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21234,7 +21142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -37
+      value: -37.27
       objectReference: {fileID: 0}
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21267,10 +21175,6 @@ PrefabInstance:
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22141,18 +22045,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 419287607}
     m_Modifications:
     - target: {fileID: 3920465527416406947, guid: 1d67c317e8644204880a818fc1f3c937, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3920465527416406947, guid: 1d67c317e8644204880a818fc1f3c937, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3920465527416406947, guid: 1d67c317e8644204880a818fc1f3c937, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3920465527416406947, guid: 1d67c317e8644204880a818fc1f3c937, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -22192,10 +22084,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3920465527416406947, guid: 1d67c317e8644204880a818fc1f3c937, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4247892999455272550, guid: 1d67c317e8644204880a818fc1f3c937, type: 3}
       propertyPath: m_Name
       value: MRFishFish
@@ -22221,10 +22109,6 @@ PrefabInstance:
     - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_Name
       value: BlueDoor (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3810706095963859092, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22399,18 +22283,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 419287607}
     m_Modifications:
     - target: {fileID: 1694722920239688901, guid: 102296cb061353b4dbe43a4f52e4d681, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1694722920239688901, guid: 102296cb061353b4dbe43a4f52e4d681, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1694722920239688901, guid: 102296cb061353b4dbe43a4f52e4d681, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1694722920239688901, guid: 102296cb061353b4dbe43a4f52e4d681, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -22449,10 +22321,6 @@ PrefabInstance:
     - target: {fileID: 1694722920239688901, guid: 102296cb061353b4dbe43a4f52e4d681, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1694722920239688901, guid: 102296cb061353b4dbe43a4f52e4d681, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4968562244732288876, guid: 102296cb061353b4dbe43a4f52e4d681, type: 3}
       propertyPath: m_Name
@@ -22598,10 +22466,6 @@ PrefabInstance:
     - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_Name
       value: BlueDoor (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2786289931389553329, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3810706095963859092, guid: 8121be94a4d021e46bf213cea4b514a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26794,10 +26658,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3046495622726913707, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4346575509117557799, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16
@@ -26841,10 +26701,6 @@ PrefabInstance:
     - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
       propertyPath: m_Name
       value: YellowDoor (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321311223611742827, guid: 0fd0c5e261bcb6c43a4586ebdde35bc9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26988,29 +26844,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 419287607}
     m_Modifications:
-    - target: {fileID: 2415899556872448320, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2489865239159238344, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6705075851731502175, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_Name
       value: InvaderDoor
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27018,7 +26854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -37
+      value: -37.26
       objectReference: {fileID: 0}
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27051,10 +26887,6 @@ PrefabInstance:
     - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 7601026280132778383, guid: 5d466a4c887636249973750b70bc0c61, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
