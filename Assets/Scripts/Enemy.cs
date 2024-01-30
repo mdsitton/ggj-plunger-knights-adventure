@@ -38,11 +38,11 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
     private void Update()
     {
         // Move in a circle for testing
-        angle += speed * Time.deltaTime;
-        float x = Mathf.Cos(angle) * radius;
-        float y = Mathf.Sin(angle) * radius;
-        Vector2 newPosition = startingPostion + new Vector2(x, y);
-        body.MovePosition(newPosition);
+        // angle += speed * Time.deltaTime;
+        // float x = Mathf.Cos(angle) * radius;
+        // float y = Mathf.Sin(angle) * radius;
+        // Vector2 newPosition = startingPostion + new Vector2(x, y);
+        // body.MovePosition(newPosition);
     }
 
     public IAttackable CurrentTarget { get; set; }
