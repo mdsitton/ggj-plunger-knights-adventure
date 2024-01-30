@@ -23,7 +23,7 @@ public class PlayAudio : StateOneShot
         // if (timer > loopDelay)
         // {
         audioSource.Play();
-        Debug.Log("Playing audio");
+        // Debug.Log("Playing audio");
         // }
     }
 

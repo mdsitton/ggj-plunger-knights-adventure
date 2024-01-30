@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 3808441198220543414}
   - component: {fileID: 1301833420964248204}
   - component: {fileID: 4637041576385129107}
+  - component: {fileID: 164153494712601764}
   m_Layer: 8
   m_Name: Roaches
   m_TagString: Untagged
@@ -410,6 +411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 0
   speed: 5
+  MinMoveDistance: 1
 --- !u!114 &4637041576385129107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,3 +427,17 @@ MonoBehaviour:
   runAtState: 2
   audioSource: {fileID: -6794247648824760674}
   loopDelay: 1
+--- !u!114 &164153494712601764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3648558197839417158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0381bb8acc550474a8f47b88266e265c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 2
+  speed: 7

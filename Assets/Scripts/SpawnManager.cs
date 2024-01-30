@@ -16,15 +16,15 @@ public class SpawnManager : MonoBehaviour
             enemiesAlive[i] = keepTrackOfEnemiesList[i].activeSelf;
         }
     }
-    
+
     private void LateUpdate()//No need check every Update
     {
-        Debug.Log("Are All Enimes being Track Dead = " + NoEnemiesAlive().ToString());
+        // Debug.Log("Are All Enimes being Track Dead = " + NoEnemiesAlive().ToString());
         //if Enimes all Die and Keeping Track List is not Empty
         if (NoEnemiesAlive() == true && keepTrackOfEnemiesList[0] != null)
         {
-            Debug.Log("Are All Enimes being Track Finally Died = " + NoEnemiesAlive().ToString());
-            Debug.Log("Game Over or Player Wins");
+            // Debug.Log("Are All Enimes being Track Finally Died = " + NoEnemiesAlive().ToString());
+            // Debug.Log("Game Over or Player Wins");
             SceneManager.LoadScene(2);
         }
     }
@@ -50,7 +50,7 @@ public class SpawnManager : MonoBehaviour
         return allEnemiesDied;
 
         //This returs game wincodintion if any of Monster are dead
-       // bool CurrentCondition = enemiesAlive.All(x => x);
-       // return CurrentCondition;
+        // bool CurrentCondition = enemiesAlive.All(x => x);
+        // return CurrentCondition;
     }
 }

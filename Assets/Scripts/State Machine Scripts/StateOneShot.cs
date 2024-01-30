@@ -13,14 +13,7 @@ public abstract class StateOneShot : MonoBehaviour
     public void OnStateDelegate(CurrentStateData stateData)
     {
         OnStateTrigger(stateData);
-        if (stateData.newState == runAtState)
-        {
-            isRunning = true;
-        }
-        else
-        {
-            isRunning = false;
-        }
+        this.stateData = stateData;
     }
 
     public abstract void OnStateTrigger(CurrentStateData stateData);
@@ -28,7 +21,7 @@ public abstract class StateOneShot : MonoBehaviour
 
     private void Update()
     {
-        if (isRunning)
+        if (stateData != null && stateData.newState == runAtState)
         {
             OnStateUpdate(stateData);
         }

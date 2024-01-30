@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6510913403832857130}
   - component: {fileID: 7195530313662279515}
   - component: {fileID: 5999618198685283254}
+  - component: {fileID: 7605687669069308340}
   m_Layer: 8
   m_Name: MRFishFish
   m_TagString: Untagged
@@ -111,6 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 0
   speed: 5
+  MinMoveDistance: 1
 --- !u!212 &6510913403832857130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -308,3 +310,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7605687669069308340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247892999455272550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0381bb8acc550474a8f47b88266e265c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 2
+  speed: 6

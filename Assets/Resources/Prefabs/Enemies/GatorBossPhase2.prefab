@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6405697486425586559}
   - component: {fileID: 8201915501058265632}
   - component: {fileID: 8612970172674113537}
+  - component: {fileID: 1041951762342602971}
   m_Layer: 8
   m_Name: GatorBossPhase2
   m_TagString: Untagged
@@ -312,3 +313,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 0
   speed: 5
+  MinMoveDistance: 1
+--- !u!114 &1041951762342602971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3471525277240996343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0381bb8acc550474a8f47b88266e265c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 2
+  speed: 6

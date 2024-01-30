@@ -108,14 +108,13 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
             return (AiState.Idle, 0.25f);
         }
 
-        var state = AiState.Attack;
         if (CurrentTarget.TakeDamage(this, Damage))
         {
-            state = AiState.Idle;
+            // Other is dead
             CurrentTarget = null;
+            return (AiState.Idle, 0.25f);
         }
-        state = AiState.Attack;
-        return (state, AttackCooldown);
+        return (AiState.Attack, AttackCooldown);
     }
 
     public (AiState nextState, float delayTime) OnDeadState(AiState previousState)

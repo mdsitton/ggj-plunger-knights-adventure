@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -8845466165321737627}
   - component: {fileID: 3813627877776082579}
   - component: {fileID: 4360897406446803185}
+  - component: {fileID: 8533090908056224896}
   m_Layer: 8
   m_Name: HairBallistic
   m_TagString: Untagged
@@ -407,6 +408,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 0
   speed: 5
+  MinMoveDistance: 1
+--- !u!114 &8533090908056224896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058128175732582371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0381bb8acc550474a8f47b88266e265c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 2
+  speed: 6
 --- !u!1 &4161785146532616845
 GameObject:
   m_ObjectHideFlags: 0

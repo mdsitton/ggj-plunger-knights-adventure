@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6690344825384070666}
   - component: {fileID: 4598267621146506471}
   - component: {fileID: 7950974034250066045}
+  - component: {fileID: 2338820595576511970}
   m_Layer: 8
   m_Name: MoldSlime
   m_TagString: Untagged
@@ -212,6 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 0
   speed: 5
+  MinMoveDistance: 1
 --- !u!82 &7950974034250066045
 AudioSource:
   m_ObjectHideFlags: 0
@@ -308,3 +310,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2338820595576511970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574487320910389743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0381bb8acc550474a8f47b88266e265c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runAtState: 2
+  speed: 6

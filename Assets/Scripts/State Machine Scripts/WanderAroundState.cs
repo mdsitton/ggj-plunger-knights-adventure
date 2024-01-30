@@ -44,6 +44,7 @@ public class WanderAroundState : StateOneShot
         }
 
         MoveTowardsPoint(targetPoint);
+        Debug.Log("Wandering around");
     }
 
     private void OnCollisionEnter2D(Collision2D other)
