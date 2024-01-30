@@ -102,7 +102,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
             return (AiState.Idle, 0.25f);
         }
 
-        if (Vector2.Distance(body.position, CurrentTarget.GameObject.transform.position) > radius)
+        if (wasProjectile == false && Vector2.Distance(body.position, CurrentTarget.GameObject.transform.position) > radius)
         {
             CurrentTarget = null;
             return (AiState.Idle, 0.25f);
@@ -125,6 +125,8 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         return (AiState.Dead, 0f);
     }
 
+    private bool wasProjectile = false;
+
     void OnCollisionEnter2D(Collision2D other)
     {
         // If we hit an enemy target it
@@ -135,6 +137,14 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
                 CurrentTarget = attackable;
                 // Debug.Log(this.gameObject.name + " is Game is attacking " + other.gameObject.name);
             }
+        }
+
+        if (other.gameObject.TryGetComponent<Projectile>(out var projectile) && projectile.ParentEntity is IAttackable attck)
+        {
+            CurrentTarget = attck;
+            stateManager.ChangeState(AiState.Attack);
+            // TODO - add a timeout for how long enemy will chase player
+            wasProjectile = true;
         }
     }
 
