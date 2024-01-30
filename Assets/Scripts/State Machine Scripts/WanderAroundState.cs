@@ -44,16 +44,11 @@ public class WanderAroundState : StateOneShot
         }
 
         MoveTowardsPoint(targetPoint);
-        Debug.Log("Wandering around");
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         targetPoint = RandomPointInRadius();
-        // // only pick a new point if we don't collide with enemy/player
-        // if ((other.gameObject.layer & enemyMask) != 0)
-        // {
-        // }
     }
 
     private float rotationSpeed = 9000f; // rotate  degrees per second

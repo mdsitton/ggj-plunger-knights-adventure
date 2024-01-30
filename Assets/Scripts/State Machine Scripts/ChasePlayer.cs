@@ -19,7 +19,6 @@ public class ChasePlayer : StateOneShot
     public override void OnStateTrigger(CurrentStateData stateData)
     {
         currentTarget = stateData.entity.CurrentTarget;
-        Debug.Log("Set player target");
     }
 
     public override void OnStateUpdate(CurrentStateData stateData)
@@ -27,7 +26,6 @@ public class ChasePlayer : StateOneShot
         if (currentTarget != null)
         {
             MoveTowardsPoint(currentTarget.GameObject.transform.position);
-            Debug.Log("Chasing player");
         }
     }
 
