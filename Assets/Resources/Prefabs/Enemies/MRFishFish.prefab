@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7195530313662279515}
   - component: {fileID: 5999618198685283254}
   - component: {fileID: 7605687669069308340}
+  - component: {fileID: 267513516135011565}
   m_Layer: 8
   m_Name: MRFishFish
   m_TagString: Untagged
@@ -324,3 +325,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 2
   speed: 6
+--- !u!114 &267513516135011565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247892999455272550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b5fa0fc7a90224a99cea466688e9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

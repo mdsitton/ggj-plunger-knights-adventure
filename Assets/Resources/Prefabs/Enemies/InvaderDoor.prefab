@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4900423505410718960}
   - component: {fileID: 3210087534170268245}
   - component: {fileID: 3850663884516228748}
+  - component: {fileID: 6598102495440381439}
   m_Layer: 8
   m_Name: InvaderDoor
   m_TagString: Untagged
@@ -324,3 +325,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 2
   speed: 6
+--- !u!114 &6598102495440381439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6705075851731502175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b5fa0fc7a90224a99cea466688e9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

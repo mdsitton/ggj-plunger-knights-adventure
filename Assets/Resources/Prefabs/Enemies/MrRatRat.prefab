@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5603430260683188001}
   - component: {fileID: 5615945561403743288}
   - component: {fileID: 1467424780630361055}
+  - component: {fileID: 3051796263480023094}
   m_Layer: 8
   m_Name: MrRatRat
   m_TagString: Untagged
@@ -324,3 +325,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 2
   speed: 6
+--- !u!114 &3051796263480023094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4968562244732288876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b5fa0fc7a90224a99cea466688e9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

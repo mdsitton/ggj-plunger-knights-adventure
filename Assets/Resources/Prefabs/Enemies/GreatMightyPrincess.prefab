@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7443709658169277507}
   - component: {fileID: 3596462396686960063}
   - component: {fileID: 8222692137706802320}
+  - component: {fileID: 1764555250931324892}
   m_Layer: 8
   m_Name: GreatMightyPrincess
   m_TagString: Untagged
@@ -329,3 +330,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 2
   speed: 6
+--- !u!114 &1764555250931324892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236499935315868881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b5fa0fc7a90224a99cea466688e9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

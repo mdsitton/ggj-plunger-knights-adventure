@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4598267621146506471}
   - component: {fileID: 7950974034250066045}
   - component: {fileID: 2338820595576511970}
+  - component: {fileID: 770969368244705637}
   m_Layer: 8
   m_Name: MoldSlime
   m_TagString: Untagged
@@ -324,3 +325,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAtState: 2
   speed: 6
+--- !u!114 &770969368244705637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574487320910389743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b5fa0fc7a90224a99cea466688e9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
