@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 4637041576385129107}
   - component: {fileID: 164153494712601764}
   - component: {fileID: 384051401407820952}
+  - component: {fileID: 7045741457368582007}
   m_Layer: 8
   m_Name: Roaches
   m_TagString: Untagged
@@ -454,3 +455,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b5fa0fc7a90224a99cea466688e9bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7045741457368582007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3648558197839417158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcb784ed0b1c264abe95488ecdb65d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemToDrop: {fileID: 6866632971159611145, guid: b8b271f3a8c87a2459fae7743e88033d, type: 3}
