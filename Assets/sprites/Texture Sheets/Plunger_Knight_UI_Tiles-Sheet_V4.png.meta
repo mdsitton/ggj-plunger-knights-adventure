@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: 97f218846f93b004b9cb4b1eb4527721
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game_Over_V4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 455
+        width: 192
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f074084ea0e1f40b0b1e81e188364d
+      internalID: -1415071585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You_Win_V4
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 456
+        width: 192
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4b77559b8d2c740af7d1160bf11cb4
+      internalID: 1709940073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Button_Blue_V4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 359
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc44a41413b83b84fa7708dfc23ba735
+      internalID: 579953351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particles_Blue_V4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 407
+        width: 144
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfffaf698811f6946b066b9ef19d8c02
+      internalID: 1516128454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Button_White_V4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 360
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254cb71c6421bbe4cb6fae5b2e351dff
+      internalID: -577900510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Knight_V4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 423
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e27d2a0733a474cbf5955654cf3293
+      internalID: 56856288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particles_White_V4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 359
+        width: 144
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e5d59d73bb4e94a826f4a47a89f70a
+      internalID: 216408311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: How_To_Play_V4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 192
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4defd3d9ad1860e46ab473f7579b47cc
+      internalID: 1380776661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game_Over_V4: -1415071585
+      How_To_Play_V4: 1380776661
+      Particles_Blue_V4: 1516128454
+      Particles_White_V4: 216408311
+      Plunger_Knight_UI_Tiles-Sheet_V4_12: -1293092237
+      Plunger_Knight_UI_Tiles-Sheet_V4_13: 1338496371
+      Plunger_Knight_UI_Tiles-Sheet_V4_14: -792691044
+      Plunger_Knight_UI_Tiles-Sheet_V4_16: -626407316
+      Plunger_Knight_UI_Tiles-Sheet_V4_17: 602063829
+      Plunger_Knight_UI_Tiles-Sheet_V4_18: -1195778792
+      Plunger_Knight_UI_Tiles-Sheet_V4_19: 1491919465
+      Plunger_Knight_UI_Tiles-Sheet_V4_20: -450556551
+      Plunger_Knight_UI_Tiles-Sheet_V4_21: -283101881
+      Plunger_Knight_UI_Tiles-Sheet_V4_22: -745744939
+      Plunger_Knight_UI_Tiles-Sheet_V4_23: -250926901
+      Plunger_Knight_UI_Tiles-Sheet_V4_24: 1443646226
+      Plunger_Knight_UI_Tiles-Sheet_V4_25: 687909725
+      Plunger_Knight_UI_Tiles-Sheet_V4_26: -976189741
+      Plunger_Knight_UI_Tiles-Sheet_V4_4: -397439329
+      Plunger_Knight_UI_Tiles-Sheet_V4_5: -1852445288
+      Plunger_Knight_UI_Tiles-Sheet_V4_6: 1531267549
+      Plunger_Knight_UI_Tiles-Sheet_V4_7: 826368966
+      Plunger_Knight_UI_Tiles-Sheet_V4_8: 1577553014
+      Plunger_Knight_UI_Tiles-Sheet_V4_9: 204028950
+      UI_Button_Blue_V4: 579953351
+      UI_Button_White_V4: -577900510
+      UI_Knight_V4: 56856288
+      You_Win_V4: 1709940073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
