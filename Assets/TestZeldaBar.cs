@@ -8,10 +8,20 @@ public class TestZeldaBar : MonoBehaviour
     public int total;
     public float doDamage;
 
+    public Player player;
     private void Start()
     {
-        ZeldaStyleHealthBar.instance.SetupHearts(total);
+        ConvertHealth();
         ZeldaStyleHealthBar.instance.RemoveHearths(doDamage);
     }
 
+    private void Update()
+    {
+        ZeldaStyleHealthBar.instance.SetCurrentHealth((float)player.Health / total);
+    }
+
+    void ConvertHealth()
+    {
+        ZeldaStyleHealthBar.instance.SetupHearts(player.Health / total); 
+    }
 }

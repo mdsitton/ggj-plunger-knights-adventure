@@ -9689,7 +9689,6 @@ Transform:
   - {fileID: 879827126}
   - {fileID: 1571607965}
   - {fileID: 1687974993}
-  - {fileID: 5438653566975513959}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &435634523
@@ -27914,11 +27913,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 419287607}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1678316723682567907, guid: cdf22efcf94ea614889678293a4121bc, type: 3}
       propertyPath: m_Name
       value: Point Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678316723682567907, guid: cdf22efcf94ea614889678293a4121bc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8338188686944969481, guid: cdf22efcf94ea614889678293a4121bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28361,11 +28364,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5438653566975513959 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8338188686944969481, guid: cdf22efcf94ea614889678293a4121bc, type: 3}
-  m_PrefabInstance: {fileID: 1035640852047175984}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6012761934934805773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33312,14 +33310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heartCointainerPrefab: {fileID: 3061781017623358766, guid: 804b6d86cd4566d43b52dfb0857ad506, type: 3}
-  heartContainers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  heartContainers: []
 --- !u!114 &8626558115353085073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33332,8 +33323,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19b3cdde8883204f86baef09a8a5eae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  total: 7
-  doDamage: 2.75
+  total: 10
+  doDamage: 0
+  player: {fileID: 1286075122}
 --- !u!1 &9074194209867735496
 GameObject:
   m_ObjectHideFlags: 0
@@ -33400,6 +33392,7 @@ SceneRoots:
   - {fileID: 1964960755}
   - {fileID: 1746770787}
   - {fileID: 1162604350}
+  - {fileID: 1035640852047175984}
   - {fileID: 419287607}
   - {fileID: 3872065712489476165}
   - {fileID: 1798740564}
