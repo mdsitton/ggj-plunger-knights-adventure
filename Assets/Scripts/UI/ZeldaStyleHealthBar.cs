@@ -13,7 +13,7 @@ public class ZeldaStyleHealthBar : MonoBehaviour
     float currentHeart;
     HearthContainer currentContainer;
 
-    private void Awake()
+    private void Start()
     {
         if (instance == null)
             instance = this;
@@ -39,6 +39,7 @@ public class ZeldaStyleHealthBar : MonoBehaviour
             {
                 currentContainer.next = newHeart.GetComponent<HearthContainer>();
             }
+            currentContainer = newHeart.GetComponent<HearthContainer>();
         }
         currentContainer = heartContainers[0].GetComponent<HearthContainer>();
     }

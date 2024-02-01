@@ -10021,6 +10021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bcb784ed0b1c264abe95488ecdb65d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemToDrop: {fileID: 0}
 --- !u!1 &569530587
 GameObject:
   m_ObjectHideFlags: 0
@@ -33332,6 +33333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   total: 7
+  doDamage: 2.75
 --- !u!1 &9074194209867735496
 GameObject:
   m_ObjectHideFlags: 0

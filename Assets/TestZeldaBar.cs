@@ -6,10 +6,12 @@ using UnityEngine;
 public class TestZeldaBar : MonoBehaviour
 {
     public int total;
+    public float doDamage;
 
     private void Start()
     {
         ZeldaStyleHealthBar.instance.SetupHearts(total);
+        ZeldaStyleHealthBar.instance.RemoveHearths(doDamage);
     }
 
 }
