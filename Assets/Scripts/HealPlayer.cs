@@ -14,7 +14,7 @@ public class HealPlayer : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<IAttackable>(out var attackable))
         {
-            attackable.TakeDamage(ParentEntity, (-1*healHP));
+            attackable.TakeDamage(ParentEntity, (-1 * healHP));
         }
         //this.gameObject.GetComponent<Collider2D>().enabled = false;
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
@@ -22,7 +22,7 @@ public class HealPlayer : MonoBehaviour
         //Destroy(gameObject);
     }
 
-    private void OnCollisionExit2D(Collision collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         Destroy(this.gameObject);
     }
