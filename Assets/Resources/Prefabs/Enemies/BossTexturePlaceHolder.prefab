@@ -452,4 +452,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bcb784ed0b1c264abe95488ecdb65d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemToDrop: {fileID: 1311183979274284516, guid: c1e5c8c8e90643b4cb3eea76a04346e1, type: 3}
+  itemToDrop: {fileID: 7455030819645226702, guid: c1e5c8c8e90643b4cb3eea76a04346e1, type: 3}
