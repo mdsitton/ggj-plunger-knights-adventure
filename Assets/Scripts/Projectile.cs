@@ -33,5 +33,4 @@ public class Projectile : MonoBehaviour
         // Always destory when colliding with something
         Destroy(gameObject);
     }
-
 }

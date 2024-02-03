@@ -20,7 +20,7 @@ public class WanderAroundState : StateOneShot
         body = GetComponent<Rigidbody2D>();
         var enemy = GetComponent<Enemy>();
         speed = enemy.speed;
-        radius = enemy.radius;
+        radius = enemy.AttackRadius;
         enemyMask = LayerMask.GetMask("Enemy", "Player");
         startingPostion = body.position;
         targetPoint = RandomPointInRadius();

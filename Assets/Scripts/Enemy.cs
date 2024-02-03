@@ -12,12 +12,15 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
     private Rigidbody2D body;
 
     public float speed = 5f;
-    public float radius = 2f;
+    public float AttackRadius = 2f;
     public float angle = 0f;
 
     public int Damage = 10;
     public int Health = 40;
     public float AttackCooldown = 0.5f;
+
+    public float AgroRange = 1.5f;
+    public float DeagroRange = 3f;
 
     public StateManager stateManager;
 
@@ -73,9 +76,8 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         // Display the explosion radius when selected
         Gizmos.color = Color.white;
         //Vector3 offSetPosition = new Vector3(transform.position.x, transform.position.y -1, transform.position.z);
-        Gizmos.DrawWireSphere(transform.position, radius);
+        Gizmos.DrawWireSphere(transform.position, AttackRadius);
     }
-
 
     public (AiState nextState, float delayTime) OnIdleState(AiState previousState)
     {
@@ -84,7 +86,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
 
     public (AiState nextState, float delayTime) OnSearchState(AiState previousState)
     {
-        var player = FindPlayerInRadius(radius);
+        var player = FindPlayerInRadius(AgroRange);
         // Debug.Log($"player in radius {player}", gameObject);
         if (player == null)
         {
@@ -102,13 +104,15 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
             return (AiState.Idle, 0.25f);
         }
 
-        if (wasProjectile == false && Vector2.Distance(body.position, CurrentTarget.GameObject.transform.position) > radius)
+        var distance = Vector2.Distance(body.position, CurrentTarget.GameObject.transform.position);
+
+        if (wasProjectile == false && distance > DeagroRange)
         {
             CurrentTarget = null;
             return (AiState.Idle, 0.25f);
         }
 
-        if (CurrentTarget.TakeDamage(this, Damage))
+        if (distance < AttackRadius && CurrentTarget.TakeDamage(this, Damage))
         {
             // Other is dead
             CurrentTarget = null;
@@ -142,9 +146,12 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         if (other.gameObject.TryGetComponent<Projectile>(out var projectile) && projectile.ParentEntity is IAttackable attck)
         {
             CurrentTarget = attck;
-            stateManager.ChangeState(AiState.Attack);
-            // TODO - add a timeout for how long enemy will chase player
-            wasProjectile = true;
+            if (stateManager.CurrentStateData.newState != AiState.Dead)
+            {
+                stateManager.ChangeState(AiState.Attack);
+                // TODO - add a timeout for how long enemy will chase player
+                wasProjectile = true;
+            }
         }
     }
 
@@ -160,7 +167,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         {
             return true;
         }
-        // Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
+        Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
         if (isActiveAndEnabled)
         {

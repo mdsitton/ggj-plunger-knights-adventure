@@ -169,8 +169,6 @@ public class Player : MonoBehaviour, IAttackable
         return false;
     }
 
-
-
     public IEnumerator TurnRed()
     {
         spriteRenderer.color = Color.red;

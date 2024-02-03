@@ -188,11 +188,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.2
-  radius: 0.95
+  AttackRadius: 2
   angle: 0
   Damage: 2
   Health: 15
   AttackCooldown: 0.5
+  AgroRange: 1
+  DeagroRange: 4
   stateManager: {fileID: 0}
   isInRange: 0
 --- !u!82 &-6794247648824760674

@@ -29,6 +29,8 @@ public class StateManager : MonoBehaviour
 
     float idleTimer = 0f;
 
+    public CurrentStateData CurrentStateData => currentStateData;
+
     private void Start()
     {
         currentStateData = new CurrentStateData();
@@ -106,6 +108,7 @@ public class StateManager : MonoBehaviour
     public void ChangeState(AiState newState)
     {
         currentStateData.newState = newState;
+        Debug.Log($"Changing state to {newState}");
     }
 
 }
