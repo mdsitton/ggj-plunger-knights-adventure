@@ -1,0 +1,7268 @@
+fileFormatVersion: 2
+guid: 538ce761408f1b74b8c6a5534d052ea9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df3487b98297ca4e85b47bfe4ec183c
+      internalID: 1780893045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4e36cf30246b14187897b16e4c8271
+      internalID: -57745132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d276f1689ee71b48ba8ca22466d795b
+      internalID: -525636101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5adfb5ac8b80542adefc5be8b95205
+      internalID: 1714425715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e48986d94ff548a6aff7d80a9a30f
+      internalID: 1603756400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29cb6c4acde07e4cb574659e9e773a1
+      internalID: 1929047620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d8b725a6faab542898542737be4c06
+      internalID: 1000636925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec930ae7ab47544e88617212fc3ea13
+      internalID: 1874033930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9a8571132c00f4e80e9728770c256b
+      internalID: 984339284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5b31620af2cba4aa21aeb6df06fb03
+      internalID: -1783726380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_10
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bc9f5b2f0212a44b66ece28c1aca10
+      internalID: -588789790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d7840adc80de14ea3298bf050b3b98
+      internalID: 1524089331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_12
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abc8f6cf6a15564bb93277e16dabf87
+      internalID: -1962838599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eed7d4490e976d4d913453a5329eeac
+      internalID: 925391643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f679ae2696111ca468b1dd83c4a7d22b
+      internalID: 986755640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a7bfb7a2e8dfe478a221360edd6c48
+      internalID: 863018083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_16
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6821f6f1e930704e92145c4ac3b56e8
+      internalID: 641644478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_17
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2876ebe605b46f547a95cc7ae98ed590
+      internalID: -1160123201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_18
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b14418a1d3d0c4493822fd60437868
+      internalID: -755987519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_19
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c9058b1ac7b7c419b8d5a8e2046dcd
+      internalID: -633741840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_20
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aadc2c84cee1294d896ea3d8dd1e96d
+      internalID: -525602012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_21
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b78183aa68672041b568039978966fd
+      internalID: -665761438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_22
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c58baabbb7c8bc418e2887d34efe8a5
+      internalID: 915765268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_23
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc0846094851844d9024a2fe98b21cc
+      internalID: -1750704086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7379cd20cb7f96c4db0ebcb0704ad54a
+      internalID: 365189177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb1dc39284a18943ba959ead6512932
+      internalID: 176543050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d839bffc1f45d44802ea1790fbdbde
+      internalID: -105294871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80d160bddc1db847a670839b4a80f48
+      internalID: -867187031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5905dcd7777a66f4e819924649a558b2
+      internalID: -10358348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_29
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29c9e8927aa10438a4311e8dc6dcf9
+      internalID: -348522432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee2b6d1b31415b40b3d6b2f51c5e28f
+      internalID: 250150781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b3bca7892fbb4428915ef28f196a30
+      internalID: -1883781815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_32
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125ceee4081f9ea4ab761fb25ce311c0
+      internalID: 288220178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1d57a37b172c6479d8531153c8ee62
+      internalID: -2122812052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054cd973270669842925faafeaace9e7
+      internalID: -918087450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_35
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f85421f8ad10840a4d0e41f84f539a
+      internalID: 1603446606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_36
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7fee49f031f3240b7001fb5c27f87d
+      internalID: 872809246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_37
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe18948f5282b844b87a224b5d25fd5e
+      internalID: 299906772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7be65864c7d4ec4582d9f46eedcdd21
+      internalID: 1294063313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_39
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4553aeb40ef0c0b4d8502b5d297b9642
+      internalID: -490953705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_40
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712026b6627d02a44a9810722859734a
+      internalID: -1803235157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_41
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f364e770e4cc444844720a03a5b1af
+      internalID: 1867855359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_42
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0520c08ac5e8bc042a7263ab1e68789d
+      internalID: 867058567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_43
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4267d618dc992d24c9e0387d81ce4e8d
+      internalID: 2082302493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_44
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64958bec43851364b960abd2db05f3be
+      internalID: 457134312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_45
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e27b6e7b0e6ad4e9e9cfe356808cd6
+      internalID: -1805799791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_46
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2193e6622d224234eb355adfdbf196fe
+      internalID: 797842067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_47
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a87140c802de741a620d7ee8d743d5
+      internalID: -1983460791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e796e01232f5c444d90a2aaac0dec692
+      internalID: -746933536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7545716e6df79c040b6cde8d45853b32
+      internalID: 1271180481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_50
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5e7dc494319894f9ac082433b46eac
+      internalID: -1085389112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882b0535b3738544bac1124b13772f93
+      internalID: 1412621533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_52
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d15c62ab8eaf043b88e126799d3433
+      internalID: 205719480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_53
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b8bc22c6e86f24d8563d98c347796a
+      internalID: -1631637976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae3b4133a034b4380fae1fa3613a71
+      internalID: 1189099667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_55
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb75584c6c828134ea1dbf733a50e2ca
+      internalID: -1854826900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a82686013063354db07ec54dd512510
+      internalID: 78122682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_57
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a1c15ea698a1941b18bb66eaeb3754
+      internalID: -1971752176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_58
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0003eba95d42f774bbea9d373bf3f3fc
+      internalID: 1073296721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_59
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49047d36a313adc40a963d622346418f
+      internalID: -2039114628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_60
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6e51c786d034c4db36b4bcfe3a89e2
+      internalID: -1796680937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_61
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78129f4fc9123844eb46cb3feb4cf012
+      internalID: 1730675935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_62
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a5c3bb13ac7424381a6d16100cdd5a
+      internalID: -731240236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_63
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d5a6d06b2620849a285e6f9f5abc80
+      internalID: -2082360890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_64
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd910dccdc628494da41802d2c5db510
+      internalID: 126155117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_65
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb67391caf45096459f85caa967ea376
+      internalID: 1107020422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_66
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c175f39f800d7324a936c21c8bea8294
+      internalID: -792547186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_67
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f7c91ca6c8cac4c8eb04dcfe3207f1
+      internalID: -720241444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f18fff54da181949ba221454d33b912
+      internalID: -1044159320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_69
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18025ff553aa540439f608ee387a5ed0
+      internalID: 2111267020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_70
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e77e50b094060f4b8e72706b8f1b56f
+      internalID: 2047053660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_71
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c3b9a6e2c4ef149920e7f1fd815a62
+      internalID: 1906660194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e47fa34c12956b46a3ccf3619399a93
+      internalID: 1149021542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_73
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65490e01b7b441f4290956afd9810513
+      internalID: 1990657866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_74
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc10ab16c5ba7449ab516f69b1030fc
+      internalID: -1375569955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_75
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8775124ab4ffa428e109e8c270467a
+      internalID: -74915660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee763b06ea3614da87ff1df861c28b
+      internalID: 273118416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_77
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f691e412fd1b4a4a82db41391f0973e
+      internalID: -1289023500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_78
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad94945029a870478c1bfef286fb761
+      internalID: -2090098500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_79
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d566fb11590d6d4a98cd50a9043b60d
+      internalID: -1042429395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_80
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f75081f21bcb354595109151f804cff
+      internalID: -1953732965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_81
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d416131b68d4f54d90e24c1a000f9fa
+      internalID: 2022367468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_82
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5e21475bcdee04ba37cdc382e8aef8
+      internalID: -1250923420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_83
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bc9a04ce10fea43a74bdc1c1069d01
+      internalID: 1102874957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_84
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1376fdefa907c41ba854247142956b
+      internalID: -933247482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_85
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739a12f39e09a2449bb9099453c4ad4c
+      internalID: 2047067410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_86
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc1193cd83290b43b7a10021b55646c
+      internalID: 1763076467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_87
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53071d6463f912418709d59b512680e
+      internalID: -1390460135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_88
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04636b7e942f74469bbbe405108a856
+      internalID: -914052052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_89
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16ce502c96852c46a0813d0d1dfc03f
+      internalID: -346186109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_90
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc11000149dd9e4fbab290c171baa52
+      internalID: 162189483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_91
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f5db3e41881944bc8c3191720f329
+      internalID: 921415095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_92
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34040cdee4c03fe41acad9b32a3bf047
+      internalID: 1925640070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_93
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcba6f3ce8c1b3744b02a9df2ea61a91
+      internalID: -1879325113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_94
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f0f6b308fbc2a4dad09d1df53d5402
+      internalID: 1274671126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_95
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ed004fb53533942876c481b855a9a9
+      internalID: 714481315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d76d942fdc78284094015ca17cd8252
+      internalID: -2105059755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_97
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e639967755eaa48bfbfe34d435fb02
+      internalID: 610902007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_98
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56cc5479383fa941b3539c24633fe61
+      internalID: 1328107198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_99
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f2c1f5b1860254e9e4e36554629cc4
+      internalID: 935789277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_100
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89421f028e802c44394f4280bc4c0fe7
+      internalID: -653416724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_101
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882b79fbf6af6a242b02c4412fa41e00
+      internalID: -424495449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_102
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7ac7050a2253f4391ee94f0994aaa3
+      internalID: -485644905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_103
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ae00f2f254aa74a925b1f5df408437
+      internalID: 1805020088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_104
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0ed1c767daf4f46943f526ffa0e9ee
+      internalID: 2041178846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_105
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1b0f346b35bc741993dff0f58da39a
+      internalID: 1656290203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_106
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9159e3e8686d584280cb1c0aa8b66bd
+      internalID: 1960037663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_107
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d63bcc6e1e456428b4a04a5b2e7441
+      internalID: 443243647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9264782bb1ce0847888879a9ac60e59
+      internalID: -1572071318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_109
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09c6d57774eab4c9408c0ab5213ac6
+      internalID: -48691763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_110
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96234b28f03a53e4b9cb7da0e4ba0380
+      internalID: -1107344837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_111
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827658d850d596648a62eb51dd69b183
+      internalID: -512153392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_112
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7f96bb06bcfa04e9b28ed16a40efe4
+      internalID: 1889082111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_113
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6578051ade5ff674a8bf4558d149f583
+      internalID: 677966308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_114
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104b17bdfb4889844abec63197ee1a89
+      internalID: -2209233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_115
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae0e9152fee3f3408e19ee202b52706
+      internalID: -2074217616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_116
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c37bf411638c6640a9bd2c376e643a7
+      internalID: 851488115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_117
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a563b906696a6746a2007e53a5d34b2
+      internalID: -2025713195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_118
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bff14d5fc28e14eb64614ca7918ee2
+      internalID: 426605195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_119
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d76c93c82838c45a1fbb7a1e435388
+      internalID: 694556727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f56432ad4c95442a1211102dc5a2f6
+      internalID: 612562956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_121
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6873e5fdb2fd69e44b489496a9b23431
+      internalID: 1982721163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_122
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a103685d348b144e8e57279785af12c
+      internalID: -1821464643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_123
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129af4f250b951649a96ee258dfbdf55
+      internalID: -1374102923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_124
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83ef474f7773634b97c5ee795a9ec5b
+      internalID: -1106687947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_125
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21511bcfba140b24aa4ea475a0ca4eb0
+      internalID: -818136911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_126
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2f3e513e9b9a34ba833c41dd3ad2e5
+      internalID: 1926713362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_127
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51eb62b13e77ee4182f55636adc3b08
+      internalID: -366343896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_128
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cd68a4f52a4f2438a9a4056be58b57
+      internalID: 1663244505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_129
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0146816aa26d90e4ba0b79b0a2303230
+      internalID: -655530769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_130
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87192e2a90bb8b549ab437510750b56c
+      internalID: 1516074516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_131
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caa4b5a2ce01334c966a5e148efde64
+      internalID: -2053013567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb4136ad6b1894993caf357e1ca703
+      internalID: -467518799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_133
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e50b74cb231dcd469207111fb8c69a9
+      internalID: -318939505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_134
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594f6926a85f6cd498e4bc21218ef5eb
+      internalID: -1743606836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_135
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a162c73a323ba3842bbc90f30ba12822
+      internalID: 366995059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_136
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a58e0ad38f2c9d488c6bf6620564c83
+      internalID: -202760831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_137
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec7d6cef1efbf74ba501a6bea8249fb
+      internalID: 1247332957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_138
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d720f8f4a68ee4e8718cfba3a6129d
+      internalID: -922548501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_139
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d437907f3a5dd0347bfcaf108d2619f0
+      internalID: 17335337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_140
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab0ace9652ae614ab347fb2d5403df3
+      internalID: -1198597658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_141
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22a39a9a7a24fa4a9915028759bfad8
+      internalID: -1141338797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_142
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7379e3e23ad0f9d489b60f22dae537fa
+      internalID: 428959165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_143
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0077204e3856f346be0a48ff2a3c9e6
+      internalID: -1356114979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791af16f0ede4b143828c3d229378248
+      internalID: -1272121266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_145
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276aba540e9877147ad05c62d4dbb3c2
+      internalID: 915113484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_146
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726fe2e4945b67741a8fb10360caabf3
+      internalID: -619567447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_147
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c3863bf96a9bc4dbb97e78fe1d6de1
+      internalID: -681100263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_148
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513652e054c38ff4ab54214f2b7df8fb
+      internalID: 128707284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_149
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25beec885a91c974d80b6e06260c914a
+      internalID: -1003081580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_150
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cc140c5a40e4d40ad1532a6b65c2c1
+      internalID: -1159533282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_151
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ab446d3ba218f45a480c7630f76d71
+      internalID: 1130827690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_152
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090db34661e9ca7428cf81279ad4fc66
+      internalID: 125906485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_153
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1ab3e403fa3c540bb868fba9fc3671
+      internalID: 2138857573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5446d5b668be4540b22c541936286f3
+      internalID: 54513769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_155
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dff37376b4e6a49be0ee7ddee40e98
+      internalID: 465108158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb6a5728a172d148886fa1d9298eef3
+      internalID: -116540246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_157
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88677c5c9cfb24e468554301afcb4642
+      internalID: 952700117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_158
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8bc9913b5eb6e4aa4c5859652d54e0
+      internalID: 1645751971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_159
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade53e13f66c9dc40bf6584554d39bcb
+      internalID: 547084176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_160
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219799b58eb882149bfb7ba044aa38a3
+      internalID: 918302595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_161
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6b9f1ebc40bfb43a894958a85af8de
+      internalID: 66546588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_162
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e01367fd9389ff4084e2d2b68ca7b17
+      internalID: 1052443382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_163
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1decf11fc83451042b07ae663f385347
+      internalID: 1270914768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_164
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1842791aa7d69648b7436480ffbb16f
+      internalID: -1556409275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_165
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38484bafeb10e994c94e9348a6717c0f
+      internalID: 295963887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_166
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c085d5b254c894943acffe86da159fe1
+      internalID: -1687657149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_167
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998ab5cfbaa2a6b47950f69e30bf5eed
+      internalID: -911675890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beff26ecd435cc042895d7da7610f186
+      internalID: -341620033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_169
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4510804b4e7727849b40bd62e9319f20
+      internalID: 534700763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_170
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb59d56aa88a6b488bb2b60c2164d84
+      internalID: -1987206969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_171
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574bca193a463ab4fa51faa135a8c265
+      internalID: -1992958830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_172
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591423e99590db043a5e6ce2f663f15f
+      internalID: -1358877600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_173
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2788f3bdb13a71d4ba3db3ace56feca8
+      internalID: 83696736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_174
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52681a657e56ae04492ad4f1e3bb1d68
+      internalID: -217202260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_175
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac254034839047748ad61ad0b41bd7d3
+      internalID: 1087900057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_176
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff66c6a3a98831b47b61ac62aae15479
+      internalID: -1612246832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_177
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3e6df183caee4ab95fb4b17bcbc5c
+      internalID: -1260751038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_178
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b976220861a7194698225923dfa5b22
+      internalID: -1772738947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_179
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70280c731ded5ab45ac0193501b0a8d0
+      internalID: 188067435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160f43eaf9be944409186da6c0cfd5f5
+      internalID: 451633950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_181
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c03d9d2bb08b24aa2b94fe8a9a2b44
+      internalID: 898498634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_182
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369fcece02691044c9ce636d52e376c6
+      internalID: 33452958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_183
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21811ebee1b34440ba90f17a6b419c5
+      internalID: 210032022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_184
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762a1f4cdf339f1479ebe80b43c322cd
+      internalID: 546335473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_185
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe831c300319c24c98b4a9657934ead
+      internalID: 2054664560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_186
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef359c175a215242a5a4dc130b29528
+      internalID: 518193268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_187
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8061d3e300c8b3a4385087d78a65ab87
+      internalID: -1149703577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_188
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de0335abd8abfd46810df725b6dc479
+      internalID: 898910197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_189
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b81e3241d6012479d854d60b4fac11
+      internalID: -129342222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_190
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba0e19a54132a14c87627922cdadbd0
+      internalID: -699389529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_191
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 415
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca486b8174f9a264488f1cbf1df60079
+      internalID: 1016302638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083394768b6d9d54caf6c3bfcb5d37a6
+      internalID: -679616424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_193
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdea0676e16cc84bb009c5160f19097
+      internalID: -970070397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_194
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5dddd342603334e8a544466612608f
+      internalID: -1590256335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_195
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a2e5953425f874c9a27eed81750214
+      internalID: 760898517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_196
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e3a7b092927d440aa8bdb7f2f275d1
+      internalID: 119723805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_197
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248842210c74eb94eb051ef222394084
+      internalID: 145010014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_198
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf862d3d5beb2d4b8ecc22f7e526b7d
+      internalID: 2053371028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_199
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a0b9f9896e53048a48b4872be1bd55
+      internalID: -556159479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_200
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae3c79223630ac44a7230388cbb2047
+      internalID: -1952677174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_201
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af61545a85df04478549ad30fde40a7
+      internalID: 1712684984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_202
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d79daf0d7da14046a5fadffa0e7d17c
+      internalID: -931547772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_203
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76514bd4ce722424baf6cf3e24fbe6b8
+      internalID: 1800902146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_204
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb43411387876a6489ca99d787d16861
+      internalID: -1573399746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_205
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1469002a506ea4149ad75745b7e7ce33
+      internalID: -685445770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_206
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f96de19431df22408ad6c0cedc08b07
+      internalID: -477734002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_207
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49ad0b00ac73904e8751bf4164747f8
+      internalID: -1664309263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_208
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf4744c6d6a71e47933b26979db733a
+      internalID: 806886773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_209
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75bbdb9a24794e4a846ff7f41da8958
+      internalID: 987156544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_210
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64dc7a5f8cc09442afba7fb21d96655
+      internalID: -362924728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_211
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19293a1271ae1e4e82ca1118d1c5508
+      internalID: -132617761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_212
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35f9b214f0d2f84ab13d5de257c3c32
+      internalID: 1817729891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_213
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce766722f6d396a4aadf7b5e08447e15
+      internalID: 1379549625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_214
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17809a6ec755c5949b718b5bfff2e0df
+      internalID: 887416603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_215
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3b4d132c2b134408efc649027e539f
+      internalID: -316835952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_216
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c769aa48e7752141b7fc8f6b0831d21
+      internalID: 340446744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_217
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c243b86b7c8305046907fecaaa0d01ff
+      internalID: 729118655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_218
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df7d307af9e79e4b83cfc64906b9bc1
+      internalID: -1677393315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_219
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac94f0d97ae3d14da9585553d653154
+      internalID: -1007754848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_220
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4029838c0e50bbe4993b778bba16572a
+      internalID: -910068846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_221
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30611190b3f282542b18db1b7715799d
+      internalID: 1738449329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_222
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9321e4a95e828a141bea6cc1079e6f10
+      internalID: 1981542541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_223
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe78073438a3a9247a507a5acddd6e04
+      internalID: -36785657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_224
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f3b5538156652449e9fa5e8ad22f69
+      internalID: 1370170509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_225
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3901e87a5822702439924b5bca63792f
+      internalID: -251598679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_226
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2b7785d2e879a4bba1f5c525073382
+      internalID: 1472333920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_227
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea02fe12240439b488d0c72bb99e3c3b
+      internalID: 1123053575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_228
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1148a099960fab546b777633cb7e800a
+      internalID: 29380438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_229
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afd807d9fcf40247a097c7c0e6961af
+      internalID: -1714884046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_230
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3024e2b0c8d6d4fba50635f6061bf5
+      internalID: -1923328924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_231
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ffbe4d75021464483ce5f42a726795
+      internalID: -473092326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_232
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac144c071272c0541bea3572944c31fe
+      internalID: 359161847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_233
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934c94410027ad842998c487a668598c
+      internalID: -791537539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_234
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4617ed6121c86643a2487cfbbc68875
+      internalID: 1336073993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_235
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f153a19869ebe2d49888d0af2ae64a42
+      internalID: -763779702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_236
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755a24a1ca1055a4d80cc88f3cc83e47
+      internalID: -1283778467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_237
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281ff4be4576f9648bde34b8d73d665f
+      internalID: 659119883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_238
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec77b0ec4dd244d865cd10b8f13620
+      internalID: -1991292880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_239
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb19cc09a5b5dd4bbf5ad5c86160912
+      internalID: -1842645365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_240
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80eeaac3d3d1fc45a1bad16e1a44f8e
+      internalID: -1423171216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_241
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4223e39bf4c3fa8488b1f8dee6f31c83
+      internalID: -55359483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_242
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29008c514a16af043b8be972b233ab0a
+      internalID: -1751432022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_243
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ddeaa0ed57f274e8b2769408629b3b
+      internalID: 346601573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_244
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7667bf7f26c035f488574b82896b10e0
+      internalID: -166577487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_245
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479a8aad1405d1b41a035793ee31b162
+      internalID: -663442002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_246
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1f53206a7aef54b8573757ff986a8b
+      internalID: -378779375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_247
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b996b806c4274e4f87f7e635502bae9
+      internalID: -1730182019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_248
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fced1ca15fb1a4da7c75beea6190d5
+      internalID: 1110885602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_249
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd266eecb2121438f2e0945d1e8f0e
+      internalID: -1028540892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_250
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45c6b925b0e15448b4ed8d830ecaa20
+      internalID: -1884411571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_251
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d628b466c0f43947abfa76a16f82cc5
+      internalID: 1077066681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_252
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ecd2487e3db734fb41d241da3a3078
+      internalID: 1180345566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_253
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114a35c2342a6704f8f5ba223341059d
+      internalID: 1994541766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_254
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b84331f907ed34db8d0e63325c1061
+      internalID: -31340096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_255
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f38b772e81c4a408966ac55d41cd73
+      internalID: -1919313501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_256
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead79c9e317ae8e42b87f6fb98363e6f
+      internalID: 923958942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_257
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 199
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96be78eabad374645a078984540b3528
+      internalID: 19022114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_258
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 199
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c65e51a76812340a31c6330e4313b5
+      internalID: 1653008749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_259
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 199
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc5954e871a76f4cb112157054b1811
+      internalID: 1457448622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_260
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f0b3e7436a3d3438fc89990a95b770
+      internalID: -852020341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_261
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8274e24e26d10a64fa148f16d431ee5d
+      internalID: -1799925340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_262
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60521377a3301c04da08f1aeb16d27a8
+      internalID: -654635218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_263
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32437944ebce1ce46b627bcef4388609
+      internalID: -1977118024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_264
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14927d8b15dd9a4bb401510446111ad
+      internalID: 295009289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_265
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5671770fef5de844c857af20e52186b6
+      internalID: -1381149811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_266
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde48b76969376947805f14211f5875f
+      internalID: -1811927328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_267
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53d424602c6d1842ac4277a4f84093e
+      internalID: 1417291858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_268
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5673d3b9ee4c7e54d870c25b221fbeb4
+      internalID: -924462444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_269
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc63da08f8aa4b48ab8b637d5d2b46c
+      internalID: 40415039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_270
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bca374f37f2c9468e329e98b438296
+      internalID: 307170421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_271
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672fedf572e640f4e8bfa2e4cc91e977
+      internalID: -186248253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_272
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8760c4b32ed1754990c05bc88ce0a26
+      internalID: 591439018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_273
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb88d85e916ff34db9e6f8d53aef36e
+      internalID: 958729626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_274
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9773ed3d8148dba4bb4b0f44cebe9c8b
+      internalID: -2111512106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_275
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f166adc8d610943a05cc1d10e07e7a
+      internalID: -200048507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_276
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4c35d1c0cb791448f3bbdb65080434
+      internalID: -1548636030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_277
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdaae9abc095be40976a6dface664f7
+      internalID: -730994757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_278
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2829b191de15d85408e506052cbb4076
+      internalID: 1311356621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_279
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4ef7cb2cf57a1408406c144f442d71
+      internalID: 893162504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_280
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48b87c43451be04ca7053beeb044036
+      internalID: 945451591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_281
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff66dabaedfbcaa4690e9ab8b440d39c
+      internalID: -558772328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_282
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ead51674b70bc44081dab8aa717f1b2
+      internalID: -573472815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_283
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b82d9174745fb2488ce092bb96b9355
+      internalID: -1282447465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_284
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a049a485aec1b194780c63413c4519de
+      internalID: -1137000000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_285
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ca30c5b8b777f449c9d599b256bb2a
+      internalID: -1876038945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_286
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aad57616613c9488f4414dbecc8676
+      internalID: -1402154587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_287
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558ca53fd77656345abe2c30502fa9d8
+      internalID: -841728576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_288
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db6b519408af934e87298d700779f6a
+      internalID: 6871379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_289
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13d85becadca747be5c1a7c423c720
+      internalID: 1926556476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_290
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dcc29e995c3eb43ab86b79ca414932
+      internalID: 187120181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_291
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42194351e862e045b2eddf4f389cc81
+      internalID: -1157427268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_292
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0393732310340e74791bbb5ea92e4cb2
+      internalID: 1325120312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_293
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58a943656446664eae91945075ed9f9
+      internalID: 911750309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_294
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f390ca3345e8eae4db62f9a2a7df0b40
+      internalID: -1840702796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_295
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cebac302a97854eb4695c9570864a2
+      internalID: -2068228852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_296
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704272bcd1bb8c84daa5ded48225c2ba
+      internalID: 565928175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_297
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d0738ff35784749b1d106e0e286390
+      internalID: 852582515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_298
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060d64604101898479da48565e65abe7
+      internalID: -1341892302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_299
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfdd9d346ac8cf4ba86bdb4b88815c7
+      internalID: -817776024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_300
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3085fc0f8f818d479a5f108256d8913
+      internalID: 659727778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_301
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f40b82cfeb435f4782c2c0cc887d1bb
+      internalID: -1639386171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_302
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165b26e75311f4242a048b0e4baeb787
+      internalID: 84683430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_303
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49188136c483ff478c9f91ca92b2fe0
+      internalID: 1822035981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_304
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4abc7d5b4921940a76d80211f01481
+      internalID: 35256415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_305
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee921e2de6d6674b842870ddc3d89ab
+      internalID: -1215472659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_306
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de82965fc59d0d8449aad0c0738bd2a7
+      internalID: -912225354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_307
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e775890f3d9f005408583664e4c55516
+      internalID: -685947469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_308
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c028e4107af67458304e0f40ec31a8
+      internalID: -1707802222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_309
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322be123e1877604ca1edb0ec247a375
+      internalID: 718231865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_310
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3636ec778b18f34488e701927040c92
+      internalID: -1762806498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_311
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcb73c20131b0a48a75f57f53530655
+      internalID: -1783918470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_312
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86272b46f8657d747a91147483fc84eb
+      internalID: 659811892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_313
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415ac5b18f4408b4eb19ae3ed29590d5
+      internalID: 1502332647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_314
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e72b6c57586acf4aaf66279a7e41273
+      internalID: 664705171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_315
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511e8680058678d4995a4da8997e51f2
+      internalID: -220267939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_316
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9aa90714a937be4b877999b0f6f8b4f
+      internalID: -700508038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_317
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b762634859a462c43a6cd8fbb24fe2b7
+      internalID: -895702746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_318
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4c09923d7f8e44892c321c8f5624fa
+      internalID: -1745864813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_319
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2aaf64825e15444afe9244beeed68e
+      internalID: -1815265167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_320
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76d6665e387e654380d6f312758c2f0
+      internalID: -1073382076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_321
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465aec34428c52348b96ae126b564b50
+      internalID: 1582593182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_322
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29b372be437d2f41a5ba588a6c88ddf
+      internalID: 778144438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Walls_V2_323
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aee50ef1bebb749be8ba3c33a37a7d
+      internalID: 1903612994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plunger_Knight_Walls_V2_0: 1780893045
+      Plunger_Knight_Walls_V2_1: -57745132
+      Plunger_Knight_Walls_V2_10: -588789790
+      Plunger_Knight_Walls_V2_100: -653416724
+      Plunger_Knight_Walls_V2_101: -424495449
+      Plunger_Knight_Walls_V2_102: -485644905
+      Plunger_Knight_Walls_V2_103: 1805020088
+      Plunger_Knight_Walls_V2_104: 2041178846
+      Plunger_Knight_Walls_V2_105: 1656290203
+      Plunger_Knight_Walls_V2_106: 1960037663
+      Plunger_Knight_Walls_V2_107: 443243647
+      Plunger_Knight_Walls_V2_108: -1572071318
+      Plunger_Knight_Walls_V2_109: -48691763
+      Plunger_Knight_Walls_V2_11: 1524089331
+      Plunger_Knight_Walls_V2_110: -1107344837
+      Plunger_Knight_Walls_V2_111: -512153392
+      Plunger_Knight_Walls_V2_112: 1889082111
+      Plunger_Knight_Walls_V2_113: 677966308
+      Plunger_Knight_Walls_V2_114: -2209233
+      Plunger_Knight_Walls_V2_115: -2074217616
+      Plunger_Knight_Walls_V2_116: 851488115
+      Plunger_Knight_Walls_V2_117: -2025713195
+      Plunger_Knight_Walls_V2_118: 426605195
+      Plunger_Knight_Walls_V2_119: 694556727
+      Plunger_Knight_Walls_V2_12: -1962838599
+      Plunger_Knight_Walls_V2_120: 612562956
+      Plunger_Knight_Walls_V2_121: 1982721163
+      Plunger_Knight_Walls_V2_122: -1821464643
+      Plunger_Knight_Walls_V2_123: -1374102923
+      Plunger_Knight_Walls_V2_124: -1106687947
+      Plunger_Knight_Walls_V2_125: -818136911
+      Plunger_Knight_Walls_V2_126: 1926713362
+      Plunger_Knight_Walls_V2_127: -366343896
+      Plunger_Knight_Walls_V2_128: 1663244505
+      Plunger_Knight_Walls_V2_129: -655530769
+      Plunger_Knight_Walls_V2_13: 925391643
+      Plunger_Knight_Walls_V2_130: 1516074516
+      Plunger_Knight_Walls_V2_131: -2053013567
+      Plunger_Knight_Walls_V2_132: -467518799
+      Plunger_Knight_Walls_V2_133: -318939505
+      Plunger_Knight_Walls_V2_134: -1743606836
+      Plunger_Knight_Walls_V2_135: 366995059
+      Plunger_Knight_Walls_V2_136: -202760831
+      Plunger_Knight_Walls_V2_137: 1247332957
+      Plunger_Knight_Walls_V2_138: -922548501
+      Plunger_Knight_Walls_V2_139: 17335337
+      Plunger_Knight_Walls_V2_14: 986755640
+      Plunger_Knight_Walls_V2_140: -1198597658
+      Plunger_Knight_Walls_V2_141: -1141338797
+      Plunger_Knight_Walls_V2_142: 428959165
+      Plunger_Knight_Walls_V2_143: -1356114979
+      Plunger_Knight_Walls_V2_144: -1272121266
+      Plunger_Knight_Walls_V2_145: 915113484
+      Plunger_Knight_Walls_V2_146: -619567447
+      Plunger_Knight_Walls_V2_147: -681100263
+      Plunger_Knight_Walls_V2_148: 128707284
+      Plunger_Knight_Walls_V2_149: -1003081580
+      Plunger_Knight_Walls_V2_15: 863018083
+      Plunger_Knight_Walls_V2_150: -1159533282
+      Plunger_Knight_Walls_V2_151: 1130827690
+      Plunger_Knight_Walls_V2_152: 125906485
+      Plunger_Knight_Walls_V2_153: 2138857573
+      Plunger_Knight_Walls_V2_154: 54513769
+      Plunger_Knight_Walls_V2_155: 465108158
+      Plunger_Knight_Walls_V2_156: -116540246
+      Plunger_Knight_Walls_V2_157: 952700117
+      Plunger_Knight_Walls_V2_158: 1645751971
+      Plunger_Knight_Walls_V2_159: 547084176
+      Plunger_Knight_Walls_V2_16: 641644478
+      Plunger_Knight_Walls_V2_160: 918302595
+      Plunger_Knight_Walls_V2_161: 66546588
+      Plunger_Knight_Walls_V2_162: 1052443382
+      Plunger_Knight_Walls_V2_163: 1270914768
+      Plunger_Knight_Walls_V2_164: -1556409275
+      Plunger_Knight_Walls_V2_165: 295963887
+      Plunger_Knight_Walls_V2_166: -1687657149
+      Plunger_Knight_Walls_V2_167: -911675890
+      Plunger_Knight_Walls_V2_168: -341620033
+      Plunger_Knight_Walls_V2_169: 534700763
+      Plunger_Knight_Walls_V2_17: -1160123201
+      Plunger_Knight_Walls_V2_170: -1987206969
+      Plunger_Knight_Walls_V2_171: -1992958830
+      Plunger_Knight_Walls_V2_172: -1358877600
+      Plunger_Knight_Walls_V2_173: 83696736
+      Plunger_Knight_Walls_V2_174: -217202260
+      Plunger_Knight_Walls_V2_175: 1087900057
+      Plunger_Knight_Walls_V2_176: -1612246832
+      Plunger_Knight_Walls_V2_177: -1260751038
+      Plunger_Knight_Walls_V2_178: -1772738947
+      Plunger_Knight_Walls_V2_179: 188067435
+      Plunger_Knight_Walls_V2_18: -755987519
+      Plunger_Knight_Walls_V2_180: 451633950
+      Plunger_Knight_Walls_V2_181: 898498634
+      Plunger_Knight_Walls_V2_182: 33452958
+      Plunger_Knight_Walls_V2_183: 210032022
+      Plunger_Knight_Walls_V2_184: 546335473
+      Plunger_Knight_Walls_V2_185: 2054664560
+      Plunger_Knight_Walls_V2_186: 518193268
+      Plunger_Knight_Walls_V2_187: -1149703577
+      Plunger_Knight_Walls_V2_188: 898910197
+      Plunger_Knight_Walls_V2_189: -129342222
+      Plunger_Knight_Walls_V2_19: -633741840
+      Plunger_Knight_Walls_V2_190: -699389529
+      Plunger_Knight_Walls_V2_191: 1016302638
+      Plunger_Knight_Walls_V2_192: -679616424
+      Plunger_Knight_Walls_V2_193: -970070397
+      Plunger_Knight_Walls_V2_194: -1590256335
+      Plunger_Knight_Walls_V2_195: 760898517
+      Plunger_Knight_Walls_V2_196: 119723805
+      Plunger_Knight_Walls_V2_197: 145010014
+      Plunger_Knight_Walls_V2_198: 2053371028
+      Plunger_Knight_Walls_V2_199: -556159479
+      Plunger_Knight_Walls_V2_2: -525636101
+      Plunger_Knight_Walls_V2_20: -525602012
+      Plunger_Knight_Walls_V2_200: -1952677174
+      Plunger_Knight_Walls_V2_201: 1712684984
+      Plunger_Knight_Walls_V2_202: -931547772
+      Plunger_Knight_Walls_V2_203: 1800902146
+      Plunger_Knight_Walls_V2_204: -1573399746
+      Plunger_Knight_Walls_V2_205: -685445770
+      Plunger_Knight_Walls_V2_206: -477734002
+      Plunger_Knight_Walls_V2_207: -1664309263
+      Plunger_Knight_Walls_V2_208: 806886773
+      Plunger_Knight_Walls_V2_209: 987156544
+      Plunger_Knight_Walls_V2_21: -665761438
+      Plunger_Knight_Walls_V2_210: -362924728
+      Plunger_Knight_Walls_V2_211: -132617761
+      Plunger_Knight_Walls_V2_212: 1817729891
+      Plunger_Knight_Walls_V2_213: 1379549625
+      Plunger_Knight_Walls_V2_214: 887416603
+      Plunger_Knight_Walls_V2_215: -316835952
+      Plunger_Knight_Walls_V2_216: 340446744
+      Plunger_Knight_Walls_V2_217: 729118655
+      Plunger_Knight_Walls_V2_218: -1677393315
+      Plunger_Knight_Walls_V2_219: -1007754848
+      Plunger_Knight_Walls_V2_22: 915765268
+      Plunger_Knight_Walls_V2_220: -910068846
+      Plunger_Knight_Walls_V2_221: 1738449329
+      Plunger_Knight_Walls_V2_222: 1981542541
+      Plunger_Knight_Walls_V2_223: -36785657
+      Plunger_Knight_Walls_V2_224: 1370170509
+      Plunger_Knight_Walls_V2_225: -251598679
+      Plunger_Knight_Walls_V2_226: 1472333920
+      Plunger_Knight_Walls_V2_227: 1123053575
+      Plunger_Knight_Walls_V2_228: 29380438
+      Plunger_Knight_Walls_V2_229: -1714884046
+      Plunger_Knight_Walls_V2_23: -1750704086
+      Plunger_Knight_Walls_V2_230: -1923328924
+      Plunger_Knight_Walls_V2_231: -473092326
+      Plunger_Knight_Walls_V2_232: 359161847
+      Plunger_Knight_Walls_V2_233: -791537539
+      Plunger_Knight_Walls_V2_234: 1336073993
+      Plunger_Knight_Walls_V2_235: -763779702
+      Plunger_Knight_Walls_V2_236: -1283778467
+      Plunger_Knight_Walls_V2_237: 659119883
+      Plunger_Knight_Walls_V2_238: -1991292880
+      Plunger_Knight_Walls_V2_239: -1842645365
+      Plunger_Knight_Walls_V2_24: 365189177
+      Plunger_Knight_Walls_V2_240: -1423171216
+      Plunger_Knight_Walls_V2_241: -55359483
+      Plunger_Knight_Walls_V2_242: -1751432022
+      Plunger_Knight_Walls_V2_243: 346601573
+      Plunger_Knight_Walls_V2_244: -166577487
+      Plunger_Knight_Walls_V2_245: -663442002
+      Plunger_Knight_Walls_V2_246: -378779375
+      Plunger_Knight_Walls_V2_247: -1730182019
+      Plunger_Knight_Walls_V2_248: 1110885602
+      Plunger_Knight_Walls_V2_249: -1028540892
+      Plunger_Knight_Walls_V2_25: 176543050
+      Plunger_Knight_Walls_V2_250: -1884411571
+      Plunger_Knight_Walls_V2_251: 1077066681
+      Plunger_Knight_Walls_V2_252: 1180345566
+      Plunger_Knight_Walls_V2_253: 1994541766
+      Plunger_Knight_Walls_V2_254: -31340096
+      Plunger_Knight_Walls_V2_255: -1919313501
+      Plunger_Knight_Walls_V2_256: 923958942
+      Plunger_Knight_Walls_V2_257: 19022114
+      Plunger_Knight_Walls_V2_258: 1653008749
+      Plunger_Knight_Walls_V2_259: 1457448622
+      Plunger_Knight_Walls_V2_26: -105294871
+      Plunger_Knight_Walls_V2_260: -852020341
+      Plunger_Knight_Walls_V2_261: -1799925340
+      Plunger_Knight_Walls_V2_262: -654635218
+      Plunger_Knight_Walls_V2_263: -1977118024
+      Plunger_Knight_Walls_V2_264: 295009289
+      Plunger_Knight_Walls_V2_265: -1381149811
+      Plunger_Knight_Walls_V2_266: -1811927328
+      Plunger_Knight_Walls_V2_267: 1417291858
+      Plunger_Knight_Walls_V2_268: -924462444
+      Plunger_Knight_Walls_V2_269: 40415039
+      Plunger_Knight_Walls_V2_27: -867187031
+      Plunger_Knight_Walls_V2_270: 307170421
+      Plunger_Knight_Walls_V2_271: -186248253
+      Plunger_Knight_Walls_V2_272: 591439018
+      Plunger_Knight_Walls_V2_273: 958729626
+      Plunger_Knight_Walls_V2_274: -2111512106
+      Plunger_Knight_Walls_V2_275: -200048507
+      Plunger_Knight_Walls_V2_276: -1548636030
+      Plunger_Knight_Walls_V2_277: -730994757
+      Plunger_Knight_Walls_V2_278: 1311356621
+      Plunger_Knight_Walls_V2_279: 893162504
+      Plunger_Knight_Walls_V2_28: -10358348
+      Plunger_Knight_Walls_V2_280: 945451591
+      Plunger_Knight_Walls_V2_281: -558772328
+      Plunger_Knight_Walls_V2_282: -573472815
+      Plunger_Knight_Walls_V2_283: -1282447465
+      Plunger_Knight_Walls_V2_284: -1137000000
+      Plunger_Knight_Walls_V2_285: -1876038945
+      Plunger_Knight_Walls_V2_286: -1402154587
+      Plunger_Knight_Walls_V2_287: -841728576
+      Plunger_Knight_Walls_V2_288: 6871379
+      Plunger_Knight_Walls_V2_289: 1926556476
+      Plunger_Knight_Walls_V2_29: -348522432
+      Plunger_Knight_Walls_V2_290: 187120181
+      Plunger_Knight_Walls_V2_291: -1157427268
+      Plunger_Knight_Walls_V2_292: 1325120312
+      Plunger_Knight_Walls_V2_293: 911750309
+      Plunger_Knight_Walls_V2_294: -1840702796
+      Plunger_Knight_Walls_V2_295: -2068228852
+      Plunger_Knight_Walls_V2_296: 565928175
+      Plunger_Knight_Walls_V2_297: 852582515
+      Plunger_Knight_Walls_V2_298: -1341892302
+      Plunger_Knight_Walls_V2_299: -817776024
+      Plunger_Knight_Walls_V2_3: 1714425715
+      Plunger_Knight_Walls_V2_30: 250150781
+      Plunger_Knight_Walls_V2_300: 659727778
+      Plunger_Knight_Walls_V2_301: -1639386171
+      Plunger_Knight_Walls_V2_302: 84683430
+      Plunger_Knight_Walls_V2_303: 1822035981
+      Plunger_Knight_Walls_V2_304: 35256415
+      Plunger_Knight_Walls_V2_305: -1215472659
+      Plunger_Knight_Walls_V2_306: -912225354
+      Plunger_Knight_Walls_V2_307: -685947469
+      Plunger_Knight_Walls_V2_308: -1707802222
+      Plunger_Knight_Walls_V2_309: 718231865
+      Plunger_Knight_Walls_V2_31: -1883781815
+      Plunger_Knight_Walls_V2_310: -1762806498
+      Plunger_Knight_Walls_V2_311: -1783918470
+      Plunger_Knight_Walls_V2_312: 659811892
+      Plunger_Knight_Walls_V2_313: 1502332647
+      Plunger_Knight_Walls_V2_314: 664705171
+      Plunger_Knight_Walls_V2_315: -220267939
+      Plunger_Knight_Walls_V2_316: -700508038
+      Plunger_Knight_Walls_V2_317: -895702746
+      Plunger_Knight_Walls_V2_318: -1745864813
+      Plunger_Knight_Walls_V2_319: -1815265167
+      Plunger_Knight_Walls_V2_32: 288220178
+      Plunger_Knight_Walls_V2_320: -1073382076
+      Plunger_Knight_Walls_V2_321: 1582593182
+      Plunger_Knight_Walls_V2_322: 778144438
+      Plunger_Knight_Walls_V2_323: 1903612994
+      Plunger_Knight_Walls_V2_33: -2122812052
+      Plunger_Knight_Walls_V2_34: -918087450
+      Plunger_Knight_Walls_V2_35: 1603446606
+      Plunger_Knight_Walls_V2_36: 872809246
+      Plunger_Knight_Walls_V2_37: 299906772
+      Plunger_Knight_Walls_V2_38: 1294063313
+      Plunger_Knight_Walls_V2_39: -490953705
+      Plunger_Knight_Walls_V2_4: 1603756400
+      Plunger_Knight_Walls_V2_40: -1803235157
+      Plunger_Knight_Walls_V2_41: 1867855359
+      Plunger_Knight_Walls_V2_42: 867058567
+      Plunger_Knight_Walls_V2_43: 2082302493
+      Plunger_Knight_Walls_V2_44: 457134312
+      Plunger_Knight_Walls_V2_45: -1805799791
+      Plunger_Knight_Walls_V2_46: 797842067
+      Plunger_Knight_Walls_V2_47: -1983460791
+      Plunger_Knight_Walls_V2_48: -746933536
+      Plunger_Knight_Walls_V2_49: 1271180481
+      Plunger_Knight_Walls_V2_5: 1929047620
+      Plunger_Knight_Walls_V2_50: -1085389112
+      Plunger_Knight_Walls_V2_51: 1412621533
+      Plunger_Knight_Walls_V2_52: 205719480
+      Plunger_Knight_Walls_V2_53: -1631637976
+      Plunger_Knight_Walls_V2_54: 1189099667
+      Plunger_Knight_Walls_V2_55: -1854826900
+      Plunger_Knight_Walls_V2_56: 78122682
+      Plunger_Knight_Walls_V2_57: -1971752176
+      Plunger_Knight_Walls_V2_58: 1073296721
+      Plunger_Knight_Walls_V2_59: -2039114628
+      Plunger_Knight_Walls_V2_6: 1000636925
+      Plunger_Knight_Walls_V2_60: -1796680937
+      Plunger_Knight_Walls_V2_61: 1730675935
+      Plunger_Knight_Walls_V2_62: -731240236
+      Plunger_Knight_Walls_V2_63: -2082360890
+      Plunger_Knight_Walls_V2_64: 126155117
+      Plunger_Knight_Walls_V2_65: 1107020422
+      Plunger_Knight_Walls_V2_66: -792547186
+      Plunger_Knight_Walls_V2_67: -720241444
+      Plunger_Knight_Walls_V2_68: -1044159320
+      Plunger_Knight_Walls_V2_69: 2111267020
+      Plunger_Knight_Walls_V2_7: 1874033930
+      Plunger_Knight_Walls_V2_70: 2047053660
+      Plunger_Knight_Walls_V2_71: 1906660194
+      Plunger_Knight_Walls_V2_72: 1149021542
+      Plunger_Knight_Walls_V2_73: 1990657866
+      Plunger_Knight_Walls_V2_74: -1375569955
+      Plunger_Knight_Walls_V2_75: -74915660
+      Plunger_Knight_Walls_V2_76: 273118416
+      Plunger_Knight_Walls_V2_77: -1289023500
+      Plunger_Knight_Walls_V2_78: -2090098500
+      Plunger_Knight_Walls_V2_79: -1042429395
+      Plunger_Knight_Walls_V2_8: 984339284
+      Plunger_Knight_Walls_V2_80: -1953732965
+      Plunger_Knight_Walls_V2_81: 2022367468
+      Plunger_Knight_Walls_V2_82: -1250923420
+      Plunger_Knight_Walls_V2_83: 1102874957
+      Plunger_Knight_Walls_V2_84: -933247482
+      Plunger_Knight_Walls_V2_85: 2047067410
+      Plunger_Knight_Walls_V2_86: 1763076467
+      Plunger_Knight_Walls_V2_87: -1390460135
+      Plunger_Knight_Walls_V2_88: -914052052
+      Plunger_Knight_Walls_V2_89: -346186109
+      Plunger_Knight_Walls_V2_9: -1783726380
+      Plunger_Knight_Walls_V2_90: 162189483
+      Plunger_Knight_Walls_V2_91: 921415095
+      Plunger_Knight_Walls_V2_92: 1925640070
+      Plunger_Knight_Walls_V2_93: -1879325113
+      Plunger_Knight_Walls_V2_94: 1274671126
+      Plunger_Knight_Walls_V2_95: 714481315
+      Plunger_Knight_Walls_V2_96: -2105059755
+      Plunger_Knight_Walls_V2_97: 610902007
+      Plunger_Knight_Walls_V2_98: 1328107198
+      Plunger_Knight_Walls_V2_99: 935789277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
