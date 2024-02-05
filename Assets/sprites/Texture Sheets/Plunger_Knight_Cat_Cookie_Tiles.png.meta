@@ -1,0 +1,5772 @@
+fileFormatVersion: 2
+guid: d5f6f2731708e3d43b63d12cd772d9e0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598c6fbea178d6047bbfecd6f5fa4f7f
+      internalID: 13408263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54e50d6f66f2184fa6c08bd41c9af73
+      internalID: -1382236054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f03968d1187e184b89a8b396e62e818
+      internalID: -1483502199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df49c62a227dfeb498ba3c8912e9cfe0
+      internalID: -1394061409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d006dc1ec69f594c80e0c975b74323a
+      internalID: 1850358090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4728207269527da46a3c693dc66b6bdb
+      internalID: 1510248464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336c83b2e2905134381b199777d6f26b
+      internalID: 1235435737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad63afe93d8a29847bf30a11ebeebaaf
+      internalID: -280764148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ef75f92883fbe47933145e78156b22
+      internalID: 153560271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad7c6167a36fa94792b708ae233233e
+      internalID: 31103211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ee0fbf8d23aa84b961cf09205ad477
+      internalID: -1861142751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ffaf9596d95a04cac9ccd70d727c84
+      internalID: -631800009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e20a422b658b54fae3fdaa8b5b170e
+      internalID: 1836449537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8c47c783126f24ea8b83bf4ee8f66a
+      internalID: -939974195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdef2711e41bff643ba5f26aac7fc88a
+      internalID: 1934583688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 775
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212e604dfe5e6894281f897990d5aca5
+      internalID: -862082834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab029dd2abd7874387369f7cac38131
+      internalID: 1529772055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07919877695de4b4896b9c769a7bba2a
+      internalID: -965449129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2c694c97c2da240a9c23374ee3c328
+      internalID: -1560718714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7fdbc83d6ad8c488ed156ec830267b
+      internalID: -1838171238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e6f94b33843c6449a6c5d69920193d
+      internalID: 688787788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fba4b9c3f8788548a3d21baf8a314c2
+      internalID: 1033315913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbb2097cdd79114ca333cb7d27cd46d
+      internalID: -899201480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 751
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719bf6fcfbd40084dab6562bc223914b
+      internalID: 1619814201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7dbc78522a82144be36d25fc2f1bcf
+      internalID: -254499735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d7ae3e1938d364e89f48f4ca941122
+      internalID: -1313832889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01f41da2ba6217448d2762b2434e171
+      internalID: 741502685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f977e2d4aa0ccda4f9d288efd529a961
+      internalID: 562788847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e617a22cb56891c46a02a22a9b4153a2
+      internalID: 617769018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4931acf8eff641b7fc82598d4bce8
+      internalID: 1702301697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20831842703bb9d4b927a32de26018da
+      internalID: 1295115220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e45a76aa86c814094a4d361c3ef138
+      internalID: 1848682394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c003b257c531ce42bc5e2fe0d8d0e76
+      internalID: 1471399968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b0d40f7a291f419af8bf1fbf37ab6
+      internalID: 1747181548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6a7be8c311e0f49af6ff41321c365a
+      internalID: -1814939656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611c11c3c0048df40824fb539b1bcc33
+      internalID: 395543003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ca63966919b9142bc3fd9977a28b73
+      internalID: -723380523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b272a890bfd0a9e4ba856e116213fdc4
+      internalID: 615949701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ab98c663da26b42b6eda77b96d4962
+      internalID: -934151109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 727
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c912787417bfe14d9fd8a4a2d6e9d81
+      internalID: 1148752802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eac3989eb8d074e98dd529dfbb2708
+      internalID: -579203850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c87a9b9d9845fa45b6185d6ec7a76ec
+      internalID: 375387055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f23b76f4a939942b3a98acd6ff1b3f
+      internalID: -453760670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78be1f7a03707184c94ac23f770f83db
+      internalID: -1066256864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813881c403572b04695bc1850376b052
+      internalID: -101901610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbccecd9b10593c47b47bdaaf4fbc27f
+      internalID: 757373308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f129332d10d82d44ca65ef205b9d7621
+      internalID: 1484547387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 703
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7332dc25a903a42a12f454cb9f3c0a
+      internalID: -1806549259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360fa3cefc392db46847f188eeda846f
+      internalID: -380627528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30664b93d9a06c24980186c7e8b90e52
+      internalID: 1440378929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_50
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4639efacd5fac49a475ceb5827b93f
+      internalID: -1329805524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5073eee148f91488e14acb0927684b
+      internalID: 1472469982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_52
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c7d4674b6b7748a39e75639147be1
+      internalID: 1105313634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_53
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb97f6179ff1e674bbeb8bb8099c486b
+      internalID: 466220754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa940975fcb85994f9da92ca84a53ed8
+      internalID: 1648637910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e23cdcda91c864b82ede362e801f10
+      internalID: 1113719981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e2941fb81dd5447ab7b5ef17de113f
+      internalID: -982010408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_57
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8f28d57b623b74a9f724508467f919
+      internalID: 1589807707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_58
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3026e431a5b33aa41874f997975cc899
+      internalID: 269779329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_59
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fa78ef61c25c942859dd792200cd5e
+      internalID: -1003618222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_60
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627235bec472150459444b7d15745046
+      internalID: -1974699214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_61
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133a0da7119a8f543b8d64a6c1b926c2
+      internalID: 245564831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_62
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d8c800eb3c60449919162c65748a45
+      internalID: -1426085571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 679
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae8d693601e5834fa953fb5762ce13f
+      internalID: 1584660195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fbc01572c8ee945a697472fb1a8489
+      internalID: -2074582886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7550c82bc9e3d4382472f32411eba5
+      internalID: -579722579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0db242509d0da49ba2e27ffa15c853
+      internalID: 1028490359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_67
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9955290a53c3ad84caeec41a7272ba6c
+      internalID: -110401717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60694676dcf957f43ad258548fa2ec87
+      internalID: -421779380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_69
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9c64700d7e2fa478dc1cce6f74ef63
+      internalID: -1527275002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_70
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c56e92249922a2408b60ffcb30932b8
+      internalID: -230850608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_71
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227fb1e2cd5681244812bc9cdbc36a0a
+      internalID: -1650567137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_72
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a66da5a61adfa140a06df953da8d8ea
+      internalID: -90148992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_73
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d0670cdad17ea439cb028946154e24
+      internalID: -133571945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_74
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e28a85f549574d9d319d8166c3088
+      internalID: -903320411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_75
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c1013b367c1464bae187894c2aba53
+      internalID: -196201238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_76
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bac3b2b63a97744b8b4146b6311d5c5
+      internalID: -858628392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_77
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9bc13e9ee14844bb21c25682ebe45c
+      internalID: -1234731477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_78
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a2abba7301b64408856b6176feec66
+      internalID: -377259954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_79
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 631
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918cc0c92ae712544810e5557cbd6a60
+      internalID: 1623510132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8687be031152bc042a7902f4a368f8b0
+      internalID: -1447663167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_81
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587a97d3bc7a7854790455b63447a3f9
+      internalID: -2099357870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_82
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a56b297feb516f4399b6410b7c6bb6e
+      internalID: -1298016818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_83
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d09cd0bcf029749a3f85529d46cabb
+      internalID: 414042374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_84
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7da585de62cf4da0850ce6d5739dc
+      internalID: 210288339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_85
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3004b9df6773b0c45ba0be66bd534124
+      internalID: 488428627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_86
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bb748789e72af4db0a7781640c4d63
+      internalID: 1489781230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8680bd5f8fba7ff4d987707500b37245
+      internalID: 966592521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71d4a16c7791ec449cb76b7106bec59
+      internalID: 1121056746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_89
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af655df0325a7b45ba5efb83c3f7b7b
+      internalID: -729234587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76267e4a015495741a6dd50f298ddc9f
+      internalID: 820788132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_91
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8657204e57cb9c442877bb0515ad0888
+      internalID: -550450546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_92
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64d78207a3e5b946964bd9c5db6823a
+      internalID: 786255765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_93
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c54010eb096a754e8368eed68c02feb
+      internalID: -859483169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_94
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeefbbdd9cf22143a99a2aa3f24d800
+      internalID: 344579524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_95
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7930a020958e4742b371f08c6315c50
+      internalID: 679366762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_96
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdddca052ee010140ba3580291bea922
+      internalID: -501193524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_97
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056e5555908532d4e8c26ca81ce9c0b5
+      internalID: -1883488626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_98
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e92fc61f041134c81080abc06c72fb
+      internalID: -1278601447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_99
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a4d7b1d02838e4f8e4e14efb2c381c
+      internalID: 1288639651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_100
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db83362f46b4c7a4c9e2c6aec258e66a
+      internalID: 829558061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea3845e072d01c4db1ca5458a080702
+      internalID: 1365467920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_102
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f8de730e9269f4f945af322728f568
+      internalID: 1782776718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_103
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 583
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88939bf81a2047545a8c5ece0a4045db
+      internalID: -1388952080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effc5d06a89c7334b8972a2a7a31f9b6
+      internalID: -1449029716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_105
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1be5e37ca6a544ab13d936b3e27e82
+      internalID: 1902554506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_106
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9470049c06a68914390209901d77c948
+      internalID: -614173557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_107
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e17ac993c4cfc54ab97eb9e79ce276e
+      internalID: -992750505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_108
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2339853117ff65439b3aa95f8b761ca
+      internalID: -1054785782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_109
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b85907723d3df04285b676e6ba62213
+      internalID: 1721944790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af98c162c47c4a6488865c483baa89f1
+      internalID: -338213851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_111
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 559
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95d3ed535d7bc941991b039a23a3d7e
+      internalID: 870397111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46199d6f7be85b409669897d47f3fe2
+      internalID: -1344067795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_113
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93d8039c597e84988fd9f0e0155769
+      internalID: -1502309439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_114
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359e55293bf285a4ea0616da33cf1cc4
+      internalID: -612754719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_115
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83a6f6ebd479704bb5c7f515df79310
+      internalID: -173810456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_116
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca7682ed16fc224eb6c2f875c7525dd
+      internalID: -830849884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_117
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa7ab1f3b5e6243b1ac96dce5bb09c
+      internalID: 1938865197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_118
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72789950756abf440b9f47510e1079f3
+      internalID: -161730308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_119
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cad34910af5e4040bf53bac90f40c53
+      internalID: -1411482870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_120
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95bbb6b3761e164cbb5095dfb4aedcd
+      internalID: -1907325098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_121
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715d29017501c144d97e65160517e3b4
+      internalID: -1515051059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_122
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662386e69f55e5b48891a88aa438c84c
+      internalID: 2086441037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_123
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8578ef05426d1842864f703ac772e5f
+      internalID: -2074484079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_124
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d241aa394702943b2aceb681da62c2
+      internalID: -1644364601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a308e51c5eabeaa4d85e9efebdfa6397
+      internalID: 1289359925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_126
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8345ba1f9bf86fa4ba9c6c55d9f95e0f
+      internalID: -1463691629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_127
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 535
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc33ae213595d24c8b84e751d2dccfe
+      internalID: -2008986247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f10dead477c7f41a3a0bd0a3d937be
+      internalID: -1045176102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_129
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e672ff609f66ce34e8333580a8756676
+      internalID: 594705347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_130
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e692a920af028b548a1c2946af6321f5
+      internalID: -535678658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_131
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c550ed3933ade94a803e95134e4ea1f
+      internalID: 1137234079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_132
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654c374cfdafb62408b22dcb42eea86b
+      internalID: -1907679091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_133
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847cc1b7b650cb747980ef2caab9c0c2
+      internalID: 241992346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_134
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc83cbb5310079847a70d96759a29606
+      internalID: -1547336422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_135
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 511
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f0f6b8904653441a1935c09e89550a
+      internalID: -1183992737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_136
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3064416441308bf4290a05774665a020
+      internalID: -1701943387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_137
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765891b143b01664391388a0abfb1462
+      internalID: 1244981930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_138
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa317155185e5e43bbd03fd8fcd0ac2
+      internalID: 675824189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_139
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a1a3f8fcf5934da8acf611d79f895
+      internalID: -1431040490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_140
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d168d061270ad40a507e8d3c7283d1
+      internalID: -1446268444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_141
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a629b94b21f09409c7d6a8dccc6a8b
+      internalID: -949651377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_142
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4e1ae0e9e2f1b4eb8a32d5a0c5efe3
+      internalID: -1673517765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_143
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d9ad4cf7ea37d4a918140b89b041f6
+      internalID: -846256717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_144
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9276e45b8d7e69a4ca06366a4e2cd54a
+      internalID: -776420507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_145
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8c99ee6fc44ce4eb2616216d3c1fc5
+      internalID: -1512733641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_146
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef299a27137182b42a09804eadbb1a6c
+      internalID: -725364881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_147
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d569b406028627740ae040786b06b8e9
+      internalID: -892834281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_148
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bf04932da8a3f4aa8aa0f321bc5dcd
+      internalID: 1613859963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_149
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfd3d4e9ac611d47bccf26e6f9ef08e
+      internalID: -1983541911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_150
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a349014a60bcc84eabee1f729a1f5df
+      internalID: 1275460694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_151
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 487
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6809f47c4ff143439bee36acaecb93e
+      internalID: 1699279787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_152
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e6a26cf0b9bc746af650a52a048ce3
+      internalID: 1517812786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_153
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b6068244fd174a95786c79f728b27
+      internalID: -1556286120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_154
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9b4e9204b73bc499ccbeafa353176c
+      internalID: -1388498884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_155
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e4c6ab12776af479552233e15e5591
+      internalID: 866945853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_156
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128eed6faac8f984ea4b8e1fd2def469
+      internalID: 1289203420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_157
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5984c05422f4a0640ba1e626108c053e
+      internalID: 1668242426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_158
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f266cb8452f9948ba848a33a72192f
+      internalID: -1717172294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_159
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 439
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b9818d78a5f34bafb57afe1b1e100
+      internalID: 1608770919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8917d36ffaaa1274c94f144d291f6675
+      internalID: -874021927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_161
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908d677dfe9feaa40b7abe4422533953
+      internalID: 1562583128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_162
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8379f4d96cf6d342aaa52c115824866
+      internalID: 2020757197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_163
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13ed19fde8ca524786434fd30cfacd9
+      internalID: -1454176949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_164
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4c9684f32ec2442a80c361fad1d64c
+      internalID: -1805410374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_165
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e19aeb1d0a3ec42a99d2f247db96aa
+      internalID: -157246970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_166
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32418ddb335f48847b7855fe81e9c9b5
+      internalID: 1355408303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_167
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1ba8886359100428c91545f2e21845
+      internalID: -282012364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebd1521ce93fd140ba88d19df679c26
+      internalID: 1528172009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_169
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490b5ce57ae09a84480da9493fc6c758
+      internalID: -489913452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_170
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eea9dd69e1481d4688a3e8a5ef0b89c
+      internalID: 1451916234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_171
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ffaed9b5d66514f8feb79463559f5c
+      internalID: 1564410480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_172
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c67d4858620f464da33e82daf444baf
+      internalID: 1885916670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_173
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e08448f967cba840aeff4bdf896b897
+      internalID: 293467632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_174
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cecd41f37cf4a54cb75e6d793bb08f5
+      internalID: 1814814699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_175
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 367
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c653e506cc3fdc54aab08a48c247f770
+      internalID: -1134765122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_176
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62271f19f915df64f85b16bf7cf59425
+      internalID: 216799949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_177
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1225c670234554abc736bd5cc82e4e
+      internalID: 1630008543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_178
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfed606b67dd2844ab2d8b5b4230e15
+      internalID: -435350646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_179
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d328e0eca204e9e49b9ea3927918a235
+      internalID: -85755199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_180
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fbc793d26dfb0498ab2ae3ea36174b
+      internalID: -1164272564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_181
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf76b693c41d864fa28b6a2890c153c
+      internalID: -439835996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_182
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d39f9039f16e8746be4efc894306d9f
+      internalID: 577546666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_183
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f8d5cd94a54a146a1676672709cea7
+      internalID: -889587072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_184
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b617a21fe7e5f51468b97adb41236158
+      internalID: 1473161739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_185
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98297f5a6ee50c443b024263162f515a
+      internalID: -1367965163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_186
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4527d35b54042e04a87975b48fac0ef0
+      internalID: -1625799133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_187
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd50e3f1b43cbe749861acb288e8a1a8
+      internalID: -338529022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_188
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ab404fd907114e8a21dee4e6828a3
+      internalID: -1302274558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_189
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eac930dbc723764eae3e6682a8e9a35
+      internalID: 1527254826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_190
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a80ceea3d7daa46ab74ae17446246f
+      internalID: 451491346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_191
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 319
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4859b81cb79bb8547bd90c81d5229b43
+      internalID: 936451449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5d21c624b3f33498e524d26f2d50d3
+      internalID: -1733111598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_193
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd454c2da3d0cd947ac1deff09f3c0a2
+      internalID: 1271109392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_194
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a767b6b898342e469ea9f05e5fab783
+      internalID: -596611675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_195
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e220cc242a154ea8de673ad1090d1
+      internalID: 2038349818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_196
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff236edf3701f499b7360f372da420
+      internalID: -1347128056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_197
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2f931e47dd15f4aade85231fd64c2d
+      internalID: 25150113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_198
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cbeffcc28884c4fa0928b720be34ed
+      internalID: -1200707867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_199
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 295
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4014c47b1315f34cbdb691e69be507c
+      internalID: -1154157331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d856ba7f91ba80344b1917d1a7371ad2
+      internalID: -730131186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_201
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def9b9ef8132a74b92ba705de7dcd8d
+      internalID: 1187281546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_202
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec67aa5d6ca06146940864322266171
+      internalID: 1550186720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_203
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4937e566410674741893b830dd800e48
+      internalID: 1037780672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_204
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed316488fafee6438c547995c1ecaee
+      internalID: -1568871435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_205
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff00a86dee4c2854fac03bc02cd3d45d
+      internalID: 74465308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_206
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7924dd6702e625a4d9959a26b5486115
+      internalID: 952746033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_207
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebcf0ed50fe81b45a0d3a69ceec5259
+      internalID: -48660015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_208
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0ed4ae9c79fcc49871e7fd955b3872
+      internalID: 88808707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_209
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450c639303f75d34289f93190573688f
+      internalID: -1042253698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_210
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30f2e28334a68443be7d5b9f3e504eb
+      internalID: -994944158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_211
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373bb15c7815c0f4bb16c7e2cc2e4d4a
+      internalID: -1985887389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_212
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d6aa5fa1d7a0a4fa0a2045697f255a
+      internalID: 150758781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_213
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eccaa22db17d34aa2d0a2101857c85
+      internalID: -240549045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_214
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec8b8d4e8117f04b8bc3bf9c3ac8590
+      internalID: 567961247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_215
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e850211ecaf6b34ba946298fd0a44f3
+      internalID: 917469517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_216
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f146db1cffe1b364e8b43aa2a60ebb7c
+      internalID: 816329888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_217
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c5430a32250bc4e9395a90582f98c9
+      internalID: -1729099067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_218
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f888a0b28f16fc4983d7d15b24e68de
+      internalID: 1291695696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_219
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38d21eb3bd9084c94b83eeecb1b513
+      internalID: -414764748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_220
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aa7e3fe9d95ba4a9f8297cdeb75449
+      internalID: -1097094038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_221
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59df2239cbcb4a64c8d45f3b01e6f138
+      internalID: -198431599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_222
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7502065a4cd43234d9b1849116927cf0
+      internalID: -1888168441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_223
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f749d5932da26d4eac30474bd59600a
+      internalID: 737331643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_224
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7440c0450e78504db96f2d9dd1ee04a
+      internalID: -1233615563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_225
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188af70adff704e48b1eeefc2383abfd
+      internalID: 1112352986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_226
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3830c38c0119fc4c968ed6b6a9d894a
+      internalID: -1281099372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_227
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8568c655521ef6147971fecb85d5dc98
+      internalID: -111168370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_228
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b62b8a7362ee94e8429e602364f485
+      internalID: -915209609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_229
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b3f0c58715d4f44b3d76deac5b1a8f
+      internalID: 1705613937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_230
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0818291bf396c84b9a1d22ecda18705
+      internalID: 1704021372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_231
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ae93c980d3ae14984f6b7d13a9efba
+      internalID: -1552974414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_232
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f5eeee0f6fd52428f904921a53df00
+      internalID: 576683496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_233
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dff404ab00ccf40b56da61de26cbd8
+      internalID: 958278469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_234
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59955faf578c804486c1c70ff177acc
+      internalID: -186906613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_235
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f321483d81805042ac9d758b0ec5d64
+      internalID: -1049662601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_236
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248cf9061de69e448b69aa040d50bd79
+      internalID: -863828069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_237
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2529e26fc0842c45ab54415197a39eb
+      internalID: 1427238235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_238
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9c33a993504cb49a8221aae57814e4
+      internalID: 28339557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_239
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7886d1328aafca141a35e613f26cb38b
+      internalID: -752536367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_240
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10bcf14a34938d49a7eeada99b3408d
+      internalID: -633329416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_241
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2d8cef6cba49d4a9bafe75217ad020
+      internalID: -722312085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_242
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c25cc9133b83644bfd6d84f8bb1014
+      internalID: -1438598515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_243
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ca343bc743aee46b97d70bca8cbdd1
+      internalID: 674009523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_244
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915430b9851fdc84288647565883a6d5
+      internalID: -1402645830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_245
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060cdf31b4e29c74eaf84ca8c94da68e
+      internalID: 1994471569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_246
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fc01753d395e84eb3bce9f4a2a137f
+      internalID: -2019951665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_247
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b0fbd4ed661fb458cf0b4dcd166b74
+      internalID: -849247313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_248
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c4b224ab9fc83449a80171e2662fe5
+      internalID: 1529026330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_249
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb466f92e78340428550088d3bab283
+      internalID: 1046055968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_250
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542b1141113168d4ca0b96610deee2dd
+      internalID: -2096050020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_251
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d046d38245004fe4e83bf5ba7d1daa2f
+      internalID: 2042652988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_252
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234e5f5baf156cf45a5fbc3ea308f742
+      internalID: -1508317013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_253
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9226f7ddbcb714389834892afb1cdb
+      internalID: -110520797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_254
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2ddce5997dbad40bd1c51a30c7416e
+      internalID: -1511207619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plunger_Knight_Cat_Cookie_Tiles_255
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f37f10affffc4f458244abc4cffde20
+      internalID: 703625686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plunger_Knight_Cat_Cookie_Tiles_0: 13408263
+      Plunger_Knight_Cat_Cookie_Tiles_1: -1382236054
+      Plunger_Knight_Cat_Cookie_Tiles_10: -1861142751
+      Plunger_Knight_Cat_Cookie_Tiles_100: 829558061
+      Plunger_Knight_Cat_Cookie_Tiles_101: 1365467920
+      Plunger_Knight_Cat_Cookie_Tiles_102: 1782776718
+      Plunger_Knight_Cat_Cookie_Tiles_103: -1388952080
+      Plunger_Knight_Cat_Cookie_Tiles_104: -1449029716
+      Plunger_Knight_Cat_Cookie_Tiles_105: 1902554506
+      Plunger_Knight_Cat_Cookie_Tiles_106: -614173557
+      Plunger_Knight_Cat_Cookie_Tiles_107: -992750505
+      Plunger_Knight_Cat_Cookie_Tiles_108: -1054785782
+      Plunger_Knight_Cat_Cookie_Tiles_109: 1721944790
+      Plunger_Knight_Cat_Cookie_Tiles_11: -631800009
+      Plunger_Knight_Cat_Cookie_Tiles_110: -338213851
+      Plunger_Knight_Cat_Cookie_Tiles_111: 870397111
+      Plunger_Knight_Cat_Cookie_Tiles_112: -1344067795
+      Plunger_Knight_Cat_Cookie_Tiles_113: -1502309439
+      Plunger_Knight_Cat_Cookie_Tiles_114: -612754719
+      Plunger_Knight_Cat_Cookie_Tiles_115: -173810456
+      Plunger_Knight_Cat_Cookie_Tiles_116: -830849884
+      Plunger_Knight_Cat_Cookie_Tiles_117: 1938865197
+      Plunger_Knight_Cat_Cookie_Tiles_118: -161730308
+      Plunger_Knight_Cat_Cookie_Tiles_119: -1411482870
+      Plunger_Knight_Cat_Cookie_Tiles_12: 1836449537
+      Plunger_Knight_Cat_Cookie_Tiles_120: -1907325098
+      Plunger_Knight_Cat_Cookie_Tiles_121: -1515051059
+      Plunger_Knight_Cat_Cookie_Tiles_122: 2086441037
+      Plunger_Knight_Cat_Cookie_Tiles_123: -2074484079
+      Plunger_Knight_Cat_Cookie_Tiles_124: -1644364601
+      Plunger_Knight_Cat_Cookie_Tiles_125: 1289359925
+      Plunger_Knight_Cat_Cookie_Tiles_126: -1463691629
+      Plunger_Knight_Cat_Cookie_Tiles_127: -2008986247
+      Plunger_Knight_Cat_Cookie_Tiles_128: -1045176102
+      Plunger_Knight_Cat_Cookie_Tiles_129: 594705347
+      Plunger_Knight_Cat_Cookie_Tiles_13: -939974195
+      Plunger_Knight_Cat_Cookie_Tiles_130: -535678658
+      Plunger_Knight_Cat_Cookie_Tiles_131: 1137234079
+      Plunger_Knight_Cat_Cookie_Tiles_132: -1907679091
+      Plunger_Knight_Cat_Cookie_Tiles_133: 241992346
+      Plunger_Knight_Cat_Cookie_Tiles_134: -1547336422
+      Plunger_Knight_Cat_Cookie_Tiles_135: -1183992737
+      Plunger_Knight_Cat_Cookie_Tiles_136: -1701943387
+      Plunger_Knight_Cat_Cookie_Tiles_137: 1244981930
+      Plunger_Knight_Cat_Cookie_Tiles_138: 675824189
+      Plunger_Knight_Cat_Cookie_Tiles_139: -1431040490
+      Plunger_Knight_Cat_Cookie_Tiles_14: 1934583688
+      Plunger_Knight_Cat_Cookie_Tiles_140: -1446268444
+      Plunger_Knight_Cat_Cookie_Tiles_141: -949651377
+      Plunger_Knight_Cat_Cookie_Tiles_142: -1673517765
+      Plunger_Knight_Cat_Cookie_Tiles_143: -846256717
+      Plunger_Knight_Cat_Cookie_Tiles_144: -776420507
+      Plunger_Knight_Cat_Cookie_Tiles_145: -1512733641
+      Plunger_Knight_Cat_Cookie_Tiles_146: -725364881
+      Plunger_Knight_Cat_Cookie_Tiles_147: -892834281
+      Plunger_Knight_Cat_Cookie_Tiles_148: 1613859963
+      Plunger_Knight_Cat_Cookie_Tiles_149: -1983541911
+      Plunger_Knight_Cat_Cookie_Tiles_15: -862082834
+      Plunger_Knight_Cat_Cookie_Tiles_150: 1275460694
+      Plunger_Knight_Cat_Cookie_Tiles_151: 1699279787
+      Plunger_Knight_Cat_Cookie_Tiles_152: 1517812786
+      Plunger_Knight_Cat_Cookie_Tiles_153: -1556286120
+      Plunger_Knight_Cat_Cookie_Tiles_154: -1388498884
+      Plunger_Knight_Cat_Cookie_Tiles_155: 866945853
+      Plunger_Knight_Cat_Cookie_Tiles_156: 1289203420
+      Plunger_Knight_Cat_Cookie_Tiles_157: 1668242426
+      Plunger_Knight_Cat_Cookie_Tiles_158: -1717172294
+      Plunger_Knight_Cat_Cookie_Tiles_159: 1608770919
+      Plunger_Knight_Cat_Cookie_Tiles_16: 1529772055
+      Plunger_Knight_Cat_Cookie_Tiles_160: -874021927
+      Plunger_Knight_Cat_Cookie_Tiles_161: 1562583128
+      Plunger_Knight_Cat_Cookie_Tiles_162: 2020757197
+      Plunger_Knight_Cat_Cookie_Tiles_163: -1454176949
+      Plunger_Knight_Cat_Cookie_Tiles_164: -1805410374
+      Plunger_Knight_Cat_Cookie_Tiles_165: -157246970
+      Plunger_Knight_Cat_Cookie_Tiles_166: 1355408303
+      Plunger_Knight_Cat_Cookie_Tiles_167: -282012364
+      Plunger_Knight_Cat_Cookie_Tiles_168: 1528172009
+      Plunger_Knight_Cat_Cookie_Tiles_169: -489913452
+      Plunger_Knight_Cat_Cookie_Tiles_17: -965449129
+      Plunger_Knight_Cat_Cookie_Tiles_170: 1451916234
+      Plunger_Knight_Cat_Cookie_Tiles_171: 1564410480
+      Plunger_Knight_Cat_Cookie_Tiles_172: 1885916670
+      Plunger_Knight_Cat_Cookie_Tiles_173: 293467632
+      Plunger_Knight_Cat_Cookie_Tiles_174: 1814814699
+      Plunger_Knight_Cat_Cookie_Tiles_175: -1134765122
+      Plunger_Knight_Cat_Cookie_Tiles_176: 216799949
+      Plunger_Knight_Cat_Cookie_Tiles_177: 1630008543
+      Plunger_Knight_Cat_Cookie_Tiles_178: -435350646
+      Plunger_Knight_Cat_Cookie_Tiles_179: -85755199
+      Plunger_Knight_Cat_Cookie_Tiles_18: -1560718714
+      Plunger_Knight_Cat_Cookie_Tiles_180: -1164272564
+      Plunger_Knight_Cat_Cookie_Tiles_181: -439835996
+      Plunger_Knight_Cat_Cookie_Tiles_182: 577546666
+      Plunger_Knight_Cat_Cookie_Tiles_183: -889587072
+      Plunger_Knight_Cat_Cookie_Tiles_184: 1473161739
+      Plunger_Knight_Cat_Cookie_Tiles_185: -1367965163
+      Plunger_Knight_Cat_Cookie_Tiles_186: -1625799133
+      Plunger_Knight_Cat_Cookie_Tiles_187: -338529022
+      Plunger_Knight_Cat_Cookie_Tiles_188: -1302274558
+      Plunger_Knight_Cat_Cookie_Tiles_189: 1527254826
+      Plunger_Knight_Cat_Cookie_Tiles_19: -1838171238
+      Plunger_Knight_Cat_Cookie_Tiles_190: 451491346
+      Plunger_Knight_Cat_Cookie_Tiles_191: 936451449
+      Plunger_Knight_Cat_Cookie_Tiles_192: -1733111598
+      Plunger_Knight_Cat_Cookie_Tiles_193: 1271109392
+      Plunger_Knight_Cat_Cookie_Tiles_194: -596611675
+      Plunger_Knight_Cat_Cookie_Tiles_195: 2038349818
+      Plunger_Knight_Cat_Cookie_Tiles_196: -1347128056
+      Plunger_Knight_Cat_Cookie_Tiles_197: 25150113
+      Plunger_Knight_Cat_Cookie_Tiles_198: -1200707867
+      Plunger_Knight_Cat_Cookie_Tiles_199: -1154157331
+      Plunger_Knight_Cat_Cookie_Tiles_2: -1483502199
+      Plunger_Knight_Cat_Cookie_Tiles_20: 688787788
+      Plunger_Knight_Cat_Cookie_Tiles_200: -730131186
+      Plunger_Knight_Cat_Cookie_Tiles_201: 1187281546
+      Plunger_Knight_Cat_Cookie_Tiles_202: 1550186720
+      Plunger_Knight_Cat_Cookie_Tiles_203: 1037780672
+      Plunger_Knight_Cat_Cookie_Tiles_204: -1568871435
+      Plunger_Knight_Cat_Cookie_Tiles_205: 74465308
+      Plunger_Knight_Cat_Cookie_Tiles_206: 952746033
+      Plunger_Knight_Cat_Cookie_Tiles_207: -48660015
+      Plunger_Knight_Cat_Cookie_Tiles_208: 88808707
+      Plunger_Knight_Cat_Cookie_Tiles_209: -1042253698
+      Plunger_Knight_Cat_Cookie_Tiles_21: 1033315913
+      Plunger_Knight_Cat_Cookie_Tiles_210: -994944158
+      Plunger_Knight_Cat_Cookie_Tiles_211: -1985887389
+      Plunger_Knight_Cat_Cookie_Tiles_212: 150758781
+      Plunger_Knight_Cat_Cookie_Tiles_213: -240549045
+      Plunger_Knight_Cat_Cookie_Tiles_214: 567961247
+      Plunger_Knight_Cat_Cookie_Tiles_215: 917469517
+      Plunger_Knight_Cat_Cookie_Tiles_216: 816329888
+      Plunger_Knight_Cat_Cookie_Tiles_217: -1729099067
+      Plunger_Knight_Cat_Cookie_Tiles_218: 1291695696
+      Plunger_Knight_Cat_Cookie_Tiles_219: -414764748
+      Plunger_Knight_Cat_Cookie_Tiles_22: -899201480
+      Plunger_Knight_Cat_Cookie_Tiles_220: -1097094038
+      Plunger_Knight_Cat_Cookie_Tiles_221: -198431599
+      Plunger_Knight_Cat_Cookie_Tiles_222: -1888168441
+      Plunger_Knight_Cat_Cookie_Tiles_223: 737331643
+      Plunger_Knight_Cat_Cookie_Tiles_224: -1233615563
+      Plunger_Knight_Cat_Cookie_Tiles_225: 1112352986
+      Plunger_Knight_Cat_Cookie_Tiles_226: -1281099372
+      Plunger_Knight_Cat_Cookie_Tiles_227: -111168370
+      Plunger_Knight_Cat_Cookie_Tiles_228: -915209609
+      Plunger_Knight_Cat_Cookie_Tiles_229: 1705613937
+      Plunger_Knight_Cat_Cookie_Tiles_23: 1619814201
+      Plunger_Knight_Cat_Cookie_Tiles_230: 1704021372
+      Plunger_Knight_Cat_Cookie_Tiles_231: -1552974414
+      Plunger_Knight_Cat_Cookie_Tiles_232: 576683496
+      Plunger_Knight_Cat_Cookie_Tiles_233: 958278469
+      Plunger_Knight_Cat_Cookie_Tiles_234: -186906613
+      Plunger_Knight_Cat_Cookie_Tiles_235: -1049662601
+      Plunger_Knight_Cat_Cookie_Tiles_236: -863828069
+      Plunger_Knight_Cat_Cookie_Tiles_237: 1427238235
+      Plunger_Knight_Cat_Cookie_Tiles_238: 28339557
+      Plunger_Knight_Cat_Cookie_Tiles_239: -752536367
+      Plunger_Knight_Cat_Cookie_Tiles_24: -254499735
+      Plunger_Knight_Cat_Cookie_Tiles_240: -633329416
+      Plunger_Knight_Cat_Cookie_Tiles_241: -722312085
+      Plunger_Knight_Cat_Cookie_Tiles_242: -1438598515
+      Plunger_Knight_Cat_Cookie_Tiles_243: 674009523
+      Plunger_Knight_Cat_Cookie_Tiles_244: -1402645830
+      Plunger_Knight_Cat_Cookie_Tiles_245: 1994471569
+      Plunger_Knight_Cat_Cookie_Tiles_246: -2019951665
+      Plunger_Knight_Cat_Cookie_Tiles_247: -849247313
+      Plunger_Knight_Cat_Cookie_Tiles_248: 1529026330
+      Plunger_Knight_Cat_Cookie_Tiles_249: 1046055968
+      Plunger_Knight_Cat_Cookie_Tiles_25: -1313832889
+      Plunger_Knight_Cat_Cookie_Tiles_250: -2096050020
+      Plunger_Knight_Cat_Cookie_Tiles_251: 2042652988
+      Plunger_Knight_Cat_Cookie_Tiles_252: -1508317013
+      Plunger_Knight_Cat_Cookie_Tiles_253: -110520797
+      Plunger_Knight_Cat_Cookie_Tiles_254: -1511207619
+      Plunger_Knight_Cat_Cookie_Tiles_255: 703625686
+      Plunger_Knight_Cat_Cookie_Tiles_26: 741502685
+      Plunger_Knight_Cat_Cookie_Tiles_27: 562788847
+      Plunger_Knight_Cat_Cookie_Tiles_28: 617769018
+      Plunger_Knight_Cat_Cookie_Tiles_29: 1702301697
+      Plunger_Knight_Cat_Cookie_Tiles_3: -1394061409
+      Plunger_Knight_Cat_Cookie_Tiles_30: 1295115220
+      Plunger_Knight_Cat_Cookie_Tiles_31: 1848682394
+      Plunger_Knight_Cat_Cookie_Tiles_32: 1471399968
+      Plunger_Knight_Cat_Cookie_Tiles_33: 1747181548
+      Plunger_Knight_Cat_Cookie_Tiles_34: -1814939656
+      Plunger_Knight_Cat_Cookie_Tiles_35: 395543003
+      Plunger_Knight_Cat_Cookie_Tiles_36: -723380523
+      Plunger_Knight_Cat_Cookie_Tiles_37: 615949701
+      Plunger_Knight_Cat_Cookie_Tiles_38: -934151109
+      Plunger_Knight_Cat_Cookie_Tiles_39: 1148752802
+      Plunger_Knight_Cat_Cookie_Tiles_4: 1850358090
+      Plunger_Knight_Cat_Cookie_Tiles_40: -579203850
+      Plunger_Knight_Cat_Cookie_Tiles_41: 375387055
+      Plunger_Knight_Cat_Cookie_Tiles_42: -453760670
+      Plunger_Knight_Cat_Cookie_Tiles_43: -1066256864
+      Plunger_Knight_Cat_Cookie_Tiles_44: -101901610
+      Plunger_Knight_Cat_Cookie_Tiles_45: 757373308
+      Plunger_Knight_Cat_Cookie_Tiles_46: 1484547387
+      Plunger_Knight_Cat_Cookie_Tiles_47: -1806549259
+      Plunger_Knight_Cat_Cookie_Tiles_48: -380627528
+      Plunger_Knight_Cat_Cookie_Tiles_49: 1440378929
+      Plunger_Knight_Cat_Cookie_Tiles_5: 1510248464
+      Plunger_Knight_Cat_Cookie_Tiles_50: -1329805524
+      Plunger_Knight_Cat_Cookie_Tiles_51: 1472469982
+      Plunger_Knight_Cat_Cookie_Tiles_52: 1105313634
+      Plunger_Knight_Cat_Cookie_Tiles_53: 466220754
+      Plunger_Knight_Cat_Cookie_Tiles_54: 1648637910
+      Plunger_Knight_Cat_Cookie_Tiles_55: 1113719981
+      Plunger_Knight_Cat_Cookie_Tiles_56: -982010408
+      Plunger_Knight_Cat_Cookie_Tiles_57: 1589807707
+      Plunger_Knight_Cat_Cookie_Tiles_58: 269779329
+      Plunger_Knight_Cat_Cookie_Tiles_59: -1003618222
+      Plunger_Knight_Cat_Cookie_Tiles_6: 1235435737
+      Plunger_Knight_Cat_Cookie_Tiles_60: -1974699214
+      Plunger_Knight_Cat_Cookie_Tiles_61: 245564831
+      Plunger_Knight_Cat_Cookie_Tiles_62: -1426085571
+      Plunger_Knight_Cat_Cookie_Tiles_63: 1584660195
+      Plunger_Knight_Cat_Cookie_Tiles_64: -2074582886
+      Plunger_Knight_Cat_Cookie_Tiles_65: -579722579
+      Plunger_Knight_Cat_Cookie_Tiles_66: 1028490359
+      Plunger_Knight_Cat_Cookie_Tiles_67: -110401717
+      Plunger_Knight_Cat_Cookie_Tiles_68: -421779380
+      Plunger_Knight_Cat_Cookie_Tiles_69: -1527275002
+      Plunger_Knight_Cat_Cookie_Tiles_7: -280764148
+      Plunger_Knight_Cat_Cookie_Tiles_70: -230850608
+      Plunger_Knight_Cat_Cookie_Tiles_71: -1650567137
+      Plunger_Knight_Cat_Cookie_Tiles_72: -90148992
+      Plunger_Knight_Cat_Cookie_Tiles_73: -133571945
+      Plunger_Knight_Cat_Cookie_Tiles_74: -903320411
+      Plunger_Knight_Cat_Cookie_Tiles_75: -196201238
+      Plunger_Knight_Cat_Cookie_Tiles_76: -858628392
+      Plunger_Knight_Cat_Cookie_Tiles_77: -1234731477
+      Plunger_Knight_Cat_Cookie_Tiles_78: -377259954
+      Plunger_Knight_Cat_Cookie_Tiles_79: 1623510132
+      Plunger_Knight_Cat_Cookie_Tiles_8: 153560271
+      Plunger_Knight_Cat_Cookie_Tiles_80: -1447663167
+      Plunger_Knight_Cat_Cookie_Tiles_81: -2099357870
+      Plunger_Knight_Cat_Cookie_Tiles_82: -1298016818
+      Plunger_Knight_Cat_Cookie_Tiles_83: 414042374
+      Plunger_Knight_Cat_Cookie_Tiles_84: 210288339
+      Plunger_Knight_Cat_Cookie_Tiles_85: 488428627
+      Plunger_Knight_Cat_Cookie_Tiles_86: 1489781230
+      Plunger_Knight_Cat_Cookie_Tiles_87: 966592521
+      Plunger_Knight_Cat_Cookie_Tiles_88: 1121056746
+      Plunger_Knight_Cat_Cookie_Tiles_89: -729234587
+      Plunger_Knight_Cat_Cookie_Tiles_9: 31103211
+      Plunger_Knight_Cat_Cookie_Tiles_90: 820788132
+      Plunger_Knight_Cat_Cookie_Tiles_91: -550450546
+      Plunger_Knight_Cat_Cookie_Tiles_92: 786255765
+      Plunger_Knight_Cat_Cookie_Tiles_93: -859483169
+      Plunger_Knight_Cat_Cookie_Tiles_94: 344579524
+      Plunger_Knight_Cat_Cookie_Tiles_95: 679366762
+      Plunger_Knight_Cat_Cookie_Tiles_96: -501193524
+      Plunger_Knight_Cat_Cookie_Tiles_97: -1883488626
+      Plunger_Knight_Cat_Cookie_Tiles_98: -1278601447
+      Plunger_Knight_Cat_Cookie_Tiles_99: 1288639651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
