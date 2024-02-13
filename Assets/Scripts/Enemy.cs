@@ -167,7 +167,7 @@ public class Enemy : MonoBehaviour, IAttackable, IStateSystem
         {
             return true;
         }
-        Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
+//        Debug.Log($"Enemy taking {amount} damage from {source.GameObject.name}", source.GameObject);
         Health -= amount;
         if (isActiveAndEnabled)
         {
